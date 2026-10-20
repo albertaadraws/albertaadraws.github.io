@@ -1,0 +1,1219 @@
+{
+  "years": [
+    {
+      "year": 2025,
+      "source_url": "https://www.alberta.ca/system/files/im-aaip-draw-history-summary.pdf",
+      "nocs_invited": [
+        {
+          "code": "00011",
+          "title": "Senior government managers and officials"
+        },
+        {
+          "code": "00012",
+          "title": "Senior managers - financial, communications and other business services"
+        },
+        {
+          "code": "00013",
+          "title": "Senior managers - health, education, social and community services and membership organizations"
+        },
+        {
+          "code": "00014",
+          "title": "Senior managers - trade, broadcasting and other services"
+        },
+        {
+          "code": "00015",
+          "title": "Senior managers - construction, transportation, production and utilities"
+        },
+        {
+          "code": "10011",
+          "title": "Human resources managers"
+        },
+        {
+          "code": "10019",
+          "title": "Other administrative services managers"
+        },
+        {
+          "code": "10022",
+          "title": "Advertising, marketing and public relations managers"
+        },
+        {
+          "code": "10030",
+          "title": "Telecommunication carriers managers"
+        },
+        {
+          "code": "11100",
+          "title": "Financial auditors and accountants"
+        },
+        {
+          "code": "11101",
+          "title": "Financial and investment analysts"
+        },
+        {
+          "code": "11200",
+          "title": "Human resources professionals"
+        },
+        {
+          "code": "11202",
+          "title": "Professional occupations in advertising, marketing and public relations"
+        },
+        {
+          "code": "12101",
+          "title": "Human resources and recruitment officers"
+        },
+        {
+          "code": "12111",
+          "title": "Health information management occupations"
+        },
+        {
+          "code": "12200",
+          "title": "Accounting technicians and bookkeepers"
+        },
+        {
+          "code": "13100",
+          "title": "Administrative officers"
+        },
+        {
+          "code": "13110",
+          "title": "Administrative assistants"
+        },
+        {
+          "code": "13201",
+          "title": "Production and transportation logistics coordinators"
+        },
+        {
+          "code": "14111",
+          "title": "Data entry clerks"
+        },
+        {
+          "code": "14400",
+          "title": "Shippers and receivers"
+        },
+        {
+          "code": "14402",
+          "title": "Production logistics workers"
+        },
+        {
+          "code": "14404",
+          "title": "Dispatchers"
+        },
+        {
+          "code": "20010",
+          "title": "Engineering managers"
+        },
+        {
+          "code": "20011",
+          "title": "Architecture and science managers"
+        },
+        {
+          "code": "20012",
+          "title": "Computer and information systems managers"
+        },
+        {
+          "code": "21101",
+          "title": "Chemists"
+        },
+        {
+          "code": "21102",
+          "title": "Geoscientists and oceanographers"
+        },
+        {
+          "code": "21103",
+          "title": "Meteorologists and climatologists"
+        },
+        {
+          "code": "21109",
+          "title": "Other professional occupations in physical sciences"
+        },
+        {
+          "code": "21110",
+          "title": "Biologists and related scientists"
+        },
+        {
+          "code": "21111",
+          "title": "Forestry professionals"
+        },
+        {
+          "code": "21112",
+          "title": "Agricultural representatives, consultants and specialists"
+        },
+        {
+          "code": "21120",
+          "title": "Public and environmental health and safety professionals"
+        },
+        {
+          "code": "21200",
+          "title": "Architects"
+        },
+        {
+          "code": "21201",
+          "title": "Landscape architects"
+        },
+        {
+          "code": "21202",
+          "title": "Urban and land use planners"
+        },
+        {
+          "code": "21203",
+          "title": "Land surveyors"
+        },
+        {
+          "code": "21210",
+          "title": "Mathematicians, statisticians and actuaries"
+        },
+        {
+          "code": "21211",
+          "title": "Data scientists"
+        },
+        {
+          "code": "21220",
+          "title": "Cybersecurity specialists"
+        },
+        {
+          "code": "21221",
+          "title": "Business systems specialists"
+        },
+        {
+          "code": "21222",
+          "title": "Information systems specialists"
+        },
+        {
+          "code": "21223",
+          "title": "Database analysts and data administrators"
+        },
+        {
+          "code": "21230",
+          "title": "Computer systems developers and programmers"
+        },
+        {
+          "code": "21231",
+          "title": "Software engineers and designers"
+        },
+        {
+          "code": "21232",
+          "title": "Software developers and programmers"
+        },
+        {
+          "code": "21233",
+          "title": "Web designers"
+        },
+        {
+          "code": "21234",
+          "title": "Web developers and programmers"
+        },
+        {
+          "code": "21300",
+          "title": "Civil engineers"
+        },
+        {
+          "code": "21301",
+          "title": "Mechanical engineers"
+        },
+        {
+          "code": "21310",
+          "title": "Electrical and electronics engineers"
+        },
+        {
+          "code": "21311",
+          "title": "Computer engineers (except software engineers and designers)"
+        },
+        {
+          "code": "21320",
+          "title": "Chemical engineers"
+        },
+        {
+          "code": "21321",
+          "title": "Industrial and manufacturing engineers"
+        },
+        {
+          "code": "21322",
+          "title": "Metallurgical and materials engineers"
+        },
+        {
+          "code": "21330",
+          "title": "Mining engineers"
+        },
+        {
+          "code": "21331",
+          "title": "Geological engineers"
+        },
+        {
+          "code": "21332",
+          "title": "Petroleum engineers"
+        },
+        {
+          "code": "21399",
+          "title": "Other professional engineers"
+        },
+        {
+          "code": "22100",
+          "title": "Chemical technologists and technicians"
+        },
+        {
+          "code": "22101",
+          "title": "Geological and mineral technologists and technicians"
+        },
+        {
+          "code": "22110",
+          "title": "Biological technologists and technicians"
+        },
+        {
+          "code": "22111",
+          "title": "Agricultural and fish products inspectors"
+        },
+        {
+          "code": "22112",
+          "title": "Forestry technologists and technicians"
+        },
+        {
+          "code": "22114",
+          "title": "Landscape and horticulture technicians and specialists"
+        },
+        {
+          "code": "22210",
+          "title": "Architectural technologists and technicians"
+        },
+        {
+          "code": "22212",
+          "title": "Drafting technologists and technicians"
+        },
+        {
+          "code": "22213",
+          "title": "Land survey technologists and technicians"
+        },
+        {
+          "code": "22214",
+          "title": "Technical occupations in geomatics and meteorology"
+        },
+        {
+          "code": "22220",
+          "title": "Computer network and web technicians"
+        },
+        {
+          "code": "22221",
+          "title": "User support technicians"
+        },
+        {
+          "code": "22222",
+          "title": "Information systems testing technicians"
+        },
+        {
+          "code": "22230",
+          "title": "Non-destructive testers and inspectors"
+        },
+        {
+          "code": "22231",
+          "title": "Engineering inspectors and regulatory officers"
+        },
+        {
+          "code": "22232",
+          "title": "Occupational health and safety specialists"
+        },
+        {
+          "code": "22233",
+          "title": "Construction inspectors"
+        },
+        {
+          "code": "22300",
+          "title": "Civil engineering technologists and technicians"
+        },
+        {
+          "code": "22301",
+          "title": "Mechanical engineering technologists and technicians"
+        },
+        {
+          "code": "22302",
+          "title": "Industrial engineering and manufacturing technologists and technicians"
+        },
+        {
+          "code": "22303",
+          "title": "Construction estimators"
+        },
+        {
+          "code": "22310",
+          "title": "Electrical and electronics engineering technologists and technicians"
+        },
+        {
+          "code": "22311",
+          "title": "Electronic service technicians (household and business equipment)"
+        },
+        {
+          "code": "22312",
+          "title": "Industrial instrument technicians and mechanics"
+        },
+        {
+          "code": "22313",
+          "title": "Aircraft instrument, electrical and avionics mechanics, technicians and inspectors"
+        },
+        {
+          "code": "30010",
+          "title": "Managers in health care"
+        },
+        {
+          "code": "31100",
+          "title": "Specialists in clinical and laboratory medicine"
+        },
+        {
+          "code": "31101",
+          "title": "Specialists in surgery"
+        },
+        {
+          "code": "31102",
+          "title": "General practitioners and family physicians"
+        },
+        {
+          "code": "31103",
+          "title": "Veterinarians"
+        },
+        {
+          "code": "31110",
+          "title": "Dentists"
+        },
+        {
+          "code": "31120",
+          "title": "Pharmacists"
+        },
+        {
+          "code": "31121",
+          "title": "Dietitians and nutritionists"
+        },
+        {
+          "code": "31200",
+          "title": "Psychologists"
+        },
+        {
+          "code": "31202",
+          "title": "Physiotherapists"
+        },
+        {
+          "code": "31203",
+          "title": "Occupational therapists"
+        },
+        {
+          "code": "31204",
+          "title": "Kinesiologists and other professional occupations in therapy and assessment"
+        },
+        {
+          "code": "31209",
+          "title": "Other professional occupations in health diagnosing and treating"
+        },
+        {
+          "code": "31300",
+          "title": "Nursing coordinators and supervisors"
+        },
+        {
+          "code": "31301",
+          "title": "Registered nurses and registered psychiatric nurses"
+        },
+        {
+          "code": "31302",
+          "title": "Nurse practitioners"
+        },
+        {
+          "code": "31303",
+          "title": "Physician assistants, midwives and allied health professionals"
+        },
+        {
+          "code": "32100",
+          "title": "Opticians"
+        },
+        {
+          "code": "32101",
+          "title": "Licensed practical nurses"
+        },
+        {
+          "code": "32102",
+          "title": "Paramedical occupations"
+        },
+        {
+          "code": "32103",
+          "title": "Respiratory therapists, clinical perfusionists and cardiopulmonary technologists"
+        },
+        {
+          "code": "32104",
+          "title": "Animal health technologists and veterinary technicians"
+        },
+        {
+          "code": "32109",
+          "title": "Other technical occupations in therapy and assessment"
+        },
+        {
+          "code": "32111",
+          "title": "Dental hygienists and dental therapists"
+        },
+        {
+          "code": "32120",
+          "title": "Medical laboratory technologists"
+        },
+        {
+          "code": "32121",
+          "title": "Medical radiation technologists"
+        },
+        {
+          "code": "32122",
+          "title": "Medical sonographers"
+        },
+        {
+          "code": "32124",
+          "title": "Pharmacy technicians"
+        },
+        {
+          "code": "32129",
+          "title": "Other medical technologists and technicians"
+        },
+        {
+          "code": "32200",
+          "title": "Traditional Chinese medicine practitioners and acupuncturists"
+        },
+        {
+          "code": "32201",
+          "title": "Massage therapists"
+        },
+        {
+          "code": "33100",
+          "title": "Dental assistants and dental laboratory assistants"
+        },
+        {
+          "code": "33101",
+          "title": "Medical laboratory assistants and related technical occupations"
+        },
+        {
+          "code": "33102",
+          "title": "Nurse aides, orderlies and patient service associates"
+        },
+        {
+          "code": "33103",
+          "title": "Pharmacy technical assistants and pharmacy assistants"
+        },
+        {
+          "code": "33109",
+          "title": "Other assisting occupations in support of health services"
+        },
+        {
+          "code": "40012",
+          "title": "Government managers - education policy development and program administration"
+        },
+        {
+          "code": "40019",
+          "title": "Other managers in public administration"
+        },
+        {
+          "code": "40020",
+          "title": "Administrators - post-secondary education and vocational training"
+        },
+        {
+          "code": "40040",
+          "title": "Commissioned police officers and related occupations in public protection services"
+        },
+        {
+          "code": "41101",
+          "title": "Lawyers and Quebec notaries"
+        },
+        {
+          "code": "41200",
+          "title": "University professors and lecturers"
+        },
+        {
+          "code": "41201",
+          "title": "Post-secondary teaching and research assistants"
+        },
+        {
+          "code": "41210",
+          "title": "College and other vocational instructors"
+        },
+        {
+          "code": "41300",
+          "title": "Social workers"
+        },
+        {
+          "code": "41301",
+          "title": "Therapists in counselling and related specialized therapies"
+        },
+        {
+          "code": "41302",
+          "title": "Religious leaders"
+        },
+        {
+          "code": "41310",
+          "title": "Police investigators and other investigative occupations"
+        },
+        {
+          "code": "41311",
+          "title": "Probation and parole officers"
+        },
+        {
+          "code": "41320",
+          "title": "Educational counsellors"
+        },
+        {
+          "code": "41321",
+          "title": "Career development practitioners and career counsellors (except education)"
+        },
+        {
+          "code": "41400",
+          "title": "Natural and applied science policy researchers, consultants and program officers"
+        },
+        {
+          "code": "41401",
+          "title": "Economists and economic policy researchers and analysts"
+        },
+        {
+          "code": "41402",
+          "title": "Business development officers and market researchers and analysts"
+        },
+        {
+          "code": "41403",
+          "title": "Social policy researchers, consultants and program officers"
+        },
+        {
+          "code": "41404",
+          "title": "Health policy researchers, consultants and program officers"
+        },
+        {
+          "code": "41405",
+          "title": "Education policy researchers, consultants and program officers"
+        },
+        {
+          "code": "41406",
+          "title": "Recreation, sports and fitness policy researchers, consultants and program officers"
+        },
+        {
+          "code": "41407",
+          "title": "Program officers unique to government"
+        },
+        {
+          "code": "42100",
+          "title": "Police officers (except commissioned)"
+        },
+        {
+          "code": "42101",
+          "title": "Firefighters"
+        },
+        {
+          "code": "42200",
+          "title": "Paralegals and related occupations"
+        },
+        {
+          "code": "42201",
+          "title": "Social and community service workers"
+        },
+        {
+          "code": "42202",
+          "title": "Early childhood educators and assistants"
+        },
+        {
+          "code": "42203",
+          "title": "Instructors of persons with disabilities"
+        },
+        {
+          "code": "42204",
+          "title": "Religion workers"
+        },
+        {
+          "code": "43201",
+          "title": "Correctional service officers"
+        },
+        {
+          "code": "43202",
+          "title": "By-law enforcement and other regulatory officers"
+        },
+        {
+          "code": "50011",
+          "title": "Managers - publishing, motion pictures, broadcasting and performing arts"
+        },
+        {
+          "code": "50012",
+          "title": "Recreation, sports and fitness program and service directors"
+        },
+        {
+          "code": "51100",
+          "title": "Librarians"
+        },
+        {
+          "code": "51110",
+          "title": "Editors"
+        },
+        {
+          "code": "51112",
+          "title": "Technical writers"
+        },
+        {
+          "code": "51113",
+          "title": "Journalists"
+        },
+        {
+          "code": "51114",
+          "title": "Translators, terminologists and interpreters"
+        },
+        {
+          "code": "51120",
+          "title": "Producers, directors, choreographers and related occupations"
+        },
+        {
+          "code": "52110",
+          "title": "Film and video camera operators"
+        },
+        {
+          "code": "52111",
+          "title": "Graphic arts technicians"
+        },
+        {
+          "code": "52113",
+          "title": "Audio and video recording technicians"
+        },
+        {
+          "code": "52114",
+          "title": "Announcers and other broadcasters"
+        },
+        {
+          "code": "52119",
+          "title": "Other technical and coordinating occupations in motion pictures, broadcasting and the performing arts"
+        },
+        {
+          "code": "52120",
+          "title": "Graphic designers and illustrators"
+        },
+        {
+          "code": "52121",
+          "title": "Interior designers and interior decorators"
+        },
+        {
+          "code": "53110",
+          "title": "Photographers"
+        },
+        {
+          "code": "53120",
+          "title": "Dancers"
+        },
+        {
+          "code": "53123",
+          "title": "Theatre, fashion, exhibit and other creative designers"
+        },
+        {
+          "code": "53201",
+          "title": "Coaches"
+        },
+        {
+          "code": "60010",
+          "title": "Corporate sales managers"
+        },
+        {
+          "code": "60020",
+          "title": "Retail and wholesale trade managers"
+        },
+        {
+          "code": "60030",
+          "title": "Restaurant and food service managers"
+        },
+        {
+          "code": "60031",
+          "title": "Accommodation service managers"
+        },
+        {
+          "code": "62010",
+          "title": "Retail sales supervisors"
+        },
+        {
+          "code": "62020",
+          "title": "Food service supervisors"
+        },
+        {
+          "code": "62022",
+          "title": "Accommodation, travel, tourism and related services supervisors"
+        },
+        {
+          "code": "62024",
+          "title": "Cleaning supervisors"
+        },
+        {
+          "code": "62029",
+          "title": "Other services supervisors"
+        },
+        {
+          "code": "62100",
+          "title": "Technical sales specialists - wholesale trade"
+        },
+        {
+          "code": "62200",
+          "title": "Chefs"
+        },
+        {
+          "code": "63100",
+          "title": "Insurance agents and brokers"
+        },
+        {
+          "code": "63102",
+          "title": "Financial sales representatives"
+        },
+        {
+          "code": "63200",
+          "title": "Cooks"
+        },
+        {
+          "code": "63201",
+          "title": "Butchers - retail and wholesale"
+        },
+        {
+          "code": "63202",
+          "title": "Bakers"
+        },
+        {
+          "code": "63211",
+          "title": "Estheticians, electrologists and related occupations"
+        },
+        {
+          "code": "64100",
+          "title": "Retail salespersons and visual merchandisers"
+        },
+        {
+          "code": "64312",
+          "title": "Airline ticket and service agents"
+        },
+        {
+          "code": "64314",
+          "title": "Hotel front desk clerks"
+        },
+        {
+          "code": "64320",
+          "title": "Tour and travel guides"
+        },
+        {
+          "code": "64409",
+          "title": "Other customer and information services representatives"
+        },
+        {
+          "code": "64410",
+          "title": "Security guards and related security service occupations"
+        },
+        {
+          "code": "65100",
+          "title": "Cashiers"
+        },
+        {
+          "code": "65200",
+          "title": "Food and beverage servers"
+        },
+        {
+          "code": "65201",
+          "title": "Food counter attendants, kitchen helpers and related support occupations"
+        },
+        {
+          "code": "65202",
+          "title": "Meat cutters and fishmongers - retail and wholesale"
+        },
+        {
+          "code": "65210",
+          "title": "Support occupations in accommodation, travel and facilities set-up services"
+        },
+        {
+          "code": "65310",
+          "title": "Light duty cleaners"
+        },
+        {
+          "code": "70010",
+          "title": "Construction managers"
+        },
+        {
+          "code": "70011",
+          "title": "Home building and renovation managers"
+        },
+        {
+          "code": "70012",
+          "title": "Facility operation and maintenance managers"
+        },
+        {
+          "code": "70020",
+          "title": "Managers in transportation"
+        },
+        {
+          "code": "70021",
+          "title": "Postal and courier services managers"
+        },
+        {
+          "code": "72010",
+          "title": "Contractors and supervisors, machining, metal forming, shaping and erecting trades and related"
+        },
+        {
+          "code": "72011",
+          "title": "Contractors and supervisors, electrical trades and telecommunications occupations"
+        },
+        {
+          "code": "72013",
+          "title": "Contractors and supervisors, carpentry trades"
+        },
+        {
+          "code": "72014",
+          "title": "Contractors and supervisors, other construction trades, installers, repairers and servicers"
+        },
+        {
+          "code": "72020",
+          "title": "Contractors and supervisors, mechanic trades"
+        },
+        {
+          "code": "72021",
+          "title": "Contractors and supervisors, heavy equipment operator crews"
+        },
+        {
+          "code": "72022",
+          "title": "Supervisors, printing and related occupations"
+        },
+        {
+          "code": "72024",
+          "title": "Supervisors, motor transport and other ground transit operators"
+        },
+        {
+          "code": "72100",
+          "title": "Machinists and machining and tooling inspectors"
+        },
+        {
+          "code": "72102",
+          "title": "Sheet metal workers"
+        },
+        {
+          "code": "72104",
+          "title": "Structural metal and platework fabricators and fitters"
+        },
+        {
+          "code": "72105",
+          "title": "Ironworkers"
+        },
+        {
+          "code": "72106",
+          "title": "Welders and related machine operators"
+        },
+        {
+          "code": "72200",
+          "title": "Electricians (except industrial and power system)"
+        },
+        {
+          "code": "72201",
+          "title": "Industrial electricians"
+        },
+        {
+          "code": "72203",
+          "title": "Electrical power line and cable workers"
+        },
+        {
+          "code": "72204",
+          "title": "Telecommunications line and cable installers and repairers"
+        },
+        {
+          "code": "72205",
+          "title": "Telecommunications equipment installation and cable television service technicians"
+        },
+        {
+          "code": "72300",
+          "title": "Plumbers"
+        },
+        {
+          "code": "72301",
+          "title": "Steamfitters, pipefitters and sprinkler system installers"
+        },
+        {
+          "code": "72302",
+          "title": "Gas fitters"
+        },
+        {
+          "code": "72310",
+          "title": "Carpenters"
+        },
+        {
+          "code": "72311",
+          "title": "Cabinetmakers"
+        },
+        {
+          "code": "72320",
+          "title": "Bricklayers"
+        },
+        {
+          "code": "72321",
+          "title": "Insulators"
+        },
+        {
+          "code": "72400",
+          "title": "Construction millwrights and industrial mechanics"
+        },
+        {
+          "code": "72401",
+          "title": "Heavy-duty equipment mechanics"
+        },
+        {
+          "code": "72402",
+          "title": "Heating, refrigeration and air conditioning mechanics"
+        },
+        {
+          "code": "72403",
+          "title": "Railway carmen/women"
+        },
+        {
+          "code": "72404",
+          "title": "Aircraft mechanics and aircraft inspectors"
+        },
+        {
+          "code": "72405",
+          "title": "Machine fitters"
+        },
+        {
+          "code": "72406",
+          "title": "Elevator constructors and mechanics"
+        },
+        {
+          "code": "72410",
+          "title": "Automotive service technicians, truck and bus mechanics and mechanical repairers"
+        },
+        {
+          "code": "72411",
+          "title": "Auto body collision, refinishing and glass technicians and damage repair estimators"
+        },
+        {
+          "code": "72422",
+          "title": "Electrical mechanics"
+        },
+        {
+          "code": "72423",
+          "title": "Motorcycle, all-terrain vehicle and other related mechanics"
+        },
+        {
+          "code": "72500",
+          "title": "Crane operators"
+        },
+        {
+          "code": "72600",
+          "title": "Air pilots, flight engineers and flying instructors"
+        },
+        {
+          "code": "72601",
+          "title": "Air traffic controllers and related occupations"
+        },
+        {
+          "code": "72602",
+          "title": "Deck officers, water transport"
+        },
+        {
+          "code": "72999",
+          "title": "Other technical trades and related occupations"
+        },
+        {
+          "code": "73100",
+          "title": "Concrete finishers"
+        },
+        {
+          "code": "73101",
+          "title": "Tilesetters"
+        },
+        {
+          "code": "73102",
+          "title": "Plasterers, drywall installers and finishers and lathers"
+        },
+        {
+          "code": "73110",
+          "title": "Roofers and shinglers"
+        },
+        {
+          "code": "73111",
+          "title": "Glaziers"
+        },
+        {
+          "code": "73112",
+          "title": "Painters and decorators (except interior decorators)"
+        },
+        {
+          "code": "73113",
+          "title": "Floor covering installers"
+        },
+        {
+          "code": "73200",
+          "title": "Residential and commercial installers and servicers"
+        },
+        {
+          "code": "73201",
+          "title": "General building maintenance workers and building superintendents"
+        },
+        {
+          "code": "73202",
+          "title": "Pest controllers and fumigators"
+        },
+        {
+          "code": "73209",
+          "title": "Other repairers and servicers"
+        },
+        {
+          "code": "73300",
+          "title": "Transport truck drivers"
+        },
+        {
+          "code": "73301",
+          "title": "Bus drivers, subway operators and other transit operators"
+        },
+        {
+          "code": "73311",
+          "title": "Railway conductors and brakemen/women"
+        },
+        {
+          "code": "73400",
+          "title": "Heavy equipment operators"
+        },
+        {
+          "code": "73401",
+          "title": "Printing press operators"
+        },
+        {
+          "code": "73402",
+          "title": "Drillers and blasters - surface mining, quarrying and construction"
+        },
+        {
+          "code": "74202",
+          "title": "Air transport ramp attendants"
+        },
+        {
+          "code": "74203",
+          "title": "Automotive and heavy truck and equipment parts installers and servicers"
+        },
+        {
+          "code": "75101",
+          "title": "Material handlers"
+        },
+        {
+          "code": "75110",
+          "title": "Construction trades helpers and labourers"
+        },
+        {
+          "code": "75201",
+          "title": "Delivery service drivers and door-to-door distributors"
+        },
+        {
+          "code": "80010",
+          "title": "Managers in natural resources production and fishing"
+        },
+        {
+          "code": "80021",
+          "title": "Managers in horticulture"
+        },
+        {
+          "code": "82021",
+          "title": "Contractors and supervisors, oil and gas drilling and services"
+        },
+        {
+          "code": "82030",
+          "title": "Agricultural service contractors and farm supervisors"
+        },
+        {
+          "code": "82031",
+          "title": "Contractors and supervisors, landscaping, grounds maintenance and horticulture services"
+        },
+        {
+          "code": "83101",
+          "title": "Oil and gas well drillers, servicers, testers and related workers"
+        },
+        {
+          "code": "83110",
+          "title": "Logging machinery operators"
+        },
+        {
+          "code": "84101",
+          "title": "Oil and gas well drilling and related workers and services operators"
+        },
+        {
+          "code": "84120",
+          "title": "Specialized livestock workers and farm machinery operators"
+        },
+        {
+          "code": "85100",
+          "title": "Livestock labourers"
+        },
+        {
+          "code": "85103",
+          "title": "Nursery and greenhouse labourers"
+        },
+        {
+          "code": "85111",
+          "title": "Oil and gas drilling, servicing and related labourers"
+        },
+        {
+          "code": "90010",
+          "title": "Manufacturing managers"
+        },
+        {
+          "code": "92010",
+          "title": "Supervisors, mineral and metal processing"
+        },
+        {
+          "code": "92011",
+          "title": "Supervisors, petroleum, gas and chemical processing and utilities"
+        },
+        {
+          "code": "92012",
+          "title": "Supervisors, food and beverage processing"
+        },
+        {
+          "code": "92013",
+          "title": "Supervisors, plastic and rubber products manufacturing"
+        },
+        {
+          "code": "92021",
+          "title": "Supervisors, electronics and electrical products manufacturing"
+        },
+        {
+          "code": "92023",
+          "title": "Supervisors, other mechanical and metal products manufacturing"
+        },
+        {
+          "code": "92024",
+          "title": "Supervisors, other products manufacturing and assembly"
+        },
+        {
+          "code": "92100",
+          "title": "Power engineers and power systems operators"
+        },
+        {
+          "code": "92101",
+          "title": "Water and waste treatment plant operators"
+        },
+        {
+          "code": "93101",
+          "title": "Central control and process operators, petroleum, gas and chemical processing"
+        },
+        {
+          "code": "93200",
+          "title": "Aircraft assemblers and aircraft assembly inspectors"
+        },
+        {
+          "code": "94106",
+          "title": "Machining tool operators"
+        },
+        {
+          "code": "94124",
+          "title": "Woodworking machine operators"
+        },
+        {
+          "code": "94129",
+          "title": "Other wood processing machine operators"
+        },
+        {
+          "code": "94140",
+          "title": "Process control and machine operators, food and beverage processing"
+        },
+        {
+          "code": "94141",
+          "title": "Industrial butchers and meat cutters, poultry preparers and related workers"
+        },
+        {
+          "code": "94211",
+          "title": "Assemblers and inspectors of other wood products"
+        },
+        {
+          "code": "95101",
+          "title": "Labourers in metal fabrication"
+        },
+        {
+          "code": "95106",
+          "title": "Labourers in food and beverage processing"
+        },
+        {
+          "code": "95109",
+          "title": "Other labourers in processing, manufacturing and utilities"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-10-20T22:14:26+00:00"
+}
