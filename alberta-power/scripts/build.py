@@ -115,7 +115,7 @@ def page(path, title, desc, body, active=None, extra_head="", scripts=""):
 <div class="disc"><b>Independent.</b> Not affiliated with any retailer, utility or government body. Rankings are by estimated cost only. Not financial advice. Always confirm the price and terms with the retailer before you sign. Official comparison: <a href="{UCA['tool']}">UCA Cost Comparison Tool</a> (310-4822).</div>
 <nav><a href="{u('/about/')}">About &amp; disclaimer</a><a href="{u('/sources/')}">Sources &amp; data status</a><a href="{u('/newsletter/')}">Weekly email</a><a href="{u('/feed.xml')}">RSS</a><a href="{u('/data/plans.json')}">Data (JSON)</a></nav>
 <p class="small">© {dt.date.today().year} {e(SITE)}. No ads, no trackers, no cookies.</p>
-<p class="small">Also by us: <a href="{SITE_URL}/">Alberta PR Draw Tracker</a></p></div></footer>{scripts}</body></html>"""
+<p class="small">Also by us: <a href="{SITE_URL}/">Alberta PR Draw Tracker</a> · <a href="{SITE_URL}/home-care/">Edmonton Home Care Finder</a></p></div></footer>{scripts}</body></html>"""
 
 
 def write(path, content):

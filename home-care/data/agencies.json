@@ -1,0 +1,665 @@
+{
+ "updated": "2026-10-20",
+ "region": "Edmonton area",
+ "agencies": [
+  {
+   "name": "All About Care",
+   "website": "https://www.allaboutcare.ca/client-directed-home-care-edmonton/",
+   "phone": "780-540-7544",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "nursing"
+   ],
+   "funding": [
+    "CDHCI",
+    "Self-Managed Care"
+   ],
+   "funding_note": "Says it offers CDHCI support and direct billing; lists Self Managed Care as a service.",
+   "languages": [],
+   "notes": "Edmonton office on Stony Plain Rd; also has a Calgary office. Lists short-term nursing and foot care.",
+   "sources": [
+    "https://www.allaboutcare.ca/client-directed-home-care-edmonton/",
+    "https://www.allaboutcare.ca/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Alberta Homecare Solutions",
+   "website": "https://www.albertahomecaresolutions.com/",
+   "phone": "780-540-4663",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "overnight / 24-hour",
+    "disability support"
+   ],
+   "funding": [
+    "CDHCI",
+    "FSCD"
+   ],
+   "funding_note": "Says it is an approved CDHCI provider and matches the CDHCI program rate (no extra hourly charge for authorized services). Offers FSCD direct billing.",
+   "languages": [],
+   "notes": "Also lists hospital-to-home care.",
+   "sources": [
+    "https://www.albertahomecaresolutions.com/",
+    "https://www.albertahomecaresolutions.com/cdhci"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Blessing Home Care",
+   "website": "https://blessinghomecare.ca/",
+   "phone": "587-887-1171",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Spruce Grove",
+    "Stony Plain",
+    "Leduc",
+    "Beaumont"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "palliative / end-of-life",
+    "nursing",
+    "housekeeping & meals",
+    "overnight / 24-hour"
+   ],
+   "funding": [],
+   "funding_note": "Says it helps families access government funding; its home page doesn't name a specific program.",
+   "languages": [
+    "English",
+    "Punjabi",
+    "Hindi",
+    "Gujarati",
+    "Urdu"
+   ],
+   "notes": "Says LPNs provide its specialized care. Says it serves Edmonton since 2020.",
+   "sources": [
+    "https://blessinghomecare.ca/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Care At Home Services",
+   "website": "https://careathomeservices.ca/edmonton-home-care/",
+   "phone": "1-866-982-2737",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Fort Saskatchewan",
+    "Leduc",
+    "Spruce Grove",
+    "Devon",
+    "Morinville",
+    "Strathcona County",
+    "Parkland County",
+    "Sturgeon County"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "nursing",
+    "palliative / end-of-life",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it is a CDHCI and Alberta Blue Cross provider and direct bills Alberta Blue Cross.",
+   "languages": [],
+   "notes": "Says LPNs and RNs provide its nursing care. Also operates in Calgary and BC.",
+   "sources": [
+    "https://careathomeservices.ca/edmonton-home-care/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Comfort Keepers Edmonton",
+   "website": "https://www.comfortkeepers.ca/edmonton/",
+   "phone": "780-465-4665",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Fort Saskatchewan",
+    "Leduc",
+    "Nisku",
+    "Spruce Grove",
+    "Stony Plain",
+    "Devon"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it is an approved service provider for the CDHCI program.",
+   "languages": [],
+   "notes": "Also mentions a veterans care program and transportation.",
+   "sources": [
+    "https://www.comfortkeepers.ca/edmonton/",
+    "https://www.comfortkeepers.ca/edmonton/client-direct-homecare-cdhci/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "ComForCare Edmonton",
+   "website": "https://www.comforcare.ca/alberta/edmonton/",
+   "phone": "780-733-4495",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals",
+    "disability support"
+   ],
+   "funding": [],
+   "funding_note": "",
+   "languages": [],
+   "notes": "Also lists foot care and medication administration.",
+   "sources": [
+    "https://www.comforcare.ca/alberta/edmonton/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Compassion Network Home Care",
+   "website": "https://www.compassionnetwork.ca/",
+   "phone": "780-756-8145",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "nursing",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it has been an approved CDHCI vendor since the Edmonton pilot in 2018 and direct bills Alberta Blue Cross.",
+   "languages": [],
+   "notes": "Says it is nurse-run. Mentions multilingual support and has CDHCI information in Punjabi and Hindi; specific caregiver languages aren't listed.",
+   "sources": [
+    "https://www.compassionnetwork.ca/",
+    "https://www.compassionnetwork.ca/services/client-directed-home-care",
+    "https://www.compassionnetwork.ca/locations"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Einam Homecare",
+   "website": "https://einamhomecare.ca/",
+   "phone": "780-263-3940",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "housekeeping & meals"
+   ],
+   "funding": [],
+   "funding_note": "",
+   "languages": [
+    "Arabic"
+   ],
+   "notes": "Non-medical care. Offers culturally specific meals (e.g., Halal). Says caregivers are multilingual, including Arabic speakers.",
+   "sources": [
+    "https://einamhomecare.ca/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Harmony Caregiving",
+   "website": "https://harmonycaregiving.com/",
+   "phone": "780-328-3917",
+   "areas": [
+    "Edmonton and surrounding communities"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "dementia",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it is registered with Alberta Blue Cross as a CDHCI provider and submits claims directly.",
+   "languages": [],
+   "notes": "Also provides caregivers in health care facilities.",
+   "sources": [
+    "https://harmonycaregiving.com/",
+    "https://harmonycaregiving.com/cdhci-edmonton/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Home Instead (Edmonton, St. Albert)",
+   "website": "https://www.homeinstead.ca/home-care/can/ab/edmonton/3031/",
+   "phone": "780-439-9990",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sturgeon County",
+    "Parkland County",
+    "Morinville",
+    "Devon"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says families can hire it under CDHCI and it works directly with Alberta Blue Cross.",
+   "languages": [],
+   "notes": "Edmonton office on Fairway Drive NW.",
+   "sources": [
+    "https://www.homeinstead.ca/home-care/can/ab/edmonton/3031/",
+    "https://www.homeinstead.ca/home-care/can/ab/edmonton/3031/home-care-services/client-directed-home-care/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Incubate Home Care",
+   "website": "https://incubatehomecare.ca/",
+   "phone": "825-925-4037",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Fort Saskatchewan",
+    "Leduc",
+    "Spruce Grove",
+    "Beaumont",
+    "Morinville",
+    "Devon"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals",
+    "disability support"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it offers CDHCI home care.",
+   "languages": [
+    "English",
+    "French",
+    "Punjabi",
+    "Hindi",
+    "Tagalog",
+    "Urdu",
+    "Gujarati",
+    "Tamil",
+    "Mandarin",
+    "Cantonese",
+    "Vietnamese",
+    "Portuguese",
+    "Malayalam"
+   ],
+   "notes": "Also lists autism and Parkinson's care.",
+   "sources": [
+    "https://incubatehomecare.ca/",
+    "https://incubatehomecare.ca/client-directed-home-care-invoicing/",
+    "https://incubatehomecare.ca/services/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Just Like Family Home Care Edmonton",
+   "website": "https://justlikefamilyedmonton.ca/",
+   "phone": "780-850-2282",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Fort Saskatchewan",
+    "Leduc",
+    "Beaumont",
+    "Devon",
+    "Spruce Grove",
+    "Stony Plain"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour"
+   ],
+   "funding": [
+    "CDHCI",
+    "Self-Managed Care",
+    "FSCD"
+   ],
+   "funding_note": "Says it helps clients funded through Self Managed Care, Client Directed Care and FSCD.",
+   "languages": [],
+   "notes": "Free in-home consult with a Registered Nurse. Also lists cancer, Parkinson's, ALS and MS care.",
+   "sources": [
+    "https://justlikefamilyedmonton.ca/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "New Day Homecare",
+   "website": "https://newdayhomecare.ca/",
+   "phone": "587-590-6229",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Spruce Grove",
+    "Stony Plain",
+    "Leduc",
+    "Beaumont"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "nursing",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals",
+    "disability support"
+   ],
+   "funding": [
+    "CDHCI",
+    "FSCD"
+   ],
+   "funding_note": "Says it is an AHS-approved CDHCI provider and bills Alberta Blue Cross directly. Lists FSCD support.",
+   "languages": [],
+   "notes": "Says LPNs provide its nursing care. Also lists veteran care.",
+   "sources": [
+    "https://newdayhomecare.ca/",
+    "https://newdayhomecare.ca/services/funded-home-care"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Nurse Next Door Edmonton",
+   "website": "https://www.nursenextdoor.com/locations/edmonton-ab/",
+   "phone": "780-737-1115",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Fort Saskatchewan",
+    "Ardrossan"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "nursing",
+    "palliative / end-of-life",
+    "overnight / 24-hour",
+    "housekeeping & meals",
+    "disability support"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says: \"We work with CDHCI for your home care needs in the province of Alberta.\"",
+   "languages": [],
+   "notes": "Edmonton office on 124 Street.",
+   "sources": [
+    "https://www.nursenextdoor.com/locations/edmonton-ab/",
+    "https://www.nursenextdoor.com/locations/edmonton-ab-comprehensive-home-care"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "ParaMed Edmonton",
+   "website": "https://www.paramed.com/edmonton/",
+   "phone": "780-988-7711",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "nursing",
+    "palliative / end-of-life",
+    "overnight / 24-hour"
+   ],
+   "funding": [],
+   "funding_note": "",
+   "languages": [],
+   "notes": "Also lists foot care, physiotherapy, occupational therapy and other health services.",
+   "sources": [
+    "https://www.paramed.com/edmonton/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Qualicare Home Care Edmonton Northwest",
+   "website": "https://qualicare.com/edmontonnorthwest/",
+   "phone": "587-801-0334",
+   "areas": [
+    "Northwest Edmonton",
+    "St. Albert",
+    "Spruce Grove"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it is an approved CDHCI provider and direct bills Alberta Blue Cross.",
+   "languages": [],
+   "notes": "Office in St. Albert. Also lists 780-328-6500.",
+   "sources": [
+    "https://qualicare.com/edmontonnorthwest/",
+    "https://qualicare.com/edmontonnorthwest/cdhci/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Renova Health Care",
+   "website": "https://www.renovahealth.ca/",
+   "phone": "825-526-2229",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it is an AHS-approved CDHCI provider and bills Alberta Blue Cross directly.",
+   "languages": [],
+   "notes": "Also lists nurse-delegated tasks and physio.",
+   "sources": [
+    "https://www.renovahealth.ca/",
+    "https://www.renovahealth.ca/funded-home-care"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Right at Home Edmonton",
+   "website": "https://www.rightathomecanada.com/edmonton",
+   "phone": "587-388-0880",
+   "areas": [
+    "Edmonton"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "nursing",
+    "housekeeping & meals"
+   ],
+   "funding": [
+    "CDHCI",
+    "FSCD",
+    "WCB"
+   ],
+   "funding_note": "Says it is a certified CDHCI provider. Also mentions FSCD- and WCB-funded care.",
+   "languages": [],
+   "notes": "Edmonton office on 27 Ave NW; also has Calgary and Red Deer offices.",
+   "sources": [
+    "https://www.rightathomecanada.com/edmonton"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Senior Helpers of West Edmonton",
+   "website": "https://www.seniorhelpers.ca/ab/west-edmonton/",
+   "phone": "780-690-8922",
+   "areas": [
+    "Edmonton",
+    "St. Albert"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life"
+   ],
+   "funding": [
+    "CDHCI"
+   ],
+   "funding_note": "Says it is approved to provide CDHCI through Alberta Blue Cross.",
+   "languages": [],
+   "notes": "Also serves Grande Prairie. Lists Parkinson's and transitional care.",
+   "sources": [
+    "https://www.seniorhelpers.ca/ab/west-edmonton/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Trinity Homecare Services",
+   "website": "https://trinityhomecare.ca/areas-served/senior-care-edmonton/",
+   "phone": "403-390-3390",
+   "areas": [
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Beaumont",
+    "Leduc",
+    "Spruce Grove"
+   ],
+   "services": [
+    "personal care",
+    "companionship",
+    "respite",
+    "dementia",
+    "palliative / end-of-life",
+    "overnight / 24-hour"
+   ],
+   "funding": [],
+   "funding_note": "Says it is an \"Alberta Blue Cross approved provider\" but doesn't name CDHCI, so it isn't tagged CDHCI here.",
+   "languages": [],
+   "notes": "The phone shown on its Edmonton page is a 403 (Calgary-area) number. Its Edmonton page lists private prices from about $24 to $31 an hour.",
+   "sources": [
+    "https://trinityhomecare.ca/areas-served/senior-care-edmonton/"
+   ],
+   "checked": "2026-10-20",
+   "publish": true
+  },
+  {
+   "name": "Alberta Care Staffing",
+   "website": "",
+   "phone": "",
+   "areas": [],
+   "services": [],
+   "funding": [],
+   "funding_note": "",
+   "languages": [],
+   "notes": "PLACEHOLDER. No public website was found for Hanzala's agency. Fill this in and set publish to true.",
+   "sources": [],
+   "checked": "2026-10-20",
+   "publish": false,
+   "owner": true,
+   "placeholder": true
+  }
+ ]
+}

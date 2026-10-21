@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Local daily job: refresh both sites, rebuild public/, and (Mondays) draft newsletters.
+# Local daily job: refresh the scraped sites, build all three, and (Mondays) draft newsletters.
 # The live site is refreshed by GitHub Actions (.github/workflows/pages.yml) at 14:00 UTC.
 # Example cron (14:00 UTC):  0 14 * * *  /path/to/repo/scripts/daily.sh >> /path/to/refresh.log 2>&1
 set -euo pipefail
@@ -25,3 +25,14 @@ if [ "$(date +%u)" = "1" ]; then python3 scripts/newsletter.py; fi
 rm -rf public/alberta-power
 mkdir -p public/alberta-power
 cp -a alberta-power/public/. public/alberta-power/
+
+# Home care finder is stdlib-only and has no scrape. Build it, then copy into public/home-care/.
+(
+  cd home-care
+  export SITE_URL="${SITE_URL:-https://albertaadraws.github.io}"
+  export BASE_PATH="/home-care"
+  python3 scripts/build.py
+)
+rm -rf public/home-care
+mkdir -p public/home-care
+cp -a home-care/public/. public/home-care/

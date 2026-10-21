@@ -1,6 +1,7 @@
-# Refresh both sites and deploy them to GitHub Pages.
+# Refresh and deploy three sites to GitHub Pages from this one repository.
 # User site: https://albertaadraws.github.io (AAIP draw tracker, domain root).
 # Power tracker: https://albertaadraws.github.io/alberta-power/ (built from alberta-power/).
+# Home care finder: https://albertaadraws.github.io/home-care/ (built from home-care/, no scrape).
 #
 # The default Actions token cannot create a Pages site. Before the first deploy
 # succeeds, set Settings > Pages > Build and deployment > Source to "GitHub Actions".
@@ -11,7 +12,7 @@ name: Refresh and deploy
 
 on:
   schedule:
-    # 14:00 UTC daily (about 7:00 AM MST / 8:00 AM MDT). Both sites refresh on this run.
+    # 14:00 UTC daily (about 7:00 AM MST / 8:00 AM MDT). All three sites build on this run.
     - cron: "0 14 * * *"
   push:
     branches: [main]
@@ -90,6 +91,26 @@ jobs:
           rm -rf public/alberta-power
           mkdir -p public/alberta-power
           cp -a alberta-power/public/. public/alberta-power/
+
+      - name: Build home care finder
+        # Stdlib only. No scrape: the directory is rebuilt from data/agencies.json on every run.
+        env:
+          SITE_URL: https://albertaadraws.github.io
+          BASE_PATH: /home-care
+        run: python3 home-care/scripts/build.py
+
+      - name: Check home care subpath, disclosure, and unpublished listing
+        env:
+          SITE_URL: https://albertaadraws.github.io
+          BASE_PATH: /home-care
+        run: python3 home-care/scripts/check_site.py
+
+      - name: Copy home care finder into the Pages site
+        run: |
+          set -euo pipefail
+          rm -rf public/home-care
+          mkdir -p public/home-care
+          cp -a home-care/public/. public/home-care/
 
       - name: Draft power newsletter (Mondays, Edmonton time)
         run: |

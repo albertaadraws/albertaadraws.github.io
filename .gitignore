@@ -9,6 +9,10 @@ public/
 alberta-power/data/raw/
 alberta-power/public/
 
+# Home care finder build output and saved page snapshots.
+home-care/public/
+home-care/research/pages/
+
 # Python
 __pycache__/
 *.py[cod]
