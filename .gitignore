@@ -4,6 +4,11 @@ data/raw/
 # Generated site. GitHub Actions builds this and deploys it to Pages.
 public/
 
+# Power tracker fetch cache and its own build output. The Pages workflow copies
+# alberta-power/public/ into public/alberta-power/ at deploy time; neither is committed.
+alberta-power/data/raw/
+alberta-power/public/
+
 # Python
 __pycache__/
 *.py[cod]

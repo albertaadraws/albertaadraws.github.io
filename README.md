@@ -5,6 +5,8 @@ Informational only. Not affiliated with the Government of Alberta. Not immigrati
 
 Live site: https://albertaadraws.github.io
 
+A second, independent site in this same repository, the [Alberta Power & Gas Rate Tracker](alberta-power/README.md), is served at https://albertaadraws.github.io/alberta-power/. It is built from `alberta-power/` and copied into `public/alberta-power/` by the same Pages workflow. It does not have its own repository or its own deploy job.
+
 ## Run it
 ```bash
 pip install -r requirements.txt            # beautifulsoup4 (+ optional markdown); needs poppler-utils for PDF import
@@ -14,16 +16,16 @@ python3 scripts/newsletter.py              # newsletter/draws-this-week-YYYY-MM-
 python3 -m http.server 8765 --directory public   # preview at http://localhost:8765
 ```
 `SITE_URL` defaults to `https://albertaadraws.github.io`. It is used in the sitemap, RSS and JSON feeds, and canonical tags.
-`BASE_PATH` stays empty. This repository is a GitHub Pages user site, so pages and assets are served from the domain root (`/assets/style.css`, `/data/draws.json`). Set `BASE_PATH=/repo-name` only if you host it as a project site instead.
+`BASE_PATH` stays empty. This repository is a GitHub Pages user site, so pages and assets are served from the domain root (`/assets/style.css`, `/data/draws.json`). Set `BASE_PATH=/repo-name` only if you host it as a project site instead. The power tracker is the site that uses `BASE_PATH=/alberta-power`. That prefix is not applied here, and this tracker's sitemap stays on the domain root.
 
-Local daily job: `scripts/daily.sh` (refresh, then build even if the scrape fails, plus a newsletter draft on Mondays). Nothing in that script sends email.
+Local daily job: `scripts/daily.sh` (refresh and build both sites even if a scrape fails, plus newsletter drafts on Mondays). Nothing in that script sends email. After it runs, `python3 -m http.server 8765 --directory public` serves this tracker at `/` and the power tracker at `/alberta-power/`.
 
 ## Daily refresh and deploy
-`.github/workflows/pages.yml` runs every day at 14:00 UTC, on every push to `main`, and when started by hand (Actions → Refresh and deploy → Run workflow).
+`.github/workflows/pages.yml` runs every day at 14:00 UTC, on every push to `main`, and when started by hand (Actions → Refresh and deploy → Run workflow). One build job produces both sites. One deploy job publishes `public/`.
 
-The workflow installs `requirements.txt` and `poppler-utils`, runs `scripts/refresh.py` and `scripts/build.py`, commits any changed `data/*.json` back to `main`, and deploys `public/` with `actions/configure-pages` (`enablement: true`), `actions/upload-pages-artifact` and `actions/deploy-pages`.
+The workflow installs the root `requirements.txt` and `alberta-power/requirements.txt`, plus `poppler-utils`. It refreshes and builds this tracker into `public/` (`SITE_URL=https://albertaadraws.github.io`, empty `BASE_PATH`), then refreshes and builds the power tracker and copies `alberta-power/public/` to `public/alberta-power/`. It commits changed data JSON for both sites back to `main`, and deploys with `actions/configure-pages` (`enablement: true`), `actions/upload-pages-artifact` and `actions/deploy-pages`.
 
-If the scrape fails, `refresh.py` exits with an error and leaves the existing JSON untouched. The workflow still builds and deploys that data. Raw HTML and PDF caches in `data/raw/` are not committed.
+If a scrape fails, that site's `refresh.py` exits with an error and leaves its existing JSON untouched. The workflow still builds and deploys that data. Raw caches in `data/raw/` and `alberta-power/data/raw/` are not committed, and neither is `alberta-power/public/`. There is no second Pages workflow.
 
 Before the first deploy can succeed, a repository admin has to set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. The workflow asks `configure-pages` to enable Pages, but the Actions token is not allowed to create a Pages site, and this repo does not store a personal access token. If GitHub offers a starter workflow at that screen, skip it: `.github/workflows/pages.yml` is already the workflow. If the run that started at merge time failed before that setting was changed, open the Actions tab and run **Refresh and deploy** again.
 

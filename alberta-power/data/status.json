@@ -1,0 +1,118 @@
+{
+ "checked_at": "2026-10-20T18:29:55-06:00",
+ "sources": [
+  {
+   "key": "aus",
+   "retailer": "Alberta Utility Source",
+   "url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 11
+  },
+  {
+   "key": "spot",
+   "retailer": "SPOTpower",
+   "url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 13
+  },
+  {
+   "key": "park",
+   "retailer": "Park Power",
+   "url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 11
+  },
+  {
+   "key": "8760-e",
+   "retailer": "8760",
+   "url": "https://www.8760.ca/home-electricity-rates",
+   "ok": true,
+   "plans": 4
+  },
+  {
+   "key": "8760-g",
+   "retailer": "8760",
+   "url": "https://www.8760.ca/home-natural-gas-rates",
+   "ok": true,
+   "plans": 4
+  },
+  {
+   "key": "de",
+   "retailer": "Direct Energy",
+   "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
+   "ok": true,
+   "plans": 4
+  },
+  {
+   "key": "enmax",
+   "retailer": "ENMAX (Easymax)",
+   "url": "https://www.enmax.com/electricity-and-natural-gas",
+   "ok": true,
+   "plans": 4
+  },
+  {
+   "key": "atco",
+   "retailer": "ATCO Energy",
+   "url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
+   "ok": true,
+   "plans": 10
+  },
+  {
+   "key": "atco-float",
+   "retailer": "ATCO Energy",
+   "url": "https://www.atcoenergy.com/home-energy/floating-rate-plan",
+   "ok": true,
+   "plans": 2
+  },
+  {
+   "key": "encor",
+   "retailer": "Encor by EPCOR",
+   "url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
+   "ok": true,
+   "plans": 4
+  },
+  {
+   "key": "peace",
+   "retailer": "Peace Power",
+   "url": "https://peacepower.ca/rates/",
+   "ok": true,
+   "plans": 6
+  },
+  {
+   "key": "default-uca",
+   "retailer": "Utilities Consumer Advocate: default rates",
+   "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
+   "ok": true
+  },
+  {
+   "key": "default-epcor",
+   "retailer": "EPCOR: Rate of Last Resort rates and fees (Edmonton)",
+   "url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/historical-electricity-rates.html",
+   "ok": true
+  },
+  {
+   "key": "default-enmax",
+   "retailer": "ENMAX Energy: Regulated Rate Tariff schedule, City of Calgary (PDF)",
+   "url": "https://assets.enmax.com/api/public/content/516f331f11314de58342afacbb98bc1e?v=52c9f5c0",
+   "ok": true
+  },
+  {
+   "key": "default-ders",
+   "retailer": "Direct Energy: regulated natural gas rate (Direct Energy Regulated Services)",
+   "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
+   "ok": true
+  }
+ ],
+ "not_published": [
+  {
+   "retailer": "Alberta Co-operative Energy (ACE)",
+   "url": "https://acenergy.ca/rate-plans/electricity/",
+   "reason": "Only 'as low as' prices and a margin adder are in the page; the actual plan rates load separately. Omitted rather than guessed."
+  },
+  {
+   "retailer": "Just Energy",
+   "url": "https://justenergy.com/service-areas/canada/alberta/",
+   "reason": "No Alberta residential rates printed on the public page."
+  }
+ ]
+}

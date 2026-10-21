@@ -1,0 +1,2 @@
+beautifulsoup4>=4.12
+# system: poppler-utils (pdftotext) for the ENMAX regulated-rate PDF
