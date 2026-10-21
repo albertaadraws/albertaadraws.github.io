@@ -1,5 +1,7 @@
-# Refresh AAIP data and deploy the static site to GitHub Pages.
-# Site: https://albertaadraws.github.io (user site, served from the domain root).
+# Refresh and deploy three sites to GitHub Pages from this one repository.
+# User site: https://albertaadraws.github.io (AAIP draw tracker, domain root).
+# Power tracker: https://albertaadraws.github.io/alberta-power/ (built from alberta-power/).
+# Home care finder: https://albertaadraws.github.io/home-care/ (built from home-care/, no scrape).
 #
 # The default Actions token cannot create a Pages site. Before the first deploy
 # succeeds, set Settings > Pages > Build and deployment > Source to "GitHub Actions".
@@ -10,7 +12,7 @@ name: Refresh and deploy
 
 on:
   schedule:
-    # 14:00 UTC daily (about 7:00 AM MST / 8:00 AM MDT).
+    # 14:00 UTC daily (about 7:00 AM MST / 8:00 AM MDT). All three sites build on this run.
     - cron: "0 14 * * *"
   push:
     branches: [main]
@@ -43,36 +45,94 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            alberta-power/requirements.txt
 
       - name: Install poppler (pdftotext)
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Install Python requirements
-        run: python -m pip install -r requirements.txt
+        run: python -m pip install -r requirements.txt -r alberta-power/requirements.txt
 
       - name: Refresh AAIP data
         # refresh.py exits 1 on a fetch or parse failure and leaves data/*.json untouched.
-        run: python3 scripts/refresh.py || echo "Scrape failed; existing data left untouched. Building anyway."
+        run: python3 scripts/refresh.py || echo "AAIP scrape failed; existing data left untouched. Building anyway."
 
-      - name: Build site
+      - name: Build PR tracker
         env:
           SITE_URL: https://albertaadraws.github.io
           BASE_PATH: ""
         run: python3 scripts/build.py
 
-      - name: Check canonical URLs and root asset paths
+      - name: Check PR tracker canonical URLs and root asset paths
         run: python3 scripts/check_site.py
+
+      - name: Refresh Alberta power and gas rates
+        # A source that fails keeps its last good rows. refresh.py exits 1 only if every plan source failed,
+        # and then it leaves the JSON files untouched.
+        run: python3 alberta-power/scripts/refresh.py || echo "Power rate refresh failed; existing data left untouched. Building anyway."
+
+      - name: Build power tracker
+        env:
+          SITE_URL: https://albertaadraws.github.io
+          BASE_PATH: /alberta-power
+        run: python3 alberta-power/scripts/build.py
+
+      - name: Check power tracker subpath links, canonicals, and partner links
+        env:
+          SITE_URL: https://albertaadraws.github.io
+          BASE_PATH: /alberta-power
+        run: python3 alberta-power/scripts/check_site.py
+
+      - name: Copy power tracker into the Pages site
+        run: |
+          set -euo pipefail
+          rm -rf public/alberta-power
+          mkdir -p public/alberta-power
+          cp -a alberta-power/public/. public/alberta-power/
+
+      - name: Build home care finder
+        # Stdlib only. No scrape: the directory is rebuilt from data/agencies.json on every run.
+        env:
+          SITE_URL: https://albertaadraws.github.io
+          BASE_PATH: /home-care
+        run: python3 home-care/scripts/build.py
+
+      - name: Check home care subpath, disclosure, and unpublished listing
+        env:
+          SITE_URL: https://albertaadraws.github.io
+          BASE_PATH: /home-care
+        run: python3 home-care/scripts/check_site.py
+
+      - name: Copy home care finder into the Pages site
+        run: |
+          set -euo pipefail
+          rm -rf public/home-care
+          mkdir -p public/home-care
+          cp -a home-care/public/. public/home-care/
+
+      - name: Draft power newsletter (Mondays, Edmonton time)
+        run: |
+          if [ "$(TZ=America/Edmonton date +%u)" = "1" ]; then
+            SITE_URL=https://albertaadraws.github.io BASE_PATH=/alberta-power python3 alberta-power/scripts/newsletter.py
+          fi
 
       - name: Commit updated data
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/draws.json data/pools.json data/occupations.json
+          git add \
+            data/draws.json data/pools.json data/occupations.json \
+            alberta-power/data/plans.json alberta-power/data/defaults.json \
+            alberta-power/data/changes.json alberta-power/data/status.json \
+            alberta-power/data/history.json \
+            alberta-power/newsletter
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "Refresh AAIP draw data [skip ci]"
+            git commit -m "Refresh AAIP draws and Alberta power rates [skip ci]"
             git push origin HEAD:main
           fi
 

@@ -135,6 +135,7 @@ def page(path, title, desc, body, scripts=(), jsonld=None):
 <div class="disc"><b>Disclaimer:</b> {SITE} is an independent, informational website. It is <b>not affiliated with, endorsed by, or connected to the Government of Alberta, the Alberta Advantage Immigration Program (AAIP), or IRCC</b>. Nothing here is immigration or legal advice. Data is copied from public Government of Alberta pages and may be incomplete, delayed or wrong. Always check <a href="{SOURCE_URL}" rel="noopener">the official AAIP page</a> and talk to a licensed Regulated Canadian Immigration Consultant (RCIC) or a lawyer before you make decisions.</div>
 <nav class="small"><a href="{u('/draws/')}">All draws</a><a href="{u('/score-checker/')}">Score checker</a><a href="{u('/about/')}">About & sources</a><a href="{u('/disclaimer/')}">Disclaimer</a><a href="{u('/sponsor/')}">Sponsor this site</a><a href="{u('/feed.xml')}">RSS</a><a href="{u('/feed.json')}">JSON feed</a></nav>
 <p class="small">Data last checked {ftime(DATA['last_refreshed'])} · Official page last updated {fdate(DATA['page_last_updated']) if DATA.get('page_last_updated') else 'unknown'} · © {dt.date.today().year} {SITE}</p>
+<p class="small">Also by us: <a href="{SITE_URL}/alberta-power/">Alberta Power &amp; Gas Rate Tracker</a> · <a href="{SITE_URL}/home-care/">Edmonton Home Care Finder</a></p>
 </div></footer>{sc}</body></html>"""
     dest = os.path.join(OUT, path.strip("/"), "index.html") if path.endswith("/") else os.path.join(OUT, path.lstrip("/"))
     os.makedirs(os.path.dirname(dest), exist_ok=True)

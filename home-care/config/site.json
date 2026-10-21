@@ -1,0 +1,7 @@
+{
+ "_readme": "Owner disclosure settings. Fill in owner_agency once Hanzala confirms the exact public name. Every page prints this disclosure.",
+ "owner_name": "Hanzala Farooqi",
+ "owner_agency": "Alberta Care Staffing",
+ "contact_email": "albertacarestaffing@gmail.com",
+ "paid_listings": false
+}

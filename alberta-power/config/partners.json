@@ -1,0 +1,6 @@
+{
+  "_readme": "FUTURE USE ONLY. Partner 'switch' links, keyed by plan source_key (e.g. \"aus\"). Leave empty until a written agent/partner agreement exists. Rankings are ALWAYS by cost and never read this file. When filled, build.py shows a separately labelled 'Partner link (we may be paid)' next to that retailer, plus a disclosure line.",
+  "enabled": false,
+  "disclosure": "We may earn a commission if you switch through a partner link. It never changes the ranking, which is by estimated cost only.",
+  "partners": {}
+}

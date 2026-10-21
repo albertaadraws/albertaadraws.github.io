@@ -1,0 +1,8 @@
+# Saved page snapshots from research/extract.py. Not part of the site.
+research/pages/
+
+# Generated site. The Pages workflow copies this into ../public/home-care/.
+public/
+
+__pycache__/
+*.tmp

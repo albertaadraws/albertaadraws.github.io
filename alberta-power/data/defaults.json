@@ -1,0 +1,336 @@
+{
+ "rolr_edmonton": {
+  "retailer": "EPCOR Energy Alberta",
+  "plan": "Rate of Last Resort (default)",
+  "fuel": "electricity",
+  "type": "default",
+  "area": "edmonton",
+  "rate": 12.01,
+  "admin_day": 0.23,
+  "admin_monthly": 7.0,
+  "admin_text": "$0.230/day per site",
+  "term_label": "Fixed to Dec 31, 2026",
+  "cancellation": "Leave anytime, no penalty (UCA).",
+  "cancellation_fee": 0,
+  "sources": [
+   {
+    "name": "Utilities Consumer Advocate: default rates",
+    "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
+    "checked": "2026-10-20"
+   },
+   {
+    "name": "EPCOR: Rate of Last Resort rates and fees (Edmonton)",
+    "url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/historical-electricity-rates.html",
+    "checked": "2026-10-20"
+   }
+  ],
+  "last_checked": "2026-10-20",
+  "rate_note": "Includes a 0.1¢/kWh consumer awareness surcharge. Delivery charges extra."
+ },
+ "rolr_calgary": {
+  "retailer": "ENMAX Energy",
+  "plan": "Rate of Last Resort (default)",
+  "fuel": "electricity",
+  "type": "default",
+  "area": "calgary",
+  "rate": 12.06,
+  "admin_day": 0.4134,
+  "admin_monthly": 12.57,
+  "admin_text": "$0.4134/day per site (2026 interim tariff)",
+  "term_label": "Fixed to Dec 31, 2026",
+  "cancellation": "Leave anytime, no penalty (UCA).",
+  "cancellation_fee": 0,
+  "sources": [
+   {
+    "name": "Utilities Consumer Advocate: default rates",
+    "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
+    "checked": "2026-10-20"
+   },
+   {
+    "name": "ENMAX Energy: Regulated Rate Tariff schedule, City of Calgary (PDF)",
+    "url": "https://assets.enmax.com/api/public/content/516f331f11314de58342afacbb98bc1e?v=52c9f5c0",
+    "checked": "2026-10-20"
+   }
+  ],
+  "last_checked": "2026-10-20",
+  "rate_note": "Includes a 0.1¢/kWh consumer awareness surcharge. Delivery charges extra."
+ },
+ "gas_default": {
+  "retailer": "Direct Energy Regulated Services",
+  "plan": "Default Rate Tariff (October 2026)",
+  "fuel": "gas",
+  "type": "default",
+  "area": "both",
+  "rate": 1.458,
+  "admin_day": 0.385,
+  "admin_monthly": 11.71,
+  "admin_text": "$0.385/day per site",
+  "term_label": "Changes monthly",
+  "cancellation": "No contract; switch anytime.",
+  "cancellation_fee": 0,
+  "month": "October 2026",
+  "sources": [
+   {
+    "name": "Utilities Consumer Advocate: default rates",
+    "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
+    "checked": "2026-10-20"
+   },
+   {
+    "name": "Direct Energy: regulated natural gas rate (Direct Energy Regulated Services)",
+    "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
+    "checked": "2026-10-20"
+   }
+  ],
+  "last_checked": "2026-10-20",
+  "rate_note": "Default gas rate in the ATCO Gas area (Edmonton and Calgary). AUC-approved, set monthly. Delivery charges extra.",
+  "avg12": 2.025,
+  "avg12_range": "November 2025 to October 2026",
+  "history": [
+   {
+    "year": 2025,
+    "month": "November",
+    "ders": 2.579,
+    "apex": 2.492
+   },
+   {
+    "year": 2025,
+    "month": "December",
+    "ders": 3.39,
+    "apex": 3.008
+   },
+   {
+    "year": 2026,
+    "month": "January",
+    "ders": 3.331,
+    "apex": 3.419
+   },
+   {
+    "year": 2026,
+    "month": "February",
+    "ders": 2.422,
+    "apex": 2.25
+   },
+   {
+    "year": 2026,
+    "month": "March",
+    "ders": 1.784,
+    "apex": 1.751
+   },
+   {
+    "year": 2026,
+    "month": "April",
+    "ders": 1.874,
+    "apex": 1.535
+   },
+   {
+    "year": 2026,
+    "month": "May",
+    "ders": 0.936,
+    "apex": 0.93
+   },
+   {
+    "year": 2026,
+    "month": "June",
+    "ders": 2.076,
+    "apex": 2.412
+   },
+   {
+    "year": 2026,
+    "month": "July",
+    "ders": 1.595,
+    "apex": 1.814
+   },
+   {
+    "year": 2026,
+    "month": "August",
+    "ders": 1.729,
+    "apex": 2.021
+   },
+   {
+    "year": 2026,
+    "month": "September",
+    "ders": 1.124,
+    "apex": 1.432
+   },
+   {
+    "year": 2026,
+    "month": "October",
+    "ders": 1.458,
+    "apex": 1.602
+   }
+  ]
+ },
+ "rolr_other": {
+  "fortis_epcor": 12.01,
+  "ders_atco_electric": 12.02,
+  "until": "2026",
+  "apex_gas": 1.602
+ },
+ "_parts": {
+  "uca": {
+   "drt_history": [
+    {
+     "year": 2026,
+     "month": "January",
+     "ders": 3.331,
+     "apex": 3.419
+    },
+    {
+     "year": 2026,
+     "month": "February",
+     "ders": 2.422,
+     "apex": 2.25
+    },
+    {
+     "year": 2026,
+     "month": "March",
+     "ders": 1.784,
+     "apex": 1.751
+    },
+    {
+     "year": 2026,
+     "month": "April",
+     "ders": 1.874,
+     "apex": 1.535
+    },
+    {
+     "year": 2026,
+     "month": "May",
+     "ders": 0.936,
+     "apex": 0.93
+    },
+    {
+     "year": 2026,
+     "month": "June",
+     "ders": 2.076,
+     "apex": 2.412
+    },
+    {
+     "year": 2026,
+     "month": "July",
+     "ders": 1.595,
+     "apex": 1.814
+    },
+    {
+     "year": 2026,
+     "month": "August",
+     "ders": 1.729,
+     "apex": 2.021
+    },
+    {
+     "year": 2026,
+     "month": "September",
+     "ders": 1.124,
+     "apex": 1.432
+    },
+    {
+     "year": 2026,
+     "month": "October",
+     "ders": 1.458,
+     "apex": 1.602
+    },
+    {
+     "year": 2025,
+     "month": "January",
+     "ders": 1.986,
+     "apex": 1.935
+    },
+    {
+     "year": 2025,
+     "month": "February",
+     "ders": 2.127,
+     "apex": 1.81
+    },
+    {
+     "year": 2025,
+     "month": "March",
+     "ders": 2.446,
+     "apex": 2.428
+    },
+    {
+     "year": 2025,
+     "month": "April",
+     "ders": 2.21,
+     "apex": 2.18
+    },
+    {
+     "year": 2025,
+     "month": "May",
+     "ders": 2.419,
+     "apex": 2.679
+    },
+    {
+     "year": 2025,
+     "month": "June",
+     "ders": 1.775,
+     "apex": 2.691
+    },
+    {
+     "year": 2025,
+     "month": "July",
+     "ders": 1.097,
+     "apex": 0.784
+    },
+    {
+     "year": 2025,
+     "month": "August",
+     "ders": 0.834,
+     "apex": 0.981
+    },
+    {
+     "year": 2025,
+     "month": "September",
+     "ders": 0.722,
+     "apex": 1.017
+    },
+    {
+     "year": 2025,
+     "month": "October",
+     "ders": 1.429,
+     "apex": 1.415
+    },
+    {
+     "year": 2025,
+     "month": "November",
+     "ders": 2.579,
+     "apex": 2.492
+    },
+    {
+     "year": 2025,
+     "month": "December",
+     "ders": 3.39,
+     "apex": 3.008
+    }
+   ],
+   "rolr_until": "2026",
+   "rolr": {
+    "epcor": 12.01,
+    "fortis": 12.01,
+    "enmax": 12.06,
+    "ders": 12.02
+   },
+   "drt": {
+    "month": "October 2026",
+    "ders": 1.458,
+    "apex": 1.602
+   },
+   "_checked": "2026-10-20"
+  },
+  "epcor": {
+   "month": "October 2026",
+   "rate": 12.01,
+   "admin_day": 0.23,
+   "_checked": "2026-10-20"
+  },
+  "enmax": {
+   "rate": 12.06,
+   "admin_day": 0.4134,
+   "tariff_year": "2026",
+   "_checked": "2026-10-20"
+  },
+  "ders": {
+   "admin_day": 0.385,
+   "_checked": "2026-10-20"
+  }
+ }
+}
