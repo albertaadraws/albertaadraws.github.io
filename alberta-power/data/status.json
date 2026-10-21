@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-20T19:27:09-06:00",
+ "checked_at": "2026-10-20T19:52:23-06:00",
  "sources": [
   {
    "key": "aus",
@@ -100,6 +100,434 @@
    "key": "default-ders",
    "retailer": "Direct Energy: regulated natural gas rate (Direct Energy Regulated Services)",
    "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
+   "ok": true
+  },
+  {
+   "key": "water-epcor",
+   "retailer": "EPCOR Edmonton water, wastewater and drainage",
+   "url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/water-and-wastewater.html",
+   "ok": true
+  },
+  {
+   "key": "water-yeg-waste",
+   "retailer": "City of Edmonton waste utility rates",
+   "url": "https://www.edmonton.ca/programs_services/garbage_waste/rates-fees",
+   "ok": true
+  },
+  {
+   "key": "water-calgary",
+   "retailer": "City of Calgary residential water, wastewater and stormwater",
+   "url": "https://www.calgary.ca/water/water-utility/residential-water-rates-and-billing.html",
+   "ok": true
+  },
+  {
+   "key": "water-tips",
+   "retailer": "EPCOR: conservation inside your home",
+   "url": "https://www.epcor.com/ca/en/ab/edmonton/conservation/home/inside.html",
+   "ok": true
+  },
+  {
+   "key": "solar-signup",
+   "retailer": "Solar Club authorized retailers",
+   "url": "https://solarclub.ca/sign-up/",
+   "ok": true,
+   "plans": 42
+  },
+  {
+   "key": "solar-abode-power",
+   "retailer": "Abode Power solar",
+   "url": "https://www.abodepower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-acorn-energy",
+   "retailer": "Acorn Energy solar",
+   "url": "https://www.acornenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-adagio-energy",
+   "retailer": "Adagio Energy solar",
+   "url": "https://www.adagioenergy.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-alberta-utility-source",
+   "retailer": "Alberta Utility Source solar",
+   "url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-ascend-energy",
+   "retailer": "Ascend Energy solar",
+   "url": "https://www.ascendenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-azgard-energy",
+   "retailer": "Azgard Energy solar",
+   "url": "https://www.azgardenergy.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-big-rock-power",
+   "retailer": "Big Rock Power solar",
+   "url": "https://www.bigrockpower.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-blue-ring-utilities",
+   "retailer": "Blue Ring Utilities solar",
+   "url": "https://www.blueringutilities.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-bow-valley-power",
+   "retailer": "Bow Valley Power solar",
+   "url": "https://www.bowvalleypowers.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-brighter-futures-energy",
+   "retailer": "Brighter Futures Energy solar",
+   "url": "https://www.brighterfutureenergy.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-camrose-energy",
+   "retailer": "Camrose Energy solar",
+   "url": "https://www.camroseenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-echo-energy",
+   "retailer": "Echo Energy solar",
+   "url": "https://www.echoenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-empwr",
+   "retailer": "EMPWR solar",
+   "url": "https://www.em-pwr.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-firefly-utilities",
+   "retailer": "Firefly Utilities solar",
+   "url": "https://www.fireflyutilities.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-foothills-energy-co-op",
+   "retailer": "Foothills Energy CO-OP solar",
+   "url": "https://www.foothillsenergycoop.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-gateway-energy",
+   "retailer": "Gateway Energy solar",
+   "url": "https://www.gatewayenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-get-energy",
+   "retailer": "Get Energy solar",
+   "url": "https://secure.getenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-great-canadian-utilities",
+   "retailer": "Great Canadian Utilities solar",
+   "url": "https://www.greatcanadianutilities.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-greenamp-utilities",
+   "retailer": "Greenamp Utilities solar",
+   "url": "https://www.greenamputilities.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-guardian-utilities",
+   "retailer": "Guardian Utilities solar",
+   "url": "https://www.guardianutilities.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-headwaters-utility",
+   "retailer": "Headwaters Utility solar",
+   "url": "https://www.headwaters.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-legacy-energy",
+   "retailer": "Legacy Energy solar",
+   "url": "https://www.legacyenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-mountain-view-power",
+   "retailer": "Mountain View Power solar",
+   "url": "https://www.mountainviewpower.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-neon-power",
+   "retailer": "Neon Power solar",
+   "url": "https://www.neonpower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-northern-nrg",
+   "retailer": "Northern NRG solar",
+   "url": "https://www.northernnrg.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-orizon-utilities",
+   "retailer": "Orizon Utilities solar",
+   "url": "https://www.orizonutilities.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-park-power",
+   "retailer": "Park Power solar",
+   "url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-peyakoskan-energy",
+   "retailer": "Peyakoskan Energy solar",
+   "url": "https://www.peyakoskanenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-q-tilities",
+   "retailer": "Q-TILITIES solar",
+   "url": "https://www.qtilities.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-ridge-utilities",
+   "retailer": "Ridge Utilities solar",
+   "url": "https://www.ridgeutilities.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-rocky-mountain-community-energy",
+   "retailer": "Rocky Mountain Community Energy solar",
+   "url": "https://www.rmcenergy.org/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-sandstone-energy",
+   "retailer": "Sandstone Energy solar",
+   "url": "https://www.sandstoneenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 2
+  },
+  {
+   "key": "solar-shared-value-energy",
+   "retailer": "Shared Value Energy solar",
+   "url": "https://www.sharedvalueenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-smart-utilities",
+   "retailer": "Smart Utilities solar",
+   "url": "https://www.smartutilities.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-solarmax-power",
+   "retailer": "Solarmax Power solar",
+   "url": "https://www.solarmaxpower.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-spotpower",
+   "retailer": "SPOTpower solar",
+   "url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-sundance-power",
+   "retailer": "Sundance Power solar",
+   "url": "https://www.sundancepower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-tassa-energy",
+   "retailer": "Tassa Energy solar",
+   "url": "https://www.tassaenergy.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-utilities-by-kuby",
+   "retailer": "Utilities By Kuby solar",
+   "url": "https://www.utilitiesbykuby.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 2
+  },
+  {
+   "key": "solar-vector-energy",
+   "retailer": "Vector Energy solar",
+   "url": "https://www.vectorenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-wholesale-power",
+   "retailer": "Wholesale Power solar",
+   "url": "https://www.wholesalepower.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 2
+  },
+  {
+   "key": "solar-zeno-energy",
+   "retailer": "Zeno Energy solar",
+   "url": "https://www.zenoenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-enmax",
+   "retailer": "ENMAX (Easymax Seasonal Solar)",
+   "url": "https://www.enmax.com/solar/easymax-seasonal-solar",
+   "ok": true,
+   "plans": 1
+  },
+  {
+   "key": "solar-unpriced-alberta-co-operative-energy-ace",
+   "retailer": "Alberta Co-operative Energy (ACE) (no solar rate published)",
+   "url": "https://acenergy.ca/rate-plans/electricity/",
+   "ok": true
+  },
+  {
+   "key": "solar-unpriced-direct-energy",
+   "retailer": "Direct Energy (no solar rate published)",
+   "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
+   "ok": true
+  },
+  {
+   "key": "solar-unpriced-atco-energy",
+   "retailer": "ATCO Energy (no solar rate published)",
+   "url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
+   "ok": true
+  },
+  {
+   "key": "solar-unpriced-encor-by-epcor",
+   "retailer": "Encor by EPCOR (no solar rate published)",
+   "url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
+   "ok": true
+  },
+  {
+   "key": "solar-unpriced-peace-power",
+   "retailer": "Peace Power (no solar rate published)",
+   "url": "https://peacepower.ca/rates/",
+   "ok": true
+  },
+  {
+   "key": "solar-unpriced-8760",
+   "retailer": "8760 (no solar rate published)",
+   "url": "https://www.8760.ca/home-electricity-rates",
+   "ok": true
+  },
+  {
+   "key": "solar-unpriced-just-energy",
+   "retailer": "Just Energy (no solar rate published)",
+   "url": "https://justenergy.com/service-areas/canada/alberta/",
+   "ok": true
+  },
+  {
+   "key": "prog-yeg-ceip",
+   "retailer": "City of Edmonton CEIP",
+   "url": "https://www.edmonton.ca/city_government/environmental_stewardship/clean-energy-improvement-program",
+   "ok": true
+  },
+  {
+   "key": "prog-yyc-ceip",
+   "retailer": "City of Calgary residential CEIP",
+   "url": "https://www.calgary.ca/environment/programs/clean-energy-improvement-program.html",
+   "ok": true
+  },
+  {
+   "key": "prog-ceip-table",
+   "retailer": "Alberta Municipalities CEIP status",
+   "url": "https://ceip.abmunis.ca/contractor/",
+   "ok": true
+  },
+  {
+   "key": "prog-gh-loan",
+   "retailer": "Canada Greener Homes Loan",
+   "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-loan",
+   "ok": true
+  },
+  {
+   "key": "prog-gh-grant",
+   "retailer": "Canada Greener Homes Grant",
+   "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-initiative",
+   "ok": true
+  },
+  {
+   "key": "prog-uca",
+   "retailer": "UCA renewable energy grants",
+   "url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-grants-and-programs/",
+   "ok": true
+  },
+  {
+   "key": "prog-uca-provincial",
+   "retailer": "UCA: no Alberta provincial solar program",
+   "url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-faqs/",
+   "ok": true
+  },
+  {
+   "key": "nrcan-pv",
+   "retailer": "NRCan photovoltaic potential (Edmonton and Calgary)",
+   "url": "https://natural-resources.canada.ca/energy-sources/renewable-energy/photovoltaic-potential-solar-resource-maps-canada",
+   "ok": true
+  },
+  {
+   "key": "solar-installed-cost",
+   "retailer": "UCA residential solar installed cost",
+   "url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-faqs/",
    "ok": true
   }
  ],

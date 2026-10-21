@@ -128,6 +128,7 @@ jobs:
             alberta-power/data/plans.json alberta-power/data/defaults.json \
             alberta-power/data/changes.json alberta-power/data/status.json \
             alberta-power/data/history.json \
+            alberta-power/data/water.json alberta-power/data/solar.json \
             alberta-power/newsletter
           if git diff --cached --quiet; then
             echo "No data changes to commit."
