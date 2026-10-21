@@ -1,7 +1,7 @@
 {
   "source_url": "https://www.alberta.ca/aaip-processing-information",
   "page_last_updated": "2026-10-07",
-  "last_refreshed": "2026-10-20T23:20:41+00:00",
+  "last_refreshed": "2026-10-21T01:27:09+00:00",
   "count": 161,
   "draws": [
     {
@@ -23,7 +23,7 @@
       "invitations_text": "22",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-10-02-alberta-opportunity-stream",
@@ -44,7 +44,7 @@
       "invitations_text": "123",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-29-alberta-express-entry-stream-priority-sectors-general",
@@ -65,7 +65,7 @@
       "invitations_text": "200",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-24-rural-renewal-stream",
@@ -86,7 +86,7 @@
       "invitations_text": "131",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-23-alberta-opportunity-stream",
@@ -107,7 +107,7 @@
       "invitations_text": "113",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-22-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -128,7 +128,7 @@
       "invitations_text": "100",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-21-alberta-express-entry-stream-law-enforcement-pathway",
@@ -149,7 +149,7 @@
       "invitations_text": "Less than 10",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-18-alberta-express-entry-stream-priority-sectors-health-care",
@@ -170,7 +170,7 @@
       "invitations_text": "100",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-15-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -191,7 +191,7 @@
       "invitations_text": "18",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-10-alberta-express-entry-stream-priority-sectors-manufacturing",
@@ -212,7 +212,7 @@
       "invitations_text": "48",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-09-dedicated-health-care-pathway-express-entry",
@@ -233,7 +233,7 @@
       "invitations_text": "51",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-03-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -254,7 +254,7 @@
       "invitations_text": "96",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-09-01-alberta-opportunity-stream",
@@ -275,7 +275,7 @@
       "invitations_text": "575",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-19-dedicated-health-care-pathway-non-express-entry",
@@ -296,7 +296,7 @@
       "invitations_text": "24",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-14-alberta-opportunity-stream",
@@ -317,7 +317,7 @@
       "invitations_text": "743",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-12-dedicated-health-care-pathway-express-entry",
@@ -338,7 +338,7 @@
       "invitations_text": "57",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-11-rural-renewal-stream",
@@ -359,7 +359,7 @@
       "invitations_text": "127",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-07-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -380,7 +380,7 @@
       "invitations_text": "38",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-06-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -401,7 +401,7 @@
       "invitations_text": "95",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-08-04-alberta-express-entry-stream-priority-sectors-health-care",
@@ -422,7 +422,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-21-alberta-express-entry-stream-priority-sectors-construction",
@@ -443,7 +443,7 @@
       "invitations_text": "53",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-16-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -464,7 +464,7 @@
       "invitations_text": "29",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-15-alberta-opportunity-stream",
@@ -485,7 +485,7 @@
       "invitations_text": "833",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-14-dedicated-health-care-pathway-non-express-entry",
@@ -506,7 +506,7 @@
       "invitations_text": "51",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-10-alberta-express-entry-stream-law-enforcement-pathway",
@@ -527,7 +527,7 @@
       "invitations_text": "Less than 10",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-08-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -548,7 +548,7 @@
       "invitations_text": "149",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-07-rural-renewal-stream",
@@ -569,7 +569,7 @@
       "invitations_text": "42",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-07-03-dedicated-health-care-pathway-express-entry",
@@ -590,7 +590,7 @@
       "invitations_text": "92",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-29-dedicated-health-care-pathway-non-express-entry",
@@ -611,7 +611,7 @@
       "invitations_text": "75",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-24-alberta-express-entry-stream-priority-sectors-aviation-and-skilled-trade",
@@ -632,7 +632,7 @@
       "invitations_text": "35",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-22-dedicated-health-care-pathway-express-entry",
@@ -653,7 +653,7 @@
       "invitations_text": "46",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-19-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -674,7 +674,7 @@
       "invitations_text": "100",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-18-tourism-and-hospitality-stream",
@@ -695,7 +695,7 @@
       "invitations_text": "61",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-17-alberta-opportunity-stream",
@@ -716,7 +716,7 @@
       "invitations_text": "720",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-15-alberta-express-entry-stream-priority-sectors-manufacturing",
@@ -737,7 +737,7 @@
       "invitations_text": "56",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-12-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -758,7 +758,7 @@
       "invitations_text": "37",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-11-alberta-express-entry-stream-priority-sectors-health-care",
@@ -779,7 +779,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-10-rural-renewal-stream",
@@ -800,7 +800,7 @@
       "invitations_text": "54",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-09-dedicated-health-care-pathway-non-express-entry",
@@ -821,7 +821,7 @@
       "invitations_text": "35",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-08-dedicated-health-care-pathway-express-entry",
@@ -842,7 +842,7 @@
       "invitations_text": "49",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-05-alberta-opportunity-stream",
@@ -863,7 +863,7 @@
       "invitations_text": "462",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-06-02-alberta-express-entry-stream-priority-sectors-manufacturing",
@@ -884,7 +884,7 @@
       "invitations_text": "49",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-29-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -905,7 +905,7 @@
       "invitations_text": "200",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-27-alberta-opportunity-stream",
@@ -926,7 +926,7 @@
       "invitations_text": "993",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-25-rural-renewal-stream",
@@ -947,7 +947,7 @@
       "invitations_text": "83",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-22-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -968,7 +968,7 @@
       "invitations_text": "76",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-21-alberta-express-entry-stream-priority-sectors-manufacturing",
@@ -989,7 +989,7 @@
       "invitations_text": "99",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-20-alberta-express-entry-stream-priority-sectors-construction-and-skilled-trade",
@@ -1010,7 +1010,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-13-dedicated-health-care-pathway-express-entry",
@@ -1031,7 +1031,7 @@
       "invitations_text": "61",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-07-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -1052,7 +1052,7 @@
       "invitations_text": "146",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-06-alberta-opportunity-stream",
@@ -1073,7 +1073,7 @@
       "invitations_text": "832",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-05-01-rural-renewal-stream",
@@ -1094,7 +1094,7 @@
       "invitations_text": "12",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-27-tourism-and-hospitality-stream",
@@ -1115,7 +1115,7 @@
       "invitations_text": "98",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-23-alberta-express-entry-stream-law-enforcement-pathway",
@@ -1136,7 +1136,7 @@
       "invitations_text": "Less than 10",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-16-dedicated-health-care-pathway-non-express-entry",
@@ -1157,7 +1157,7 @@
       "invitations_text": "37",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-15-alberta-express-entry-stream-priority-sectors-health-care",
@@ -1178,7 +1178,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-14-alberta-express-entry-stream-priority-sectors-construction-and-skilled-trade",
@@ -1199,7 +1199,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-13-dedicated-health-care-pathway-express-entry",
@@ -1220,7 +1220,7 @@
       "invitations_text": "62",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-10-alberta-opportunity-stream",
@@ -1241,7 +1241,7 @@
       "invitations_text": "447",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-09-rural-renewal-stream",
@@ -1262,7 +1262,7 @@
       "invitations_text": "74",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-04-08-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -1283,7 +1283,7 @@
       "invitations_text": "146",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-27-alberta-express-entry-stream-law-enforcement-pathway",
@@ -1304,7 +1304,7 @@
       "invitations_text": "Less than 10",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-26-rural-renewal-stream",
@@ -1325,7 +1325,7 @@
       "invitations_text": "60",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-24-dedicated-health-care-pathway-non-express-entry",
@@ -1346,7 +1346,7 @@
       "invitations_text": "102",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-19-alberta-express-entry-stream-priority-sectors-construction",
@@ -1367,7 +1367,7 @@
       "invitations_text": "109",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-17-alberta-express-entry-stream-priority-sectors-manufacturing",
@@ -1388,7 +1388,7 @@
       "invitations_text": "27",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-16-alberta-express-entry-stream-priority-sectors-health-care",
@@ -1409,7 +1409,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-13-rural-renewal-stream",
@@ -1430,7 +1430,7 @@
       "invitations_text": "349",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-12-dedicated-health-care-pathway-non-express-entry",
@@ -1451,7 +1451,7 @@
       "invitations_text": "47",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-06-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -1472,7 +1472,7 @@
       "invitations_text": "139",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-03-05-alberta-opportunity-stream",
@@ -1493,7 +1493,7 @@
       "invitations_text": "832",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-26-rural-renewal-stream",
@@ -1514,7 +1514,7 @@
       "invitations_text": "30",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-24-tourism-and-hospitality-stream",
@@ -1535,7 +1535,7 @@
       "invitations_text": "68",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-20-alberta-opportunity-stream-priority-sectors",
@@ -1556,7 +1556,7 @@
       "invitations_text": "831",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-19-alberta-express-entry-stream-priority-sectors-construction",
@@ -1577,7 +1577,7 @@
       "invitations_text": "50",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-17-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -1598,7 +1598,7 @@
       "invitations_text": "Less than 10",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-12-alberta-express-entry-stream-priority-sectors-manufacturing",
@@ -1619,7 +1619,7 @@
       "invitations_text": "32",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-11-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -1640,7 +1640,7 @@
       "invitations_text": "147",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-10-rural-renewal-stream",
@@ -1661,7 +1661,7 @@
       "invitations_text": "212",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-06-alberta-express-entry-stream-law-enforcement-pathway",
@@ -1682,7 +1682,7 @@
       "invitations_text": "Less than 10",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-02-02-alberta-opportunity-stream",
@@ -1703,7 +1703,7 @@
       "invitations_text": "915",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-01-29-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -1724,7 +1724,7 @@
       "invitations_text": "148",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-01-27-dedicated-health-care-pathway-non-express-entry",
@@ -1745,7 +1745,7 @@
       "invitations_text": "43",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2026-01-26-dedicated-health-care-pathway-express-entry",
@@ -1766,7 +1766,7 @@
       "invitations_text": "63",
       "source": "aaip-processing-information",
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-11-24-dedicated-health-care-pathway-non-express-entry",
@@ -1794,7 +1794,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-11-21-dedicated-health-care-pathway-express-entry",
@@ -1825,7 +1825,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-11-14-alberta-express-entry-stream-priority-sectors-health-care",
@@ -1973,7 +1973,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-11-10-alberta-opportunity-stream",
@@ -2002,7 +2002,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-29-alberta-express-entry-stream-law-enforcement-pathway",
@@ -2031,7 +2031,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-28-alberta-express-entry-stream-priority-sectors-construction",
@@ -2232,7 +2232,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-24-alberta-express-entry-stream-priority-sectors-health-care",
@@ -2378,7 +2378,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-23-alberta-opportunity-stream",
@@ -2407,7 +2407,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-21-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -2545,7 +2545,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-16-alberta-express-entry-stream-priority-sectors-aviation",
@@ -2597,7 +2597,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-15-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -2710,7 +2710,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-10-dedicated-health-care-pathway-non-express-entry",
@@ -2738,7 +2738,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-08-dedicated-health-care-pathway-express-entry",
@@ -2769,7 +2769,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-07-alberta-express-entry-stream-priority-sectors-construction",
@@ -2970,7 +2970,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-03-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -3108,7 +3108,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-10-01-alberta-opportunity-stream",
@@ -3137,7 +3137,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-17-alberta-express-entry-stream-law-enforcement-pathway",
@@ -3166,7 +3166,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-16-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -3198,7 +3198,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-12-alberta-opportunity-stream",
@@ -3227,7 +3227,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-10-alberta-express-entry-stream-priority-sectors-aviation",
@@ -3279,7 +3279,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-09-alberta-express-entry-stream-priority-sectors-health-care",
@@ -3429,7 +3429,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-08-alberta-express-entry-stream-priority-sectors-construction",
@@ -3630,7 +3630,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-05-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -3743,7 +3743,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-04-alberta-opportunity-stream",
@@ -3772,7 +3772,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-03-dedicated-health-care-pathway-non-express-entry",
@@ -3800,7 +3800,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-09-02-dedicated-health-care-pathway-express-entry",
@@ -3831,7 +3831,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-08-19-alberta-express-entry-stream-law-enforcement-pathway",
@@ -3860,7 +3860,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-08-12-alberta-opportunity-stream",
@@ -3889,7 +3889,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-08-11-dedicated-health-care-pathway-non-express-entry",
@@ -3917,7 +3917,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-08-07-dedicated-health-care-pathway-express-entry",
@@ -3948,7 +3948,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-25-alberta-express-entry-stream-priority-sectors-construction",
@@ -4149,7 +4149,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-17-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -4181,7 +4181,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-16-alberta-express-entry-stream-law-enforcement-pathway",
@@ -4210,7 +4210,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-11-alberta-opportunity-stream",
@@ -4239,7 +4239,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-09-dedicated-health-care-pathway-non-express-entry",
@@ -4267,7 +4267,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-08-alberta-express-entry-stream-priority-sectors-aviation",
@@ -4320,7 +4320,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible one of the following"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-04-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -4433,7 +4433,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-07-03-dedicated-health-care-pathway-express-entry",
@@ -4464,7 +4464,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-25-alberta-express-entry-stream-priority-sectors-construction",
@@ -4617,7 +4617,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-20-alberta-opportunity-stream-priority-sectors-agriculture",
@@ -4762,7 +4762,7 @@
         "Job Offer is for an Alberta employer whose primary business activities belong to the Agriculture Sector, that is"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-19-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -4794,7 +4794,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-18-alberta-express-entry-stream-law-enforcement-pathway",
@@ -4823,7 +4823,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-17-tourism-and-hospitality-stream",
@@ -4853,7 +4853,7 @@
         "Job offer for an eligible Tourism and Hospitality Stream occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-10-dedicated-health-care-pathway-non-express-entry",
@@ -4881,7 +4881,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-05-alberta-express-entry-stream-priority-sectors-health-care",
@@ -5030,7 +5030,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following health care occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-06-03-dedicated-health-care-pathway-express-entry",
@@ -5060,7 +5060,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-29-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -5173,7 +5173,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-28-alberta-express-entry-stream-priority-sectors-construction",
@@ -5326,7 +5326,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-22-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -5358,7 +5358,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-15-tourism-and-hospitality-stream",
@@ -5386,7 +5386,7 @@
         "Job offer for an eligible Tourism and Hospitality Stream occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-13-alberta-opportunity-stream",
@@ -5415,7 +5415,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-08-dedicated-health-care-pathway-non-express-entry",
@@ -5443,7 +5443,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-06-alberta-express-entry-stream-priority-sectors-aviation",
@@ -5495,7 +5495,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-05-rural-renewal-stream",
@@ -5524,7 +5524,7 @@
         "A Job Offer NOC that is not a Rural Renewal Stream ineligible occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-05-01-dedicated-health-care-pathway-express-entry",
@@ -5554,7 +5554,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-30-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -5667,7 +5667,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-29-alberta-express-entry-stream-priority-sectors-construction",
@@ -5848,7 +5848,7 @@
         "Occupation of job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-22-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -5880,7 +5880,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-17-alberta-express-entry-stream-law-enforcement-pathway",
@@ -5908,7 +5908,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-15-tourism-and-hospitality-stream",
@@ -5936,7 +5936,7 @@
         "Job offer for an eligible Tourism and Hospitality Stream occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-11-alberta-opportunity-stream",
@@ -5965,7 +5965,7 @@
         "Job offer for full-time employment in Alberta that is not:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-08-dedicated-health-care-pathway-non-express-entry",
@@ -5992,7 +5992,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-03-alberta-express-entry-stream-priority-sectors-health-care",
@@ -6076,7 +6076,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-04-01-dedicated-health-care-pathway-express-entry",
@@ -6104,7 +6104,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the eligible Express Entry Dedicated"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-03-07-alberta-opportunity-stream-aviation",
@@ -6167,7 +6167,7 @@
         "Job offer in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-03-06-alberta-express-entry-stream-priority-sectors-aviation",
@@ -6229,7 +6229,7 @@
         "Job Offer is for an Alberta employer whose primary business activities belong to the Aviation Sector, that is in"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-03-05-alberta-express-entry-stream-law-enforcement-pathway",
@@ -6257,7 +6257,7 @@
         "Job offer for an eligible Law Enforcement Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-28-dedicated-health-care-pathway-non-express-entry",
@@ -6284,7 +6284,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-27-dedicated-health-care-pathway-express-entry",
@@ -6313,7 +6313,7 @@
         "Job offer for an eligible Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-19-dedicated-health-care-pathway-non-express-entry",
@@ -6340,7 +6340,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-18-dedicated-health-care-pathway-express-entry",
@@ -6369,7 +6369,7 @@
         "Job offer for an eligible Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-14-alberta-opportunity-stream-construction",
@@ -6547,7 +6547,7 @@
         "Job offer in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-12-alberta-express-entry-stream-accelerated-tech-pathway",
@@ -6579,7 +6579,7 @@
         "Job Offer is for an Alberta employer whose primary business activities are in an eligible AAIP list of"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-07-alberta-express-entry-stream-priority-sectors-agriculture",
@@ -6683,7 +6683,7 @@
         "Job offer and primary occupation in Express Entry profile in one of the following occupations:"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-06-dedicated-health-care-pathway-non-express-entry",
@@ -6710,7 +6710,7 @@
         "Job offer for an eligible Non-Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-05-dedicated-health-care-pathway-express-entry",
@@ -6739,7 +6739,7 @@
         "Job offer for an eligible Express Entry Dedicated Health Care Pathway occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     },
     {
       "id": "2025-02-03-rural-renewal-stream",
@@ -6768,7 +6768,7 @@
         "A Job Offer NOC that is not a Rural Renewal Stream ineligible occupation"
       ],
       "first_seen": "2026-10-20T22:14:25+00:00",
-      "last_seen": "2026-10-20T23:20:41+00:00"
+      "last_seen": "2026-10-21T01:27:09+00:00"
     }
   ]
 }
