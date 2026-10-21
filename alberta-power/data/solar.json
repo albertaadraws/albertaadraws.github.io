@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T20:29:47-06:00",
+ "updated": "2026-10-21T08:24:51-06:00",
  "plans": [
   {
    "plan": "Solar Club HI/LO",
@@ -23,7 +23,7 @@
    "id": "solar-abode-power-solar-club",
    "source_key": "solar-abode-power",
    "source_name": "Abode Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -47,7 +47,7 @@
    "id": "solar-guardian-utilities-solar-club",
    "source_key": "solar-guardian-utilities",
    "source_name": "Guardian Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -71,7 +71,7 @@
    "id": "solar-empwr-solar-club",
    "source_key": "solar-empwr",
    "source_name": "EMPWR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -95,7 +95,7 @@
    "id": "solar-rocky-mountain-community-energy-solar-club",
    "source_key": "solar-rocky-mountain-community-energy",
    "source_name": "Rocky Mountain Community Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -119,7 +119,7 @@
    "id": "solar-foothills-energy-co-op-solar-club",
    "source_key": "solar-foothills-energy-co-op",
    "source_name": "Foothills Energy CO-OP",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -143,7 +143,7 @@
    "id": "solar-echo-energy-solar-club",
    "source_key": "solar-echo-energy",
    "source_name": "Echo Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -167,7 +167,7 @@
    "id": "solar-shared-value-energy-solar-club",
    "source_key": "solar-shared-value-energy",
    "source_name": "Shared Value Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -191,7 +191,7 @@
    "id": "solar-mountain-view-power-solar-club",
    "source_key": "solar-mountain-view-power",
    "source_name": "Mountain View Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -215,7 +215,7 @@
    "id": "solar-q-tilities-solar-club",
    "source_key": "solar-q-tilities",
    "source_name": "Q-TILITIES",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -239,7 +239,7 @@
    "id": "solar-ridge-utilities-solar-club",
    "source_key": "solar-ridge-utilities",
    "source_name": "Ridge Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -263,7 +263,7 @@
    "id": "solar-orizon-utilities-solar-club",
    "source_key": "solar-orizon-utilities",
    "source_name": "Orizon Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -287,7 +287,7 @@
    "id": "solar-adagio-energy-solar-club",
    "source_key": "solar-adagio-energy",
    "source_name": "Adagio Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -311,7 +311,7 @@
    "id": "solar-camrose-energy-solar-club",
    "source_key": "solar-camrose-energy",
    "source_name": "Camrose Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -335,7 +335,7 @@
    "id": "solar-acorn-energy-solar-club",
    "source_key": "solar-acorn-energy",
    "source_name": "Acorn Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -359,7 +359,7 @@
    "id": "solar-great-canadian-utilities-solar-club",
    "source_key": "solar-great-canadian-utilities",
    "source_name": "Great Canadian Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -383,7 +383,7 @@
    "id": "solar-firefly-utilities-solar-club",
    "source_key": "solar-firefly-utilities",
    "source_name": "Firefly Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -407,7 +407,7 @@
    "id": "solar-big-rock-power-solar-club",
    "source_key": "solar-big-rock-power",
    "source_name": "Big Rock Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -431,7 +431,7 @@
    "id": "solar-smart-utilities-solar-club",
    "source_key": "solar-smart-utilities",
    "source_name": "Smart Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -455,7 +455,7 @@
    "id": "solar-solarmax-power-solar-club",
    "source_key": "solar-solarmax-power",
    "source_name": "Solarmax Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -479,7 +479,7 @@
    "id": "solar-zeno-energy-solar-club",
    "source_key": "solar-zeno-energy",
    "source_name": "Zeno Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -503,7 +503,7 @@
    "id": "solar-sandstone-energy-solar-club",
    "source_key": "solar-sandstone-energy",
    "source_name": "Sandstone Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -527,7 +527,7 @@
    "id": "solar-northern-nrg-solar-club",
    "source_key": "solar-northern-nrg",
    "source_name": "Northern NRG",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -551,7 +551,7 @@
    "id": "solar-brighter-futures-energy-solar-club",
    "source_key": "solar-brighter-futures-energy",
    "source_name": "Brighter Futures Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -575,7 +575,7 @@
    "id": "solar-tassa-energy-solar-club",
    "source_key": "solar-tassa-energy",
    "source_name": "Tassa Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -599,7 +599,7 @@
    "id": "solar-alberta-utility-source-solar-club",
    "source_key": "solar-alberta-utility-source",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -623,7 +623,7 @@
    "id": "solar-blue-ring-utilities-solar-club",
    "source_key": "solar-blue-ring-utilities",
    "source_name": "Blue Ring Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -647,7 +647,7 @@
    "id": "solar-legacy-energy-solar-club",
    "source_key": "solar-legacy-energy",
    "source_name": "Legacy Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -671,7 +671,7 @@
    "id": "solar-park-power-solar-club",
    "source_key": "solar-park-power",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -695,7 +695,7 @@
    "id": "solar-spotpower-solar-club",
    "source_key": "solar-spotpower",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -719,7 +719,7 @@
    "id": "solar-vector-energy-solar-club",
    "source_key": "solar-vector-energy",
    "source_name": "Vector Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -743,7 +743,7 @@
    "id": "solar-gateway-energy-solar-club",
    "source_key": "solar-gateway-energy",
    "source_name": "Gateway Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -767,7 +767,7 @@
    "id": "solar-neon-power-solar-club",
    "source_key": "solar-neon-power",
    "source_name": "Neon Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -791,7 +791,7 @@
    "id": "solar-peyakoskan-energy-solar-club",
    "source_key": "solar-peyakoskan-energy",
    "source_name": "Peyakoskan Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -815,7 +815,7 @@
    "id": "solar-wholesale-power-solar-club",
    "source_key": "solar-wholesale-power",
    "source_name": "Wholesale Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -839,7 +839,7 @@
    "id": "solar-bow-valley-power-solar-club",
    "source_key": "solar-bow-valley-power",
    "source_name": "Bow Valley Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -863,7 +863,7 @@
    "id": "solar-ascend-energy-solar-club",
    "source_key": "solar-ascend-energy",
    "source_name": "Ascend Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -887,7 +887,7 @@
    "id": "solar-sundance-power-solar-club",
    "source_key": "solar-sundance-power",
    "source_name": "Sundance Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -911,7 +911,7 @@
    "id": "solar-get-energy-solar-club",
    "source_key": "solar-get-energy",
    "source_name": "Get Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -935,7 +935,7 @@
    "id": "solar-greenamp-utilities-solar-club",
    "source_key": "solar-greenamp-utilities",
    "source_name": "Greenamp Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -959,7 +959,7 @@
    "id": "solar-headwaters-utility-solar-club",
    "source_key": "solar-headwaters-utility",
    "source_name": "Headwaters Utility",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Solar Club HI/LO",
@@ -983,7 +983,7 @@
    "id": "solar-azgard-energy-solar-club",
    "source_key": "solar-azgard-energy",
    "source_name": "Azgard Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "retailer": "ENMAX (Easymax)",
@@ -1007,16 +1007,16 @@
    "id": "solar-enmax-solar-seasonal",
    "source_key": "solar-enmax",
    "source_name": "ENMAX (Easymax Seasonal Solar)",
-   "last_checked": "2026-10-20",
+   "last_checked": "2026-10-21",
    "import_rate_kind": "easymax_fixed_reference",
    "import_source_url": "https://www.enmax.com/electricity-and-natural-gas",
-   "import_checked": "2026-10-20",
+   "import_checked": "2026-10-21",
    "import_alt": {
     "rate": 4.63,
     "label": "Easymax floating 4.63¢/kWh (the retailer's stated recent average, not a fixed rate)",
     "indicative": true,
     "source_url": "https://www.enmax.com/electricity-and-natural-gas",
-    "last_checked": "2026-10-20"
+    "last_checked": "2026-10-21"
    },
    "admin_source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "cancellation_source_url": "https://www.enmax.com/electricity-and-natural-gas"
@@ -1043,7 +1043,7 @@
    "id": "solar-utilities-by-kuby-solar-club",
    "source_key": "solar-utilities-by-kuby",
    "source_name": "Utilities By Kuby",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1067,7 +1067,7 @@
    "id": "solar-big-rock-power-solar-var",
    "source_key": "solar-big-rock-power",
    "source_name": "Big Rock Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1091,7 +1091,7 @@
    "id": "solar-ridge-utilities-solar-var",
    "source_key": "solar-ridge-utilities",
    "source_name": "Ridge Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1115,7 +1115,7 @@
    "id": "solar-empwr-solar-var",
    "source_key": "solar-empwr",
    "source_name": "EMPWR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1139,7 +1139,7 @@
    "id": "solar-ascend-energy-solar-var",
    "source_key": "solar-ascend-energy",
    "source_name": "Ascend Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1163,7 +1163,7 @@
    "id": "solar-neon-power-solar-var",
    "source_key": "solar-neon-power",
    "source_name": "Neon Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1187,7 +1187,7 @@
    "id": "solar-park-power-solar-var",
    "source_key": "solar-park-power",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1211,7 +1211,7 @@
    "id": "solar-tassa-energy-solar-var",
    "source_key": "solar-tassa-energy",
    "source_name": "Tassa Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1235,7 +1235,7 @@
    "id": "solar-mountain-view-power-solar-var",
    "source_key": "solar-mountain-view-power",
    "source_name": "Mountain View Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1259,7 +1259,7 @@
    "id": "solar-headwaters-utility-solar-var",
    "source_key": "solar-headwaters-utility",
    "source_name": "Headwaters Utility",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1283,7 +1283,7 @@
    "id": "solar-camrose-energy-solar-var",
    "source_key": "solar-camrose-energy",
    "source_name": "Camrose Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1307,7 +1307,7 @@
    "id": "solar-bow-valley-power-solar-var",
    "source_key": "solar-bow-valley-power",
    "source_name": "Bow Valley Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1331,7 +1331,7 @@
    "id": "solar-great-canadian-utilities-solar-var",
    "source_key": "solar-great-canadian-utilities",
    "source_name": "Great Canadian Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1355,7 +1355,7 @@
    "id": "solar-solarmax-power-solar-var",
    "source_key": "solar-solarmax-power",
    "source_name": "Solarmax Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1379,7 +1379,7 @@
    "id": "solar-gateway-energy-solar-var",
    "source_key": "solar-gateway-energy",
    "source_name": "Gateway Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1403,7 +1403,7 @@
    "id": "solar-zeno-energy-solar-var",
    "source_key": "solar-zeno-energy",
    "source_name": "Zeno Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1427,7 +1427,7 @@
    "id": "solar-peyakoskan-energy-solar-var",
    "source_key": "solar-peyakoskan-energy",
    "source_name": "Peyakoskan Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1451,7 +1451,7 @@
    "id": "solar-sundance-power-solar-var",
    "source_key": "solar-sundance-power",
    "source_name": "Sundance Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1475,7 +1475,7 @@
    "id": "solar-get-energy-solar-var",
    "source_key": "solar-get-energy",
    "source_name": "Get Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1499,7 +1499,7 @@
    "id": "solar-foothills-energy-co-op-solar-var",
    "source_key": "solar-foothills-energy-co-op",
    "source_name": "Foothills Energy CO-OP",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1523,7 +1523,7 @@
    "id": "solar-firefly-utilities-solar-var",
    "source_key": "solar-firefly-utilities",
    "source_name": "Firefly Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1547,7 +1547,7 @@
    "id": "solar-blue-ring-utilities-solar-var",
    "source_key": "solar-blue-ring-utilities",
    "source_name": "Blue Ring Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1571,7 +1571,7 @@
    "id": "solar-vector-energy-solar-var",
    "source_key": "solar-vector-energy",
    "source_name": "Vector Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1595,7 +1595,7 @@
    "id": "solar-azgard-energy-solar-var",
    "source_key": "solar-azgard-energy",
    "source_name": "Azgard Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1619,7 +1619,7 @@
    "id": "solar-adagio-energy-solar-var",
    "source_key": "solar-adagio-energy",
    "source_name": "Adagio Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1643,7 +1643,7 @@
    "id": "solar-abode-power-solar-var",
    "source_key": "solar-abode-power",
    "source_name": "Abode Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1667,7 +1667,7 @@
    "id": "solar-echo-energy-solar-var",
    "source_key": "solar-echo-energy",
    "source_name": "Echo Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1691,7 +1691,7 @@
    "id": "solar-orizon-utilities-solar-var",
    "source_key": "solar-orizon-utilities",
    "source_name": "Orizon Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1715,7 +1715,7 @@
    "id": "solar-northern-nrg-solar-var",
    "source_key": "solar-northern-nrg",
    "source_name": "Northern NRG",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1739,7 +1739,7 @@
    "id": "solar-spotpower-solar-var",
    "source_key": "solar-spotpower",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1763,7 +1763,7 @@
    "id": "solar-greenamp-utilities-solar-var",
    "source_key": "solar-greenamp-utilities",
    "source_name": "Greenamp Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1787,7 +1787,7 @@
    "id": "solar-alberta-utility-source-solar-var",
    "source_key": "solar-alberta-utility-source",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1811,7 +1811,7 @@
    "id": "solar-rocky-mountain-community-energy-solar-var",
    "source_key": "solar-rocky-mountain-community-energy",
    "source_name": "Rocky Mountain Community Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1835,7 +1835,7 @@
    "id": "solar-shared-value-energy-solar-var",
    "source_key": "solar-shared-value-energy",
    "source_name": "Shared Value Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1859,7 +1859,7 @@
    "id": "solar-smart-utilities-solar-var",
    "source_key": "solar-smart-utilities",
    "source_name": "Smart Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1883,7 +1883,7 @@
    "id": "solar-acorn-energy-solar-var",
    "source_key": "solar-acorn-energy",
    "source_name": "Acorn Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1907,7 +1907,7 @@
    "id": "solar-q-tilities-solar-var",
    "source_key": "solar-q-tilities",
    "source_name": "Q-TILITIES",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1931,7 +1931,7 @@
    "id": "solar-legacy-energy-solar-var",
    "source_key": "solar-legacy-energy",
    "source_name": "Legacy Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1955,7 +1955,7 @@
    "id": "solar-guardian-utilities-solar-var",
    "source_key": "solar-guardian-utilities",
    "source_name": "Guardian Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Variable (solar page)",
@@ -1979,7 +1979,7 @@
    "id": "solar-brighter-futures-energy-solar-var",
    "source_key": "solar-brighter-futures-energy",
    "source_name": "Brighter Futures Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2003,7 +2003,7 @@
    "id": "solar-abode-power-solar-presolar",
    "source_key": "solar-abode-power",
    "source_name": "Abode Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2027,7 +2027,7 @@
    "id": "solar-guardian-utilities-solar-presolar",
    "source_key": "solar-guardian-utilities",
    "source_name": "Guardian Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2051,7 +2051,7 @@
    "id": "solar-empwr-solar-presolar",
    "source_key": "solar-empwr",
    "source_name": "EMPWR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2075,7 +2075,7 @@
    "id": "solar-rocky-mountain-community-energy-solar-presolar",
    "source_key": "solar-rocky-mountain-community-energy",
    "source_name": "Rocky Mountain Community Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2099,7 +2099,7 @@
    "id": "solar-foothills-energy-co-op-solar-presolar",
    "source_key": "solar-foothills-energy-co-op",
    "source_name": "Foothills Energy CO-OP",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2123,7 +2123,7 @@
    "id": "solar-echo-energy-solar-presolar",
    "source_key": "solar-echo-energy",
    "source_name": "Echo Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2147,7 +2147,7 @@
    "id": "solar-shared-value-energy-solar-presolar",
    "source_key": "solar-shared-value-energy",
    "source_name": "Shared Value Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2171,7 +2171,7 @@
    "id": "solar-mountain-view-power-solar-presolar",
    "source_key": "solar-mountain-view-power",
    "source_name": "Mountain View Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2195,7 +2195,7 @@
    "id": "solar-q-tilities-solar-presolar",
    "source_key": "solar-q-tilities",
    "source_name": "Q-TILITIES",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2219,7 +2219,7 @@
    "id": "solar-ridge-utilities-solar-presolar",
    "source_key": "solar-ridge-utilities",
    "source_name": "Ridge Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2243,7 +2243,7 @@
    "id": "solar-orizon-utilities-solar-presolar",
    "source_key": "solar-orizon-utilities",
    "source_name": "Orizon Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2267,7 +2267,7 @@
    "id": "solar-adagio-energy-solar-presolar",
    "source_key": "solar-adagio-energy",
    "source_name": "Adagio Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2291,7 +2291,7 @@
    "id": "solar-camrose-energy-solar-presolar",
    "source_key": "solar-camrose-energy",
    "source_name": "Camrose Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2315,7 +2315,7 @@
    "id": "solar-acorn-energy-solar-presolar",
    "source_key": "solar-acorn-energy",
    "source_name": "Acorn Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2339,7 +2339,7 @@
    "id": "solar-great-canadian-utilities-solar-presolar",
    "source_key": "solar-great-canadian-utilities",
    "source_name": "Great Canadian Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2363,7 +2363,7 @@
    "id": "solar-firefly-utilities-solar-presolar",
    "source_key": "solar-firefly-utilities",
    "source_name": "Firefly Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2387,7 +2387,7 @@
    "id": "solar-big-rock-power-solar-presolar",
    "source_key": "solar-big-rock-power",
    "source_name": "Big Rock Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2411,7 +2411,7 @@
    "id": "solar-smart-utilities-solar-presolar",
    "source_key": "solar-smart-utilities",
    "source_name": "Smart Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2435,7 +2435,7 @@
    "id": "solar-solarmax-power-solar-presolar",
    "source_key": "solar-solarmax-power",
    "source_name": "Solarmax Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2459,7 +2459,7 @@
    "id": "solar-zeno-energy-solar-presolar",
    "source_key": "solar-zeno-energy",
    "source_name": "Zeno Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2483,7 +2483,7 @@
    "id": "solar-sandstone-energy-solar-presolar",
    "source_key": "solar-sandstone-energy",
    "source_name": "Sandstone Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2507,7 +2507,7 @@
    "id": "solar-northern-nrg-solar-presolar",
    "source_key": "solar-northern-nrg",
    "source_name": "Northern NRG",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2531,7 +2531,7 @@
    "id": "solar-brighter-futures-energy-solar-presolar",
    "source_key": "solar-brighter-futures-energy",
    "source_name": "Brighter Futures Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2555,7 +2555,7 @@
    "id": "solar-tassa-energy-solar-presolar",
    "source_key": "solar-tassa-energy",
    "source_name": "Tassa Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2579,7 +2579,7 @@
    "id": "solar-alberta-utility-source-solar-presolar",
    "source_key": "solar-alberta-utility-source",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2603,7 +2603,7 @@
    "id": "solar-blue-ring-utilities-solar-presolar",
    "source_key": "solar-blue-ring-utilities",
    "source_name": "Blue Ring Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2627,7 +2627,7 @@
    "id": "solar-legacy-energy-solar-presolar",
    "source_key": "solar-legacy-energy",
    "source_name": "Legacy Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2651,7 +2651,7 @@
    "id": "solar-park-power-solar-presolar",
    "source_key": "solar-park-power",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2675,7 +2675,7 @@
    "id": "solar-spotpower-solar-presolar",
    "source_key": "solar-spotpower",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2699,7 +2699,7 @@
    "id": "solar-vector-energy-solar-presolar",
    "source_key": "solar-vector-energy",
    "source_name": "Vector Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2723,7 +2723,7 @@
    "id": "solar-gateway-energy-solar-presolar",
    "source_key": "solar-gateway-energy",
    "source_name": "Gateway Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2747,7 +2747,7 @@
    "id": "solar-neon-power-solar-presolar",
    "source_key": "solar-neon-power",
    "source_name": "Neon Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2771,7 +2771,7 @@
    "id": "solar-peyakoskan-energy-solar-presolar",
    "source_key": "solar-peyakoskan-energy",
    "source_name": "Peyakoskan Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2795,7 +2795,7 @@
    "id": "solar-wholesale-power-solar-presolar",
    "source_key": "solar-wholesale-power",
    "source_name": "Wholesale Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2819,7 +2819,7 @@
    "id": "solar-bow-valley-power-solar-presolar",
    "source_key": "solar-bow-valley-power",
    "source_name": "Bow Valley Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2843,7 +2843,7 @@
    "id": "solar-ascend-energy-solar-presolar",
    "source_key": "solar-ascend-energy",
    "source_name": "Ascend Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2867,7 +2867,7 @@
    "id": "solar-sundance-power-solar-presolar",
    "source_key": "solar-sundance-power",
    "source_name": "Sundance Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2891,7 +2891,7 @@
    "id": "solar-get-energy-solar-presolar",
    "source_key": "solar-get-energy",
    "source_name": "Get Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2915,7 +2915,7 @@
    "id": "solar-greenamp-utilities-solar-presolar",
    "source_key": "solar-greenamp-utilities",
    "source_name": "Greenamp Utilities",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2939,7 +2939,7 @@
    "id": "solar-headwaters-utility-solar-presolar",
    "source_key": "solar-headwaters-utility",
    "source_name": "Headwaters Utility",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2963,7 +2963,7 @@
    "id": "solar-azgard-energy-solar-presolar",
    "source_key": "solar-azgard-energy",
    "source_name": "Azgard Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "plan": "Pre-Solar",
@@ -2987,7 +2987,7 @@
    "id": "solar-utilities-by-kuby-solar-presolar",
    "source_key": "solar-utilities-by-kuby",
    "source_name": "Utilities By Kuby",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   }
  ],
  "not_published": [
@@ -3038,7 +3038,7 @@
    "source_url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/PPSRMC_CEPESPC_EN/MapServer/0/query?where=Province%20%3D%20%27Alberta%27%20AND%20Variable%20%3D%20%27Photovoltaic%20potential%20%28kWh/kWp%29%27%20AND%20Orientation%20%3D%20%27South-facing%20with%20latitude%20tilt%27%20AND%20time%20%3D%2013%20AND%20%28Municipality%20%3D%20%27Edmonton%27%20OR%20Municipality%20%3D%20%27Calgary%27%29&outFields=Municipality,Province,Variable,Orientation,time,Value&returnGeometry=false&f=json",
    "source_page": "https://natural-resources.canada.ca/energy-sources/renewable-energy/photovoltaic-potential-solar-resource-maps-canada",
    "source_name": "Natural Resources Canada, photovoltaic potential map, municipality layer",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "city": "calgary",
@@ -3050,7 +3050,7 @@
    "source_url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/PPSRMC_CEPESPC_EN/MapServer/0/query?where=Province%20%3D%20%27Alberta%27%20AND%20Variable%20%3D%20%27Photovoltaic%20potential%20%28kWh/kWp%29%27%20AND%20Orientation%20%3D%20%27South-facing%20with%20latitude%20tilt%27%20AND%20time%20%3D%2013%20AND%20%28Municipality%20%3D%20%27Edmonton%27%20OR%20Municipality%20%3D%20%27Calgary%27%29&outFields=Municipality,Province,Variable,Orientation,time,Value&returnGeometry=false&f=json",
    "source_page": "https://natural-resources.canada.ca/energy-sources/renewable-energy/photovoltaic-potential-solar-resource-maps-canada",
    "source_name": "Natural Resources Canada, photovoltaic potential map, municipality layer",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   }
  ],
  "installed_cost": {
@@ -3062,7 +3062,7 @@
   "default_per_watt": 2.75,
   "default_note": "The calculator starts at the midpoint of this published range. The midpoint is arithmetic, not a separate quoted price.",
   "source_url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-faqs/",
-  "last_checked": "2026-10-20",
+  "last_checked": "2026-10-21",
   "source_name": "Utilities Consumer Advocate: renewable energy FAQs"
  },
  "programs": [
@@ -3075,7 +3075,7 @@
    "source_url": "https://www.edmonton.ca/city_government/environmental_stewardship/clean-energy-improvement-program",
    "source_key": "prog-yeg-ceip",
    "source_name": "City of Edmonton CEIP",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "id": "calgary-ceip",
@@ -3086,7 +3086,7 @@
    "source_url": "https://www.calgary.ca/environment/programs/clean-energy-improvement-program.html",
    "source_key": "prog-yyc-ceip",
    "source_name": "City of Calgary residential CEIP",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "id": "ceip-admin-table",
@@ -3099,7 +3099,7 @@
    "source_url": "https://ceip.abmunis.ca/contractor/",
    "source_key": "prog-ceip-table",
    "source_name": "Alberta Municipalities CEIP status",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "id": "greener-loan",
@@ -3110,7 +3110,7 @@
    "source_url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-loan",
    "source_key": "prog-gh-loan",
    "source_name": "Canada Greener Homes Loan",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "id": "greener-grant",
@@ -3121,7 +3121,7 @@
    "source_url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-initiative",
    "source_key": "prog-gh-grant",
    "source_name": "Canada Greener Homes Grant",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "id": "uca-programs",
@@ -3132,7 +3132,7 @@
    "source_url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-grants-and-programs/",
    "source_key": "prog-uca",
    "source_name": "UCA renewable energy grants",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "id": "alberta-no-provincial-solar",
@@ -3143,7 +3143,7 @@
    "source_url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-faqs/",
    "source_key": "prog-uca-provincial",
    "source_name": "UCA: no Alberta provincial solar program",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   }
  ],
  "export_share_assumption": {

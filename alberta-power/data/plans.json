@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T20:28:54-06:00",
+ "updated": "2026-10-21T08:24:03-06:00",
  "plans": [
   {
    "type": "fixed",
@@ -24,7 +24,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -49,7 +49,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -74,7 +74,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -99,7 +99,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -124,7 +124,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -149,7 +149,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -174,7 +174,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -199,7 +199,7 @@
    "admin_text": "$0.36/day per site (from ATCO's fixed-plan page)",
    "source_key": "atco-float",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -224,7 +224,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -249,7 +249,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -274,7 +274,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -299,7 +299,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -324,7 +324,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -349,7 +349,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -374,7 +374,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -399,7 +399,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -424,7 +424,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -449,7 +449,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -474,7 +474,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -499,7 +499,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -524,7 +524,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -549,7 +549,7 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -574,7 +574,7 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -599,7 +599,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -624,7 +624,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -649,7 +649,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -674,7 +674,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -699,7 +699,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -724,7 +724,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -749,7 +749,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -774,7 +774,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -799,7 +799,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -824,7 +824,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -849,7 +849,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -874,7 +874,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -899,7 +899,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -924,7 +924,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -949,7 +949,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -974,7 +974,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -999,7 +999,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1024,7 +1024,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1049,7 +1049,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1074,7 +1074,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1099,7 +1099,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1124,7 +1124,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1149,7 +1149,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1174,7 +1174,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1199,7 +1199,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1224,7 +1224,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1249,7 +1249,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1274,7 +1274,7 @@
    "admin_text": "$0.36/day per site (from ATCO's fixed-plan page)",
    "source_key": "atco-float",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1299,7 +1299,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1324,7 +1324,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1349,7 +1349,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1374,7 +1374,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1399,7 +1399,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1424,7 +1424,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1449,7 +1449,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1474,7 +1474,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1499,7 +1499,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1524,7 +1524,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1549,7 +1549,7 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1574,7 +1574,7 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1599,7 +1599,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1624,7 +1624,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1649,7 +1649,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1674,7 +1674,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1699,7 +1699,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1724,7 +1724,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1749,7 +1749,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "fixed",
@@ -1774,7 +1774,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1799,7 +1799,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   },
   {
    "type": "variable",
@@ -1824,7 +1824,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-20"
+   "last_checked": "2026-10-21"
   }
  ]
 }
