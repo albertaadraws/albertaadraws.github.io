@@ -1,0 +1,341 @@
+{
+ "updated": "2026-10-20T19:52:35-06:00",
+ "edmonton": {
+  "city": "edmonton",
+  "provider": "EPCOR Water Services and Drainage (City of Edmonton utility)",
+  "effective": "April 1, 2026",
+  "billing": "Fixed charges on this page are daily as of the effective date (they used to be monthly). A bill varies with the number of days in the period.",
+  "water_tiers_m3": [
+   {
+    "up_to": 10.0,
+    "rate": 2.5258
+   },
+   {
+    "up_to": 35.0,
+    "rate": 2.7593
+   },
+   {
+    "up_to": null,
+    "rate": 3.4873
+   }
+  ],
+  "meters_daily": {
+   "15": {
+    "water_fixed": 0.5359,
+    "fire_protection": 0.0963,
+    "sanitary_fixed": 0.3625
+   },
+   "20": {
+    "water_fixed": 0.8042,
+    "fire_protection": 0.144,
+    "sanitary_fixed": 0.6524
+   },
+   "25": {
+    "water_fixed": 1.3401,
+    "fire_protection": 0.2407,
+    "sanitary_fixed": 1.015
+   },
+   "40": {
+    "water_fixed": 2.6798,
+    "fire_protection": 0.481,
+    "sanitary_fixed": 1.9576
+   },
+   "50": {
+    "water_fixed": 4.2875,
+    "fire_protection": 0.77,
+    "sanitary_fixed": 2.6827
+   },
+   "75": {
+    "water_fixed": 8.0397,
+    "fire_protection": 1.443,
+    "sanitary_fixed": 5.5432
+   },
+   "100": {
+    "water_fixed": 13.3996,
+    "fire_protection": 2.4059,
+    "sanitary_fixed": 10.3248
+   },
+   "150": {
+    "water_fixed": 26.7981,
+    "fire_protection": 4.8118,
+    "sanitary_fixed": 19.5299
+   },
+   "200": {
+    "water_fixed": 42.8775,
+    "fire_protection": 7.6984,
+    "sanitary_fixed": 31.1603
+   },
+   "250": {
+    "water_fixed": 61.6366,
+    "fire_protection": 11.067,
+    "sanitary_fixed": 77.3296
+   },
+   "300": {
+    "water_fixed": 90.4715,
+    "fire_protection": 16.2437,
+    "sanitary_fixed": 77.3296
+   },
+   "400": {
+    "water_fixed": null,
+    "fire_protection": null,
+    "sanitary_fixed": 84.6166
+   },
+   "500": {
+    "water_fixed": null,
+    "fire_protection": null,
+    "sanitary_fixed": 91.1061
+   }
+  },
+  "wastewater_treatment_per_m3": 1.302,
+  "wastewater_treatment_daily": 0.2269,
+  "sanitary_per_m3": 1.27331,
+  "stormwater": {
+   "formula": "A × I × R × daily rate (property area in m² × development intensity × runoff coefficient × rate)",
+   "daily_rate": 0.00327,
+   "as_of": "April 1, 2026",
+   "note": "Not a flat or per-m³ charge. Intensity defaults to 1.0. The runoff coefficient depends on zoning and is not a single residential number on this page, so a typical stormwater bill is not estimated."
+  },
+  "average_usage_note": "Most customers pay about $74 per month for water usage on an average single-family bill, before fixed fees. EPCOR does not print that average in cubic metres.",
+  "source_url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/water-and-wastewater.html",
+  "last_checked": "2026-10-20",
+  "source_name": "EPCOR Edmonton water, wastewater and drainage",
+  "source_key": "water-epcor"
+ },
+ "calgary": {
+  "city": "calgary",
+  "provider": "City of Calgary water utility",
+  "example_m3": 19,
+  "example_label": "The City illustrates a residential metered bill at 19 m³ per month.",
+  "period": "Service charges are published per 30 days. The City's '2026 monthly bill' column uses that 30-day charge.",
+  "water_per_m3": 1.7409,
+  "water_fixed_per_30_days": 13.83,
+  "water_example_bill": 46.91,
+  "wastewater_per_m3": 1.905,
+  "wastewater_fixed_per_30_days": 23.45,
+  "wastewater_return_factor": 0.88,
+  "wastewater_example_bill": 55.3,
+  "stormwater_per_30_days": 17.0,
+  "flat_rate": {
+   "lot_per_1000_sqft": 6.124,
+   "building_per_1000_sqft": 19.0978,
+   "wastewater_percent_of_water": 144.46,
+   "stormwater_per_30_days": 17.0,
+   "note": "Unmetered homes. The City's worked example uses these 2026 figures. Minimum monthly water rate and the exact lot rules are on the City page."
+  },
+  "source_url": "https://www.calgary.ca/water/water-utility/residential-water-rates-and-billing.html",
+  "last_checked": "2026-10-20",
+  "source_name": "City of Calgary residential water, wastewater and stormwater",
+  "source_key": "water-calgary"
+ },
+ "edmonton_waste": {
+  "city": "edmonton",
+  "provider": "City of Edmonton Waste Services (charged on the EPCOR bill)",
+  "as_of": "January 1, 2026",
+  "curbside": [
+   {
+    "id": "small",
+    "label": "Small (120 L) garbage cart",
+    "monthly": 37.63
+   },
+   {
+    "id": "large",
+    "label": "Large (240 L) garbage cart",
+    "monthly": 42.63
+   },
+   {
+    "id": "excess",
+    "label": "Excess (360 L) garbage cart",
+    "monthly": 52.63,
+    "note": "Limited to home health-care waste or households of 7 or more registered in the Excess Garbage Cart Program."
+   }
+  ],
+  "apartment_monthly": 27.08,
+  "note": "A flat monthly charge, not based on water use. Recycling costs moved to producers under Extended Producer Responsibility on April 1, 2025, which is why the City says the rate is lower.",
+  "source_url": "https://www.edmonton.ca/programs_services/garbage_waste/rates-fees",
+  "last_checked": "2026-10-20",
+  "source_name": "City of Edmonton waste utility rates",
+  "source_key": "water-yeg-waste"
+ },
+ "tips": {
+  "source_url": "https://www.epcor.com/ca/en/ab/edmonton/conservation/home/inside.html",
+  "tips": [
+   "Turn off the tap while brushing, shaving or washing your face. When you replace a faucet aerator, EPCOR says to choose one under 4.7 L/min or labelled WaterSense.",
+   "Take a shower instead of a bath. Five minutes is the ideal shower EPCOR names, and cutting a shower by 2 minutes makes a noticeable difference. A WaterSense shower head is under 7.0 L/min.",
+   "Check the toilet for leaks with food colouring in the tank (colour in the bowl after 15–20 minutes means a leak). A replacement toilet should use 4.8 litres or less per flush.",
+   "Check faucets, pipes, taps and hoses for drips. EPCOR says a hardware store can fix most minor leaks."
+  ],
+  "last_checked": "2026-10-20",
+  "source_name": "EPCOR: conservation inside your home",
+  "source_key": "water-tips"
+ },
+ "_parts": {
+  "water-epcor": {
+   "city": "edmonton",
+   "provider": "EPCOR Water Services and Drainage (City of Edmonton utility)",
+   "effective": "April 1, 2026",
+   "billing": "Fixed charges on this page are daily as of the effective date (they used to be monthly). A bill varies with the number of days in the period.",
+   "water_tiers_m3": [
+    {
+     "up_to": 10.0,
+     "rate": 2.5258
+    },
+    {
+     "up_to": 35.0,
+     "rate": 2.7593
+    },
+    {
+     "up_to": null,
+     "rate": 3.4873
+    }
+   ],
+   "meters_daily": {
+    "15": {
+     "water_fixed": 0.5359,
+     "fire_protection": 0.0963,
+     "sanitary_fixed": 0.3625
+    },
+    "20": {
+     "water_fixed": 0.8042,
+     "fire_protection": 0.144,
+     "sanitary_fixed": 0.6524
+    },
+    "25": {
+     "water_fixed": 1.3401,
+     "fire_protection": 0.2407,
+     "sanitary_fixed": 1.015
+    },
+    "40": {
+     "water_fixed": 2.6798,
+     "fire_protection": 0.481,
+     "sanitary_fixed": 1.9576
+    },
+    "50": {
+     "water_fixed": 4.2875,
+     "fire_protection": 0.77,
+     "sanitary_fixed": 2.6827
+    },
+    "75": {
+     "water_fixed": 8.0397,
+     "fire_protection": 1.443,
+     "sanitary_fixed": 5.5432
+    },
+    "100": {
+     "water_fixed": 13.3996,
+     "fire_protection": 2.4059,
+     "sanitary_fixed": 10.3248
+    },
+    "150": {
+     "water_fixed": 26.7981,
+     "fire_protection": 4.8118,
+     "sanitary_fixed": 19.5299
+    },
+    "200": {
+     "water_fixed": 42.8775,
+     "fire_protection": 7.6984,
+     "sanitary_fixed": 31.1603
+    },
+    "250": {
+     "water_fixed": 61.6366,
+     "fire_protection": 11.067,
+     "sanitary_fixed": 77.3296
+    },
+    "300": {
+     "water_fixed": 90.4715,
+     "fire_protection": 16.2437,
+     "sanitary_fixed": 77.3296
+    },
+    "400": {
+     "water_fixed": null,
+     "fire_protection": null,
+     "sanitary_fixed": 84.6166
+    },
+    "500": {
+     "water_fixed": null,
+     "fire_protection": null,
+     "sanitary_fixed": 91.1061
+    }
+   },
+   "wastewater_treatment_per_m3": 1.302,
+   "wastewater_treatment_daily": 0.2269,
+   "sanitary_per_m3": 1.27331,
+   "stormwater": {
+    "formula": "A × I × R × daily rate (property area in m² × development intensity × runoff coefficient × rate)",
+    "daily_rate": 0.00327,
+    "as_of": "April 1, 2026",
+    "note": "Not a flat or per-m³ charge. Intensity defaults to 1.0. The runoff coefficient depends on zoning and is not a single residential number on this page, so a typical stormwater bill is not estimated."
+   },
+   "average_usage_note": "Most customers pay about $74 per month for water usage on an average single-family bill, before fixed fees. EPCOR does not print that average in cubic metres.",
+   "source_url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/water-and-wastewater.html",
+   "last_checked": "2026-10-20",
+   "source_name": "EPCOR Edmonton water, wastewater and drainage",
+   "source_key": "water-epcor"
+  },
+  "water-yeg-waste": {
+   "city": "edmonton",
+   "provider": "City of Edmonton Waste Services (charged on the EPCOR bill)",
+   "as_of": "January 1, 2026",
+   "curbside": [
+    {
+     "id": "small",
+     "label": "Small (120 L) garbage cart",
+     "monthly": 37.63
+    },
+    {
+     "id": "large",
+     "label": "Large (240 L) garbage cart",
+     "monthly": 42.63
+    },
+    {
+     "id": "excess",
+     "label": "Excess (360 L) garbage cart",
+     "monthly": 52.63,
+     "note": "Limited to home health-care waste or households of 7 or more registered in the Excess Garbage Cart Program."
+    }
+   ],
+   "apartment_monthly": 27.08,
+   "note": "A flat monthly charge, not based on water use. Recycling costs moved to producers under Extended Producer Responsibility on April 1, 2025, which is why the City says the rate is lower.",
+   "source_url": "https://www.edmonton.ca/programs_services/garbage_waste/rates-fees",
+   "last_checked": "2026-10-20",
+   "source_name": "City of Edmonton waste utility rates",
+   "source_key": "water-yeg-waste"
+  },
+  "water-calgary": {
+   "city": "calgary",
+   "provider": "City of Calgary water utility",
+   "example_m3": 19,
+   "example_label": "The City illustrates a residential metered bill at 19 m³ per month.",
+   "period": "Service charges are published per 30 days. The City's '2026 monthly bill' column uses that 30-day charge.",
+   "water_per_m3": 1.7409,
+   "water_fixed_per_30_days": 13.83,
+   "water_example_bill": 46.91,
+   "wastewater_per_m3": 1.905,
+   "wastewater_fixed_per_30_days": 23.45,
+   "wastewater_return_factor": 0.88,
+   "wastewater_example_bill": 55.3,
+   "stormwater_per_30_days": 17.0,
+   "flat_rate": {
+    "lot_per_1000_sqft": 6.124,
+    "building_per_1000_sqft": 19.0978,
+    "wastewater_percent_of_water": 144.46,
+    "stormwater_per_30_days": 17.0,
+    "note": "Unmetered homes. The City's worked example uses these 2026 figures. Minimum monthly water rate and the exact lot rules are on the City page."
+   },
+   "source_url": "https://www.calgary.ca/water/water-utility/residential-water-rates-and-billing.html",
+   "last_checked": "2026-10-20",
+   "source_name": "City of Calgary residential water, wastewater and stormwater",
+   "source_key": "water-calgary"
+  },
+  "water-tips": {
+   "source_url": "https://www.epcor.com/ca/en/ab/edmonton/conservation/home/inside.html",
+   "tips": [
+    "Turn off the tap while brushing, shaving or washing your face. When you replace a faucet aerator, EPCOR says to choose one under 4.7 L/min or labelled WaterSense.",
+    "Take a shower instead of a bath. Five minutes is the ideal shower EPCOR names, and cutting a shower by 2 minutes makes a noticeable difference. A WaterSense shower head is under 7.0 L/min.",
+    "Check the toilet for leaks with food colouring in the tank (colour in the bowl after 15–20 minutes means a leak). A replacement toilet should use 4.8 litres or less per flush.",
+    "Check faucets, pipes, taps and hoses for drips. EPCOR says a hardware store can fix most minor leaks."
+   ],
+   "last_checked": "2026-10-20",
+   "source_name": "EPCOR: conservation inside your home",
+   "source_key": "water-tips"
+  }
+ }
+}

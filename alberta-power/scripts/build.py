@@ -47,6 +47,12 @@ CHANGES = load("data/changes.json", {"changes": []})["changes"]
 STATUS = load("data/status.json", {"sources": [], "not_published": []})
 UPDATED = load("data/plans.json")["updated"]
 PARTNERS = load("config/partners.json", {"enabled": False, "partners": {}})
+SOLAR = load("data/solar.json", {}) or {}
+WATER = load("data/water.json", {}) or {}
+SOLAR_PLANS = SOLAR.get("plans") or []
+SOLAR.setdefault("programs", [])
+SOLAR.setdefault("production", [])
+SOLAR.setdefault("not_published", [])
 
 
 def fdate(iso):
@@ -90,6 +96,7 @@ def partner_link(p):
 
 # ------------------------------------------------------------------ layout
 NAV = [("/", "Best rates"), ("/electricity/", "Electricity"), ("/natural-gas/", "Natural gas"),
+       ("/solar/rates/", "Solar rates"), ("/solar/", "Solar"), ("/water/", "Water"),
        ("/rate-of-last-resort-2027/", "RoLR 2027"), ("/how-switching-works/", "How switching works"), ("/about/", "About")]
 
 
@@ -113,7 +120,7 @@ def page(path, title, desc, body, active=None, extra_head="", scripts=""):
 <main><div class="wrap">{body}</div></main>
 <footer class="site"><div class="wrap">
 <div class="disc"><b>Independent.</b> Not affiliated with any retailer, utility or government body. Rankings are by estimated cost only. Not financial advice. Always confirm the price and terms with the retailer before you sign. Official comparison: <a href="{UCA['tool']}">UCA Cost Comparison Tool</a> (310-4822).</div>
-<nav><a href="{u('/about/')}">About &amp; disclaimer</a><a href="{u('/sources/')}">Sources &amp; data status</a><a href="{u('/newsletter/')}">Weekly email</a><a href="{u('/feed.xml')}">RSS</a><a href="{u('/data/plans.json')}">Data (JSON)</a></nav>
+<nav><a href="{u('/about/')}">About &amp; disclaimer</a><a href="{u('/sources/')}">Sources &amp; data status</a><a href="{u('/water/')}">Water</a><a href="{u('/solar/')}">Solar</a><a href="{u('/solar/rates/')}">Solar rates</a><a href="{u('/newsletter/')}">Weekly email</a><a href="{u('/feed.xml')}">RSS</a><a href="{u('/data/plans.json')}">Data (JSON)</a></nav>
 <p class="small">© {dt.date.today().year} {e(SITE)}. No ads, no trackers, no cookies.</p>
 <p class="small">Also by us: <a href="{SITE_URL}/">Alberta PR Draw Tracker</a> · <a href="{SITE_URL}/home-care/">Edmonton Home Care Finder</a></p></div></footer>{scripts}</body></html>"""
 
@@ -232,6 +239,310 @@ def recent_changes(n=8):
 
 
 # ------------------------------------------------------------------ pages
+def checked(iso):
+    return fdate(iso) if iso else "unknown"
+
+
+def clip(text, n=160):
+    text = text or ""
+    if len(text) <= n:
+        return e(text)
+    return f"<details><summary>{e(text[:n])}…</summary>{e(text)}</details>"
+
+
+def solar_sort(plans, field="export_rate"):
+    def key(p):
+        v = p.get(field)
+        admin = p.get("admin_monthly")
+        return (v is None, -(v or 0), admin if admin is not None else 10**9, p.get("retailer") or "", p.get("plan") or "")
+    return sorted(plans, key=key)
+
+
+def how_to_pick(plans):
+    clubs = [p for p in plans if p.get("plan_kind") == "solar_club"]
+    hi = {p.get("export_rate") for p in clubs}
+    lo = {p.get("import_rate") for p in clubs}
+    parts = ["You are choosing a retailer that will sell you power and credit what you send back. "]
+    if len(clubs) >= 1 and len(hi) == 1 and len(lo) == 1 and None not in hi and None not in lo:
+        lowest = min(clubs, key=lambda p: (p.get("admin_monthly") if p.get("admin_monthly") is not None else 10**9, p["retailer"]))
+        parts.append(f"Every Solar Club row we could read posts the same HI export rate ({next(iter(hi)):.2f}¢/kWh) and the same LO import rate ({next(iter(lo)):.2f}¢/kWh). ")
+        if lowest.get("admin_monthly") is not None:
+            parts.append(f"With the energy rates the same, the published monthly admin fee is the difference. The lowest monthly fee on those rows is ${lowest['admin_monthly']:.2f} at {lowest['retailer']}. ")
+        parts.append("Where a page also prints an extra per-kWh charge above a monthly usage threshold, that charge is in the admin cell. The sort uses the monthly fee only. ")
+    else:
+        parts.append("The table starts with the highest published export rate. When export rates tie, the lower admin fee is listed first. ")
+    parts.append("You are on one rate at a time. Use the high rate in months you export more than you import, and the low rate in months you import more. Switching rules are in the table, from each retailer's page. ")
+    parts.append("While a rate is active it is your retail rate, so exports that month are credited at that same rate. Alberta.ca describes the credit for small micro-generators as their retail rate. ")
+    en = next((p for p in plans if p.get("plan_kind") == "seasonal"), None)
+    if en:
+        parts.append(f"{en['retailer']} publishes a {en['export_rate']:.1f}¢/kWh export rate while Seasonal Solar is on. It does not publish a separate low solar rate: the import column shows the current Easymax rate from ENMAX's electricity page. ")
+    parts.append("Pre-solar rates are for homes that are not exporting yet. Variable rates are the retailer's recent average and change. This order is by the published export rate only. No one pays to be listed.")
+    return "<div class=\"callout\"><b>How to pick.</b> " + e("".join(parts)) + "</div>"
+
+
+def solar_table(plans):
+    if not plans:
+        return "<p>No solar rates could be read, and there is no earlier copy to show. Nothing is invented.</p>"
+    rows = []
+    for p in solar_sort(plans):
+        exp, imp, admin = p.get("export_rate"), p.get("import_rate"), p.get("admin_monthly")
+        tags = ""
+        if p.get("indicative"):
+            tags += ' <span class="tag var">Variable</span>'
+        if p.get("plan_kind") == "presolar":
+            tags += ' <span class="tag cond">Not exporting yet</span>'
+        if p.get("plan_kind") == "seasonal":
+            tags += ' <span class="tag def">Seasonal</span>'
+        src = f'<a href="{e(p.get("source_url"))}">{e(p.get("retailer"))} page</a><br>checked {checked(p.get("last_checked"))}'
+        if p.get("import_source_url") and p.get("import_source_url") != p.get("source_url"):
+            src += f'<br><a href="{e(p["import_source_url"])}">Easymax rate page</a>'
+            if p.get("import_checked"):
+                src += f'<br>rate checked {checked(p["import_checked"])}'
+        if p.get("admin_source_url") and p.get("admin_source_url") not in (p.get("source_url"), p.get("import_source_url")):
+            src += f'<br><a href="{e(p["admin_source_url"])}">Admin fee page</a>'
+        rows.append(
+            f'<tr data-export="{"" if exp is None else exp}" data-import="{"" if imp is None else imp}" '
+            f'data-admin="{"" if admin is None else admin}" data-kind="{e(p.get("plan_kind"))}" data-name="{e((p.get("retailer") or "").lower())}">'
+            f'<td><b>{e(p.get("retailer"))}</b>{tags}<br><span class="small muted">{e(p.get("plan"))}</span></td>'
+            f'<td>{e(p.get("export_text") or "—")}</td>'
+            f'<td>{e(p.get("import_text") or "—")}</td>'
+            f'<td class="small">{clip(p.get("switch_rules"))}</td>'
+            f'<td class="small">{e(p.get("term_label") or "")}</td>'
+            f'<td class="small">{e(p.get("admin_text") or "Not stated")}</td>'
+            f'<td class="small">{clip(p.get("cancellation"), 120)}</td>'
+            f'<td class="small">{clip(p.get("eligibility"), 180)}</td>'
+            f'<td class="src">{src}</td></tr>')
+    tools = ('<div class="presets" id="solar-sort">'
+             '<button type="button" data-sort="export" class="on">Highest export rate</button>'
+             '<button type="button" data-sort="import">Highest import rate</button>'
+             '</div><p class="small muted">Highest rate first. When the rate ties, the lower monthly admin fee is listed first.</p>'
+             '<div class="checks" style="margin:10px 0">'
+             '<label><input id="solar-show-var" type="checkbox" checked> Show variable rates</label>'
+             '<label><input id="solar-show-pre" type="checkbox" checked> Show pre-solar rates (no export yet)</label>'
+             '</div><p><input id="solar-filter" type="search" placeholder="Filter by retailer" aria-label="Filter by retailer"></p>')
+    head = ('<div class="table-wrap"><table id="solar-table"><thead><tr>'
+            '<th>Retailer and plan</th><th>Export (buyback)</th><th>Import</th><th>Switching</th>'
+            '<th>Term</th><th>Admin fee</th><th>Cancellation</th>'
+            '<th>Eligibility</th><th>Source</th></tr></thead><tbody>')
+    return tools + head + "".join(rows) + "</tbody></table></div>"
+
+
+def solar_payload():
+    fixed = ranked("electricity", variable=False, conditional=False)
+    cheap = fixed[0] if fixed else None
+    plans = []
+    for p in SOLAR_PLANS:
+        if p.get("plan_kind") == "presolar" or p.get("export_rate") is None:
+            continue
+        plans.append({k: p.get(k) for k in (
+            "id", "retailer", "plan", "plan_kind", "export_rate", "import_rate", "import_alt",
+            "indicative", "export_text", "import_text", "admin_text")})
+    return {
+        "plans": plans,
+        "production": [{k: r.get(k) for k in ("city", "city_label", "kwh_per_kw", "orientation", "period", "source_url", "source_page", "last_checked")} for r in SOLAR.get("production") or []],
+        "cost": SOLAR.get("installed_cost"),
+        "assumption": SOLAR.get("export_share_assumption") or {"share": 0.5, "note": "Assumption, not a published figure."},
+        "cheapest": None if not cheap else {
+            "rate": cheap["rate"], "retailer": cheap["retailer"], "plan": cheap["plan"],
+            "source_url": cheap["source_url"], "last_checked": cheap["last_checked"],
+        },
+    }
+
+
+def solar_calculator():
+    data = solar_payload()
+    cost = data.get("cost") or {}
+    default_w = cost.get("default_per_watt", "")
+    cheap = data.get("cheapest") or {}
+    default_rate = cheap.get("rate", "")
+    share = int(round((data.get("assumption") or {}).get("share", 0.5) * 100))
+    prod_bits = []
+    for r in data["production"]:
+        prod_bits.append(f'{e(r.get("city_label"))}: <b>{r.get("kwh_per_kw")}</b> kWh per kW per year'
+                         f' (<a href="{e(r.get("source_page") or r.get("source_url"))}">NRCan</a>, {e(r.get("orientation"))}, checked {checked(r.get("last_checked"))})')
+    cost_line = ""
+    if cost:
+        cost_line = (f'UCA says typical residential installs average ${cost["low_per_watt"]:.2f}–${cost["high_per_watt"]:.2f}/W '
+                     f'(${cost["example_low"]:,}–${cost["example_high"]:,} for a {cost["example_kw"]} kW system, incentives excluded). '
+                     f'{e(cost.get("default_note") or "")} <a href="{e(cost.get("source_url"))}">UCA FAQ</a>, checked {checked(cost.get("last_checked"))}.')
+    cheap_line = ""
+    if cheap:
+        cheap_line = (f'The rate box starts at {cheap["rate"]:.2f}¢/kWh, the lowest no-conditions fixed electricity rate we track '
+                      f'({e(cheap["retailer"])}, {e(cheap["plan"])}, <a href="{e(cheap["source_url"])}">source</a>, checked {checked(cheap["last_checked"])}).')
+    assume = e((data.get("assumption") or {}).get("note") or "")
+    return f'''<div class="card" id="payback"><h2 style="margin-top:0">Solar payback calculator</h2>
+<p class="small muted">An estimate you can edit. It is not a quote. {(" ".join(prod_bits)) if prod_bits else "No NRCan production figure is loaded, so annual kWh cannot be calculated."}</p>
+<p class="small muted">{cost_line} {cheap_line}</p>
+<form id="solar-calc"><div class="calc">
+<div><label for="solar-kw">System size (kW)</label><input id="solar-kw" type="number" min="0" step="0.1" value="6"></div>
+<div><label for="solar-city">City for the production figure</label><select id="solar-city"><option value="edmonton">Edmonton</option><option value="calgary">Calgary</option></select></div>
+<div><label for="solar-cpw">Installed cost ($/W)</label><input id="solar-cpw" type="number" min="0" step="0.01" value="{default_w}"></div>
+<div><label for="solar-mode">How to value a kWh</label><select id="solar-mode"><option value="rate">One rate (cheapest fixed, or type your own)</option><option value="plan">A solar plan from the table</option></select></div>
+<div><label for="solar-rate">Electricity rate (¢/kWh)</label><input id="solar-rate" type="number" min="0" step="0.01" value="{default_rate}"></div>
+<div><label for="solar-plan">Solar plan</label><select id="solar-plan"><option value="">Select a plan</option></select></div>
+<div id="solar-import-wrap" hidden><label for="solar-import-which">Value home use at</label><select id="solar-import-which"><option value="fixed">The plan's import / Easymax fixed rate</option><option value="alt">The other published Easymax rate</option></select></div>
+<div><label for="solar-share">Share of production exported (%)</label><input id="solar-share" type="number" min="0" max="100" step="1" value="{share}"></div>
+</div></form>
+<p class="small muted">{assume}</p>
+<div id="solar-out"></div></div>
+<script type="application/json" id="solar-data">{json.dumps(data).replace("</", "<\\/")}</script>'''
+
+
+def program_section():
+    items = []
+    for p in SOLAR.get("programs") or []:
+        kind = {"ended": "cond", "closed": "cond", "waitlist": "var", "none": "def", "reference": ""}.get(p.get("status"), "")
+        tag = f' <span class="tag {kind}">{e(p.get("status_label") or p.get("status") or "")}</span>' if p.get("status_label") or p.get("status") else ""
+        items.append(f'<div class="card"><h3>{e(p.get("name"))}{tag}</h3><p>{e(p.get("summary"))}</p>'
+                     f'<p class="src"><a href="{e(p.get("source_url"))}">Source</a>, checked {checked(p.get("last_checked"))}</p></div>')
+    if not items:
+        return "<p>Program pages could not be read, and there is no earlier copy. Nothing is shown.</p>"
+    return '<div class="grid g2">' + "".join(items) + "</div>"
+
+
+def unpublished_solar():
+    rows = SOLAR.get("not_published") or []
+    if not rows:
+        return ""
+    lis = "".join(f'<li><b>{e(n.get("retailer"))}</b>: {e(n.get("reason"))} (<a href="{e(n.get("url"))}">page checked</a>)</li>' for n in rows)
+    return f"<h2>Retailers with no published solar rate</h2><p>These public pages were checked. They do not print an export or import number, so they are named here without one.</p><ul>{lis}</ul>"
+
+
+def water_payload():
+    ed = WATER.get("edmonton") or None
+    yy = WATER.get("calgary") or None
+    waste = WATER.get("edmonton_waste") or None
+    def slim_city(c):
+        if not c:
+            return None
+        keep = {k: c.get(k) for k in c if k != "_parts"}
+        return keep
+    return {"edmonton": slim_city(ed), "calgary": slim_city(yy), "edmonton_waste": slim_city(waste)}
+
+
+def rate_rows(pairs):
+    return "".join(f"<tr><td>{e(a)}</td><td class=\"num\">{e(b)}</td></tr>" for a, b in pairs)
+
+
+def edmonton_water_table(ed):
+    if not ed:
+        return "<p>Edmonton water rates could not be read, and there is no earlier copy. Nothing is shown for Edmonton.</p>"
+    tiers = ed.get("water_tiers_m3") or []
+    tier_txt = []
+    prev = 0
+    for t in tiers:
+        up = t.get("up_to")
+        label = f"Over {prev:g} m³" if up is None else f"{prev:g}–{up:g} m³"
+        tier_txt.append((label, f"${t['rate']:.4f}/m³"))
+        prev = up if up is not None else prev
+    meters = ed.get("meters_daily") or {}
+    meter_rows = []
+    for mm in sorted(meters, key=lambda x: int(x)):
+        m = meters[mm]
+        if m.get("water_fixed") is None:
+            continue
+        meter_rows.append((f"{mm} mm meter", f"water ${m['water_fixed']:.4f}/day · fire ${m.get('fire_protection') or 0:.4f}/day · sanitary ${m.get('sanitary_fixed') or 0:.4f}/day"))
+    storm = ed.get("stormwater") or {}
+    body = (f'<p class="small muted">Effective {e(ed.get("effective"))}. {e(ed.get("billing"))} {e(ed.get("average_usage_note"))}</p>'
+            f'<h3>Water, per m³</h3><div class="table-wrap"><table><tbody>{rate_rows(tier_txt)}</tbody></table></div>'
+            f'<h3>Fixed daily charges by meter</h3><div class="table-wrap"><table><tbody>{rate_rows(meter_rows)}</tbody></table></div>'
+            f'<h3>Wastewater treatment and sanitary</h3><div class="table-wrap"><table><tbody>'
+            + rate_rows([
+                ("Wastewater treatment, all residential use", f"${ed['wastewater_treatment_per_m3']:.4f}/m³"),
+                ("Wastewater treatment fixed", f"${ed['wastewater_treatment_daily']:.4f}/day"),
+                ("Sanitary collection", f"${ed['sanitary_per_m3']:.5f}/m³"),
+            ]) + "</tbody></table></div>"
+            f'<h3>Drainage / stormwater</h3><p>{e(storm.get("formula"))}. Daily rate as of {e(storm.get("as_of"))}: <b>${storm.get("daily_rate")}</b>. {e(storm.get("note"))}</p>'
+            f'<p class="src"><a href="{e(ed.get("source_url"))}">EPCOR water and wastewater rates</a>, checked {checked(ed.get("last_checked"))}</p>')
+    return body
+
+
+def waste_table(w):
+    if not w:
+        return "<p>Edmonton waste-services rates could not be read. They are left out rather than guessed.</p>"
+    rows = [(c["label"], f"${c['monthly']:.2f}/month" + (f" — {c['note']}" if c.get("note") else "")) for c in w.get("curbside") or []]
+    rows.append(("Apartment and condo collection", f"${w.get('apartment_monthly'):.2f}/month"))
+    return (f'<p class="small muted">As of {e(w.get("as_of"))}. {e(w.get("note"))}</p>'
+            f'<div class="table-wrap"><table><tbody>{rate_rows(rows)}</tbody></table></div>'
+            f'<p class="src"><a href="{e(w.get("source_url"))}">City of Edmonton waste utility rates</a>, checked {checked(w.get("last_checked"))}</p>')
+
+
+def calgary_water_table(c):
+    if not c:
+        return "<p>Calgary water rates could not be read, and there is no earlier copy. Nothing is shown for Calgary.</p>"
+    m3 = c.get("example_m3")
+    rows = [
+        ("Water", f"${c['water_per_m3']:.4f}/m³ + ${c['water_fixed_per_30_days']:.2f} per 30 days"),
+        ("Wastewater", f"${c['wastewater_per_m3']:.4f}/m³ on {c['wastewater_return_factor']} × water use, + ${c['wastewater_fixed_per_30_days']:.2f} per 30 days"),
+        ("Stormwater", f"${c['stormwater_per_30_days']:.2f} per 30 days"),
+        (f"City's own bill at {m3} m³", f"${c['water_example_bill']:.2f} water + ${c['wastewater_example_bill']:.2f} wastewater + ${c['stormwater_per_30_days']:.2f} stormwater"),
+    ]
+    flat = ""
+    fr = c.get("flat_rate") or {}
+    if fr:
+        flat = (f'<h3>Unmetered (flat) rates, 2026</h3><p class="small muted">{e(fr.get("note"))}</p><div class="table-wrap"><table><tbody>'
+                + rate_rows([
+                    ("Water, per 1,000 sq ft of lot", f"${fr['lot_per_1000_sqft']:.4f}"),
+                    ("Water, per 1,000 sq ft of building", f"${fr['building_per_1000_sqft']:.4f}"),
+                    ("Wastewater", f"{fr['wastewater_percent_of_water']}% of the flat water charge"),
+                    ("Stormwater", f"${fr['stormwater_per_30_days']:.2f} per 30 days"),
+                ]) + "</tbody></table></div>")
+    return (f'<p class="small muted">{e(c.get("example_label"))} {e(c.get("period"))}</p>'
+            f'<div class="table-wrap"><table><tbody>{rate_rows(rows)}</tbody></table></div>{flat}'
+            f'<p class="src"><a href="{e(c.get("source_url"))}">City of Calgary residential water rates</a>, checked {checked(c.get("last_checked"))}</p>')
+
+
+def water_calculator():
+    ed = WATER.get("edmonton") or {}
+    meters = ed.get("meters_daily") or {}
+    opts = "".join(f'<option value="{e(mm)}"{ " selected" if mm == "15" else ""}>{e(mm)} mm</option>' for mm in sorted(meters, key=lambda x: int(x)))
+    waste = WATER.get("edmonton_waste") or {}
+    wopts = '<option value="">No waste charge</option>'
+    for c in waste.get("curbside") or []:
+        wopts += f'<option value="{e(c["id"])}">{e(c["label"])} (${c["monthly"]:.2f})</option>'
+    if waste.get("apartment_monthly") is not None:
+        wopts += f'<option value="apartment">Apartment / condo (${waste["apartment_monthly"]:.2f})</option>'
+    m3 = (WATER.get("calgary") or {}).get("example_m3") or 19
+    data = water_payload()
+    return f'''<div class="card" id="water-calc"><h2 style="margin-top:0">What would a month of water cost?</h2>
+<p class="small muted">Type the cubic metres from your meter. The starting value is {m3} m³ because that is the household the City of Calgary uses in its rate table. EPCOR does not print an average in cubic metres.</p>
+<form><div class="calc">
+<div><label for="w-city">City</label><select id="w-city"><option value="edmonton">Edmonton (EPCOR)</option><option value="calgary">Calgary</option></select></div>
+<div><label for="w-m3">Water used (m³)</label><input id="w-m3" type="number" min="0" step="0.1" value="{m3}"></div>
+<div id="w-meter-wrap"><label for="w-meter">Edmonton meter size</label><select id="w-meter">{opts}</select></div>
+<div id="w-waste-wrap"><label for="w-waste">Edmonton waste cart (on the utility bill)</label><select id="w-waste">{wopts}</select></div>
+</div></form><div id="w-out"></div></div>
+<script type="application/json" id="water-data">{json.dumps(data).replace("</", "<\\/")}</script>'''
+
+
+def water_tips():
+    tips = (WATER.get("tips") or {}).get("tips") or []
+    if not tips:
+        return "<p>Water-saving tips could not be read from EPCOR's conservation page. None are repeated here.</p>"
+    src = (WATER.get("tips") or {}).get("source_url")
+    when = checked((WATER.get("tips") or {}).get("last_checked"))
+    lis = "".join(f"<li>{e(t)}</li>" for t in tips)
+    return f'<ul>{lis}</ul><p class="src"><a href="{e(src)}">EPCOR: conservation inside your home</a>, checked {when}</p>'
+
+
+def home_water_solar():
+    clubs = [p for p in SOLAR_PLANS if p.get("plan_kind") == "solar_club" and p.get("export_rate") is not None]
+    solar_bit = "Published solar-club and micro-generation rates, with a payback estimate."
+    if clubs:
+        hi = max(p["export_rate"] for p in clubs)
+        solar_bit = f"Solar Club export rates we could read top out at {hi:.2f}¢/kWh. Compare every published plan, then run the payback estimate."
+    cal = WATER.get("calgary") or {}
+    water_bit = "Edmonton (EPCOR) and Calgary fixed charges and per-m³ rates. You cannot switch water providers."
+    if cal.get("example_m3") and cal.get("water_example_bill"):
+        water_bit = (f"Calgary illustrates {cal['example_m3']} m³ at ${cal['water_example_bill']:.2f} water + ${cal['wastewater_example_bill']:.2f} wastewater + ${cal['stormwater_per_30_days']:.2f} stormwater. "
+                     "Edmonton's EPCOR rates are on the same page. You cannot switch water providers.")
+    return ('<div class="grid g2" style="margin-top:18px">'
+            f'<div class="card feature"><h2>Alberta solar club rates</h2><p>{e(solar_bit)}</p>'
+            f'<p><a class="btn" href="{u("/solar/rates/")}">Compare solar rates</a> <a class="btn ghost" href="{u("/solar/#payback")}">Payback calculator</a></p></div>'
+            f'<div class="card"><h2 style="margin-top:0">Edmonton water rates</h2><p>{e(water_bit)}</p>'
+            f'<p><a class="btn ghost" href="{u("/water/")}">Water and wastewater rates</a></p></div></div>')
+
+
 def build():
     _build()
 
@@ -239,14 +550,16 @@ def build():
 def _build():
     if os.path.exists(OUT): shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets")); os.makedirs(os.path.join(OUT, "data"))
-    for f in ("style.css", "calc.js"): shutil.copy(os.path.join(ROOT, "src", f), os.path.join(OUT, "assets", f))
+    for f in ("style.css", "calc.js", "solar.js", "water.js"): shutil.copy(os.path.join(ROOT, "src", f), os.path.join(OUT, "assets", f))
     calc_js = f'<script src="{u("/assets/calc.js")}" defer></script>'
+    solar_js = f'<script src="{u("/assets/solar.js")}" defer></script>'
+    water_js = f'<script src="{u("/assets/water.js")}" defer></script>'
     retailers = sorted({p["retailer"] for p in PLANS})
     n_e = sum(p["fuel"] == "electricity" for p in PLANS); n_g = len(PLANS) - n_e
 
     home = f"""<h1>Cheapest electricity and natural gas rates in Alberta, checked daily</h1>
 <p class="lead">{len(PLANS)} plans from {len(retailers)} retailers in Edmonton and Calgary, compared with the default rates. Ranked by estimated monthly cost, fees included. Nobody pays to rank higher.</p>
-{best_cards()}<div style="margin-top:18px">{rolr_note()}</div>
+{best_cards()}{home_water_solar()}<div style="margin-top:18px">{rolr_note()}</div>
 {calculator()}
 <h2>Top fixed electricity plans right now <span class="small muted">(Edmonton default shown)</span></h2>{plan_table("electricity", limit=8, variable=False, show_src=False)}
 <p><a href="{u('/electricity/')}">See all {n_e} electricity plans →</a></p>
@@ -325,7 +638,7 @@ def _build():
     body = f"""<h1>About this tracker, and our disclaimer</h1>
 <div class="card"><h3>Independent</h3><p>{e(SITE)} is an independent website run from Edmonton. It is <b>not affiliated with any energy retailer, utility, the Utilities Consumer Advocate, the Alberta Utilities Commission or the Government of Alberta</b>.</p></div>
 <div class="card" style="margin-top:12px" id="disclaimer"><h3>Disclaimer</h3><ul>
-<li><b>Rankings are by estimated cost only.</b> No retailer can pay to rank higher. If we ever add partner links, they'll be clearly labelled, and they'll never change the order.</li>
+<li><b>Rankings are by estimated cost only.</b> No retailer can pay to rank higher. If we ever add partner links, they'll be clearly labelled, and they'll never change the order. The solar table is sorted by the published export rate, then the admin fee. Water rates are not a ranking: you cannot switch municipal water providers.</li>
 <li><b>Not financial advice.</b> Estimates use typical usage and exclude delivery charges, local access fees, riders and GST. Your bill will differ.</li>
 <li><b>Prices can change at any time.</b> We copy each price from the retailer's own public page (or official regulator and provider pages for default rates) and show the date we last checked it. Always confirm the price and contract terms with the retailer before signing.</li>
 <li>If a retailer's page can't be read on a given day, we keep showing the last price we confirmed, with its check date, rather than guessing. If a retailer doesn't publish a specific price, we leave it out.</li>
@@ -338,8 +651,63 @@ def _build():
     write("/disclaimer/", f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url={u("/about/#disclaimer")}"><link rel="canonical" href="{SITE_URL}{BASE}/about/"><a href="{u("/about/#disclaimer")}">Disclaimer</a>')
 
     srows = "".join(f'<tr><td>{e(s["retailer"])}</td><td>{"✅ updated" if s.get("ok") else "⚠️ kept last good data" if s.get("kept") else "❌ no data"}</td><td class="small">{e(s.get("error",""))}</td><td class="src"><a href="{e(s["url"])}">{e(s["url"][:60])}</a></td></tr>' for s in STATUS.get("sources", []))
-    body = f'<h1>Sources and data status</h1><p class="lead">Last run: {ftime(STATUS.get("checked_at", UPDATED))}. Every price on this site comes from one of these pages.</p><div class="table-wrap"><table><thead><tr><th>Source</th><th>Today</th><th>Note</th><th>URL</th></tr></thead><tbody>{srows}</tbody></table></div><p class="small muted">Typical usage figure: <a href="{USAGE_SRC}">UCA FAQ</a>. Raw data: <a href="{u("/data/plans.json")}">plans.json</a>, <a href="{u("/data/defaults.json")}">defaults.json</a>.</p>'
+    body = f'<h1>Sources and data status</h1><p class="lead">Last run: {ftime(STATUS.get("checked_at", UPDATED))}. Every price on this site comes from one of these pages.</p><div class="table-wrap"><table><thead><tr><th>Source</th><th>Today</th><th>Note</th><th>URL</th></tr></thead><tbody>{srows}</tbody></table></div><p class="small muted">Typical electricity and gas usage: <a href="{USAGE_SRC}">UCA FAQ</a>. Raw data: <a href="{u("/data/plans.json")}">plans.json</a>, <a href="{u("/data/defaults.json")}">defaults.json</a>, <a href="{u("/data/water.json")}">water.json</a>, <a href="{u("/data/solar.json")}">solar.json</a>.</p>'
     write("/sources/", page("/sources/", f"Sources & Data Status | {SITE}", "Where every Alberta electricity and gas price on this site comes from, and today's update status.", body, None))
+
+    micro = f'''<h1>Solar in Alberta</h1>
+<p class="lead">Micro-generation, the rebates and loans that are actually open, and a payback estimate. The rate comparison is the part to use first: <a href="{u("/solar/rates/")}">Alberta solar club rates</a>.</p>
+<div class="card feature"><h2>Compare every published solar plan</h2>
+<p>Retailers that print an export (buyback) rate and an import rate for homes with solar, including Solar Club high/low rates and ENMAX Seasonal Solar. Sorted by the export rate. No referral links.</p>
+<p><a class="btn" href="{u("/solar/rates/")}">Alberta solar club rates</a></p></div>
+<h2 id="microgen">How micro-generation works</h2>
+<p>Micro-generation is electricity you produce, usually with solar panels, sized for your own use. Under the <a href="https://www.alberta.ca/micro-generation">Micro-generation Regulation</a>, as summarized by Alberta.ca:</p>
+<ul>
+<li>Small micro-generators (under 150 kilowatts) are credited for electricity sent to the grid <b>at their retail rate</b>. They can instead install a suitable meter and be credited at the hourly wholesale price. Large micro-generators (150 kilowatts and up, to 5 megawatts) are credited at the hourly wholesale price.</li>
+<li>You apply to your <b>wire owner</b> (the distribution company on your bill), not to a solar retailer. The wire owner connects the system. You do not pay the ordinary interconnection and meter costs; those are shared by customers in that service area. The AUC oversees the regulation. <a href="https://www.auc.ab.ca/micro-generation/">AUC: micro-generation</a>.</li>
+<li>Your electricity retailer bills the power you still buy and administers the credit for power you export. The same-rate credit is why a Solar Club or Easymax Seasonal Solar plan changes the value of exports: the credit follows the retail rate you are on that month.</li>
+</ul>
+<p class="small muted">Sources: <a href="https://www.alberta.ca/micro-generation">Alberta.ca — Micro-generation</a> and <a href="https://www.auc.ab.ca/micro-generation/">AUC micro-generation</a>. This is a summary of those pages, not legal advice.</p>
+<h2>Rebates and financing</h2>
+<p class="small muted">Status is whatever the program page said the last time we could read it. Ended programs stay listed and are marked ended.</p>
+{program_section()}
+<h2 id="payback-heading">Solar panels Edmonton cost</h2>
+<p>The title is the search phrase. The figure below is an estimate for Edmonton or Calgary, using NRCan's production number for the city you pick and a cost per watt you can edit. It is not an installer quote.</p>
+{solar_calculator()}'''
+    write("/solar/", page("/solar/", "Solar panels Edmonton cost: payback calculator, rebates and micro-generation",
+                          "Solar panels Edmonton cost estimate, how Alberta micro-generation credits work, and which solar rebates and loans are open or ended.",
+                          micro, "/solar/", scripts=solar_js))
+
+    rates_body = f'''<h1>Alberta solar club rates</h1>
+<p class="lead">Every Alberta retailer whose own page prints a rate for solar (micro-generation) homes: the export credit, the import rate, and what it takes to switch between a high and a low rate. Electricity and gas rankings elsewhere on this site are separate. This table is sorted by the export rate.</p>
+{how_to_pick(SOLAR_PLANS)}
+{solar_table(SOLAR_PLANS)}
+{unpublished_solar()}
+<h2>Use one of these plans in the estimate</h2>
+<p class="small muted">Pick a row's retailer in the calculator. Exported kilowatt-hours are valued at that plan's export rate and kilowatt-hours used at home at its import rate. The share exported starts at an assumption, not at a provincial statistic, and you can change it.</p>
+{solar_calculator()}
+<p><a href="{u("/solar/")}">How micro-generation works, and which rebates are open →</a></p>'''
+    write("/solar/rates/", page("/solar/rates/", "Alberta solar club rates: export and import prices compared",
+                                "Alberta solar club rates from retailers that publish them: export (buyback) rate, import rate, switching rules, admin fees and sources.",
+                                rates_body, "/solar/rates/", scripts=solar_js))
+
+    tips = water_tips()
+    water_body = f'''<h1>Edmonton water rates and Calgary water, wastewater and drainage</h1>
+<div class="callout"><b>You cannot switch water providers.</b> Water and wastewater in Edmonton and Calgary are municipal utilities, not a market like electricity. EPCOR provides Edmonton's water, wastewater and drainage. The City of Calgary provides Calgary's water, wastewater and stormwater. This page explains the published rates. It is not a comparison of companies you can choose.</div>
+<p class="lead">Fixed charges and per-cubic-metre rates for a residence, plus a calculator. Every number is copied from the utility page linked under the table, with the date we read it.</p>
+<h2>Edmonton: EPCOR water, wastewater and drainage</h2>
+{edmonton_water_table(WATER.get("edmonton"))}
+<h2>Edmonton waste services (on the EPCOR bill)</h2>
+{waste_table(WATER.get("edmonton_waste"))}
+<h2>Calgary: water, wastewater and stormwater</h2>
+{calgary_water_table(WATER.get("calgary"))}
+{water_calculator()}
+<h2>A few ways to use less water</h2>
+<p>These are EPCOR's own indoor tips for Edmonton. They are not a complete list, and they are not a City of Calgary program.</p>
+{tips}
+<p class="small muted">Delivery of the service does not change if you use less. The per-m³ charges do.</p>'''
+    write("/water/", page("/water/", "Edmonton water rates: EPCOR water, wastewater, drainage and waste (Calgary too)",
+                          "Edmonton water rates from EPCOR and Calgary water, wastewater and stormwater rates, with a cubic-metre calculator. You cannot switch water providers.",
+                          water_body, "/water/", scripts=water_js))
 
     body = f"""<h1>The weekly "best rates" email</h1><p class="lead">Every week: the cheapest electricity and gas plans in Edmonton and Calgary, what changed, and an early heads-up when the default rate resets on January 1, 2027.</p>
 <div class="card" id="signup"><h3>Sign up</h3><p class="muted">Signup opens soon. We're setting up the email form now.</p>
@@ -353,7 +721,14 @@ def _build():
     # data, feeds, sitemap
     shutil.copy(os.path.join(ROOT, "data", "plans.json"), os.path.join(OUT, "data", "plans.json"))
     json.dump(DEF, open(os.path.join(OUT, "data", "defaults.json"), "w"), indent=1, ensure_ascii=False)
-    urls = ["/", "/electricity/", "/natural-gas/", "/edmonton/", "/calgary/", "/rate-of-last-resort-2027/", "/how-switching-works/", "/about/", "/sources/", "/newsletter/"]
+    for name in ("water.json", "solar.json"):
+        srcp = os.path.join(ROOT, "data", name)
+        if os.path.exists(srcp):
+            obj = json.load(open(srcp))
+            obj.pop("_parts", None)
+            json.dump(obj, open(os.path.join(OUT, "data", name), "w"), indent=1, ensure_ascii=False)
+    urls = ["/", "/electricity/", "/natural-gas/", "/edmonton/", "/calgary/", "/solar/", "/solar/rates/", "/water/",
+            "/rate-of-last-resort-2027/", "/how-switching-works/", "/about/", "/sources/", "/newsletter/"]
     today = dt.date.fromisoformat(UPDATED[:10]).isoformat()
     open(os.path.join(OUT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"<url><loc>{SITE_URL}{BASE}{p}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq></url>\n" for p in urls) + "</urlset>\n")

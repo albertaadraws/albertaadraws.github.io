@@ -40,6 +40,29 @@ def main():
             L.append(f"- {c['date']}: {c['retailer']} {c['plan']} ({c['fuel']}): {t}")
     else:
         L.append("- No price changes on the plans we track this week.")
+    L += ["", "## Water and solar", ""]
+    water, solar = B.WATER, B.SOLAR
+    cal, ed = water.get("calgary") or {}, water.get("edmonton") or {}
+    if cal.get("water_per_m3") and ed.get("water_tiers_m3"):
+        tier = ed["water_tiers_m3"][0]["rate"]
+        L.append(f"- **Water is not a competitive market.** Edmonton's first water tier is ${tier:.4f}/m³ (EPCOR, plus daily fixed charges) and Calgary's water rate is ${cal['water_per_m3']:.4f}/m³. You cannot switch providers. [Edmonton water rates]({url}/water/)")
+    elif cal or ed:
+        L.append(f"- Water and wastewater rates for Edmonton and Calgary are on the site. You cannot switch providers. [Edmonton water rates]({url}/water/)")
+    clubs = [p for p in (solar.get("plans") or []) if p.get("plan_kind") == "solar_club" and p.get("export_rate") is not None]
+    if clubs:
+        hi = max(p["export_rate"] for p in clubs)
+        lo_vals = {p.get("import_rate") for p in clubs if p.get("import_rate") is not None}
+        lo_txt = f", LO import {next(iter(lo_vals)):.2f}¢/kWh" if len(lo_vals) == 1 else ""
+        L.append(f"- **Alberta solar club rates:** published HI export rate {hi:.2f}¢/kWh{lo_txt}. [Full comparison]({url}/solar/rates/) (export rate, import rate, admin fee, source).")
+    else:
+        L.append(f"- Solar plan comparison: [{url}/solar/rates/]({url}/solar/rates/)")
+    progs = solar.get("programs") or []
+    ended = [p["name"] for p in progs if p.get("status") in ("ended", "closed", "waitlist", "none")]
+    if ended:
+        L.append("- Programs, in the words of their own pages: " + "; ".join(f"{p['name']} ({p.get('status_label')})" for p in progs if p.get("status") in ("ended", "closed", "waitlist", "none")) + f". [Solar in Alberta]({url}/solar/)")
+    prod = {r.get("city"): r for r in (solar.get("production") or [])}
+    if prod.get("edmonton") and prod.get("calgary"):
+        L.append(f"- NRCan annual PV potential, south-facing at latitude tilt: Edmonton {prod['edmonton']['kwh_per_kw']:g} kWh/kW, Calgary {prod['calgary']['kwh_per_kw']:g} kWh/kW. [Payback estimate]({url}/solar/#payback)")
     L += ["", f"**[Run your own numbers in the calculator]({url}/#calculator)**", "", "---",
           "Independent and not affiliated with any retailer or government. Rankings are by cost only. Not financial advice. Confirm prices with the retailer before signing.",
           "You're getting this because you signed up at the Alberta Power & Gas Rate Tracker. Unsubscribe anytime."]
