@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-21T08:24:03-06:00",
+ "checked_at": "2026-10-22T08:26:43-06:00",
  "sources": [
   {
    "key": "aus",
@@ -492,7 +492,9 @@
    "key": "prog-ceip-table",
    "retailer": "Alberta Municipalities CEIP status",
    "url": "https://ceip.abmunis.ca/contractor/",
-   "ok": true
+   "ok": false,
+   "error": "could not find Calgary row",
+   "kept": true
   },
   {
    "key": "prog-gh-loan",
