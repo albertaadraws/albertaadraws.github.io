@@ -16,15 +16,15 @@
    {
     "name": "Utilities Consumer Advocate: default rates",
     "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
    },
    {
     "name": "EPCOR: Rate of Last Resort rates and fees (Edmonton)",
     "url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/historical-electricity-rates.html",
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
    }
   ],
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "rate_note": "Includes a 0.1¢/kWh consumer awareness surcharge. Delivery charges extra."
  },
  "rolr_calgary": {
@@ -44,15 +44,15 @@
    {
     "name": "Utilities Consumer Advocate: default rates",
     "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
    },
    {
     "name": "ENMAX Energy: Regulated Rate Tariff schedule, City of Calgary (PDF)",
     "url": "https://assets.enmax.com/api/public/content/516f331f11314de58342afacbb98bc1e?v=52c9f5c0",
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
    }
   ],
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "rate_note": "Includes a 0.1¢/kWh consumer awareness surcharge. Delivery charges extra."
  },
  "gas_default": {
@@ -73,15 +73,15 @@
    {
     "name": "Utilities Consumer Advocate: default rates",
     "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
    },
    {
     "name": "Direct Energy: regulated natural gas rate (Direct Energy Regulated Services)",
     "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
    }
   ],
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "rate_note": "Default gas rate in the ATCO Gas area (Edmonton and Calgary). AUC-approved, set monthly. Delivery charges extra.",
   "avg12": 2.025,
   "avg12_range": "November 2025 to October 2026",
@@ -314,23 +314,23 @@
     "ders": 1.458,
     "apex": 1.602
    },
-   "_checked": "2026-10-23"
+   "_checked": "2026-10-24"
   },
   "epcor": {
    "month": "October 2026",
    "rate": 12.01,
    "admin_day": 0.23,
-   "_checked": "2026-10-23"
+   "_checked": "2026-10-24"
   },
   "enmax": {
    "rate": 12.06,
    "admin_day": 0.4134,
    "tariff_year": "2026",
-   "_checked": "2026-10-23"
+   "_checked": "2026-10-24"
   },
   "ders": {
    "admin_day": 0.385,
-   "_checked": "2026-10-23"
+   "_checked": "2026-10-24"
   }
  }
 }

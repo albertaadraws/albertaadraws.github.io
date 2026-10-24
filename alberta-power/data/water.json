@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T08:26:35-06:00",
+ "updated": "2026-10-24T08:14:47-06:00",
  "edmonton": {
   "city": "edmonton",
   "provider": "EPCOR Water Services and Drainage (City of Edmonton utility)",
@@ -97,7 +97,7 @@
   },
   "average_usage_note": "Most customers pay about $74 per month for water usage on an average single-family bill, before fixed fees. EPCOR does not print that average in cubic metres.",
   "source_url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/water-and-wastewater.html",
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "source_name": "EPCOR Edmonton water, wastewater and drainage",
   "source_key": "water-epcor"
  },
@@ -123,7 +123,7 @@
    "note": "Unmetered homes. The City's worked example uses these 2026 figures. Minimum monthly water rate and the exact lot rules are on the City page."
   },
   "source_url": "https://www.calgary.ca/water/water-utility/residential-water-rates-and-billing.html",
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "source_name": "City of Calgary residential water, wastewater and stormwater",
   "source_key": "water-calgary"
  },
@@ -152,7 +152,7 @@
   "apartment_monthly": 27.08,
   "note": "A flat monthly charge, not based on water use. Recycling costs moved to producers under Extended Producer Responsibility on April 1, 2025, which is why the City says the rate is lower.",
   "source_url": "https://www.edmonton.ca/programs_services/garbage_waste/rates-fees",
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "source_name": "City of Edmonton waste utility rates",
   "source_key": "water-yeg-waste"
  },
@@ -164,7 +164,7 @@
    "Check the toilet for leaks with food colouring in the tank (colour in the bowl after 15–20 minutes means a leak). A replacement toilet should use 4.8 litres or less per flush.",
    "Check faucets, pipes, taps and hoses for drips. EPCOR says a hardware store can fix most minor leaks."
   ],
-  "last_checked": "2026-10-23",
+  "last_checked": "2026-10-24",
   "source_name": "EPCOR: conservation inside your home",
   "source_key": "water-tips"
  },
@@ -266,7 +266,7 @@
    },
    "average_usage_note": "Most customers pay about $74 per month for water usage on an average single-family bill, before fixed fees. EPCOR does not print that average in cubic metres.",
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/water-and-wastewater.html",
-   "last_checked": "2026-10-23",
+   "last_checked": "2026-10-24",
    "source_name": "EPCOR Edmonton water, wastewater and drainage",
    "source_key": "water-epcor"
   },
@@ -295,7 +295,7 @@
    "apartment_monthly": 27.08,
    "note": "A flat monthly charge, not based on water use. Recycling costs moved to producers under Extended Producer Responsibility on April 1, 2025, which is why the City says the rate is lower.",
    "source_url": "https://www.edmonton.ca/programs_services/garbage_waste/rates-fees",
-   "last_checked": "2026-10-23",
+   "last_checked": "2026-10-24",
    "source_name": "City of Edmonton waste utility rates",
    "source_key": "water-yeg-waste"
   },
@@ -321,7 +321,7 @@
     "note": "Unmetered homes. The City's worked example uses these 2026 figures. Minimum monthly water rate and the exact lot rules are on the City page."
    },
    "source_url": "https://www.calgary.ca/water/water-utility/residential-water-rates-and-billing.html",
-   "last_checked": "2026-10-23",
+   "last_checked": "2026-10-24",
    "source_name": "City of Calgary residential water, wastewater and stormwater",
    "source_key": "water-calgary"
   },
@@ -333,7 +333,7 @@
     "Check the toilet for leaks with food colouring in the tank (colour in the bowl after 15–20 minutes means a leak). A replacement toilet should use 4.8 litres or less per flush.",
     "Check faucets, pipes, taps and hoses for drips. EPCOR says a hardware store can fix most minor leaks."
    ],
-   "last_checked": "2026-10-23",
+   "last_checked": "2026-10-24",
    "source_name": "EPCOR: conservation inside your home",
    "source_key": "water-tips"
   }

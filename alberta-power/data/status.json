@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-23T08:26:19-06:00",
+ "checked_at": "2026-10-24T08:14:27-06:00",
  "sources": [
   {
    "key": "aus",
@@ -130,139 +130,14 @@
    "key": "solar-signup",
    "retailer": "Solar Club authorized retailers",
    "url": "https://solarclub.ca/sign-up/",
-   "ok": true,
-   "plans": 42
+   "ok": false,
+   "error": "<urlopen error timed out>",
+   "kept": 42
   },
   {
    "key": "solar-abode-power",
    "retailer": "Abode Power solar",
    "url": "https://www.abodepower.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-acorn-energy",
-   "retailer": "Acorn Energy solar",
-   "url": "https://www.acornenergy.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-adagio-energy",
-   "retailer": "Adagio Energy solar",
-   "url": "https://www.adagioenergy.net/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-alberta-utility-source",
-   "retailer": "Alberta Utility Source solar",
-   "url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-ascend-energy",
-   "retailer": "Ascend Energy solar",
-   "url": "https://www.ascendenergy.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-azgard-energy",
-   "retailer": "Azgard Energy solar",
-   "url": "https://www.azgardenergy.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-big-rock-power",
-   "retailer": "Big Rock Power solar",
-   "url": "https://www.bigrockpower.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-blue-ring-utilities",
-   "retailer": "Blue Ring Utilities solar",
-   "url": "https://www.blueringutilities.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-bow-valley-power",
-   "retailer": "Bow Valley Power solar",
-   "url": "https://www.bowvalleypowers.net/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-brighter-futures-energy",
-   "retailer": "Brighter Futures Energy solar",
-   "url": "https://www.brighterfutureenergy.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-camrose-energy",
-   "retailer": "Camrose Energy solar",
-   "url": "https://www.camroseenergy.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-echo-energy",
-   "retailer": "Echo Energy solar",
-   "url": "https://www.echoenergy.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-empwr",
-   "retailer": "EMPWR solar",
-   "url": "https://www.em-pwr.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-firefly-utilities",
-   "retailer": "Firefly Utilities solar",
-   "url": "https://www.fireflyutilities.net/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-foothills-energy-co-op",
-   "retailer": "Foothills Energy CO-OP solar",
-   "url": "https://www.foothillsenergycoop.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-gateway-energy",
-   "retailer": "Gateway Energy solar",
-   "url": "https://www.gatewayenergy.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-get-energy",
-   "retailer": "Get Energy solar",
-   "url": "https://secure.getenergy.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-great-canadian-utilities",
-   "retailer": "Great Canadian Utilities solar",
-   "url": "https://www.greatcanadianutilities.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-greenamp-utilities",
-   "retailer": "Greenamp Utilities solar",
-   "url": "https://www.greenamputilities.com/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
@@ -274,16 +149,37 @@
    "plans": 3
   },
   {
-   "key": "solar-headwaters-utility",
-   "retailer": "Headwaters Utility solar",
-   "url": "https://www.headwaters.net/mysecure/rates/signup/index.html",
+   "key": "solar-empwr",
+   "retailer": "EMPWR solar",
+   "url": "https://www.em-pwr.com/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
   {
-   "key": "solar-legacy-energy",
-   "retailer": "Legacy Energy solar",
-   "url": "https://www.legacyenergy.ca/mysecure/rates/signup/index.html",
+   "key": "solar-rocky-mountain-community-energy",
+   "retailer": "Rocky Mountain Community Energy solar",
+   "url": "https://www.rmcenergy.org/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-foothills-energy-co-op",
+   "retailer": "Foothills Energy CO-OP solar",
+   "url": "https://www.foothillsenergycoop.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-echo-energy",
+   "retailer": "Echo Energy solar",
+   "url": "https://www.echoenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-shared-value-energy",
+   "retailer": "Shared Value Energy solar",
+   "url": "https://www.sharedvalueenergy.ca/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
@@ -291,41 +187,6 @@
    "key": "solar-mountain-view-power",
    "retailer": "Mountain View Power solar",
    "url": "https://www.mountainviewpower.com/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-neon-power",
-   "retailer": "Neon Power solar",
-   "url": "https://www.neonpower.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-northern-nrg",
-   "retailer": "Northern NRG solar",
-   "url": "https://www.northernnrg.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-orizon-utilities",
-   "retailer": "Orizon Utilities solar",
-   "url": "https://www.orizonutilities.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-park-power",
-   "retailer": "Park Power solar",
-   "url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
-   "ok": true,
-   "plans": 3
-  },
-  {
-   "key": "solar-peyakoskan-energy",
-   "retailer": "Peyakoskan Energy solar",
-   "url": "https://www.peyakoskanenergy.ca/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
@@ -344,23 +205,51 @@
    "plans": 3
   },
   {
-   "key": "solar-rocky-mountain-community-energy",
-   "retailer": "Rocky Mountain Community Energy solar",
-   "url": "https://www.rmcenergy.org/mysecure/rates/signup/index.html",
+   "key": "solar-orizon-utilities",
+   "retailer": "Orizon Utilities solar",
+   "url": "https://www.orizonutilities.ca/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
   {
-   "key": "solar-sandstone-energy",
-   "retailer": "Sandstone Energy solar",
-   "url": "https://www.sandstoneenergy.ca/mysecure/rates/signup/index.html",
+   "key": "solar-adagio-energy",
+   "retailer": "Adagio Energy solar",
+   "url": "https://www.adagioenergy.net/mysecure/rates/signup/index.html",
    "ok": true,
-   "plans": 2
+   "plans": 3
   },
   {
-   "key": "solar-shared-value-energy",
-   "retailer": "Shared Value Energy solar",
-   "url": "https://www.sharedvalueenergy.ca/mysecure/rates/signup/index.html",
+   "key": "solar-camrose-energy",
+   "retailer": "Camrose Energy solar",
+   "url": "https://www.camroseenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-acorn-energy",
+   "retailer": "Acorn Energy solar",
+   "url": "https://www.acornenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-great-canadian-utilities",
+   "retailer": "Great Canadian Utilities solar",
+   "url": "https://www.greatcanadianutilities.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-firefly-utilities",
+   "retailer": "Firefly Utilities solar",
+   "url": "https://www.fireflyutilities.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-big-rock-power",
+   "retailer": "Big Rock Power solar",
+   "url": "https://www.bigrockpower.com/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
@@ -379,16 +268,30 @@
    "plans": 3
   },
   {
-   "key": "solar-spotpower",
-   "retailer": "SPOTpower solar",
-   "url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
+   "key": "solar-zeno-energy",
+   "retailer": "Zeno Energy solar",
+   "url": "https://www.zenoenergy.ca/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
   {
-   "key": "solar-sundance-power",
-   "retailer": "Sundance Power solar",
-   "url": "https://www.sundancepower.ca/mysecure/rates/signup/index.html",
+   "key": "solar-sandstone-energy",
+   "retailer": "Sandstone Energy solar",
+   "url": "https://www.sandstoneenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 2
+  },
+  {
+   "key": "solar-northern-nrg",
+   "retailer": "Northern NRG solar",
+   "url": "https://www.northernnrg.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-brighter-futures-energy",
+   "retailer": "Brighter Futures Energy solar",
+   "url": "https://www.brighterfutureenergy.com/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
@@ -400,16 +303,65 @@
    "plans": 3
   },
   {
-   "key": "solar-utilities-by-kuby",
-   "retailer": "Utilities By Kuby solar",
-   "url": "https://www.utilitiesbykuby.ca/mysecure/rates/signup/index.html",
+   "key": "solar-alberta-utility-source",
+   "retailer": "Alberta Utility Source solar",
+   "url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "ok": true,
-   "plans": 2
+   "plans": 3
+  },
+  {
+   "key": "solar-blue-ring-utilities",
+   "retailer": "Blue Ring Utilities solar",
+   "url": "https://www.blueringutilities.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-legacy-energy",
+   "retailer": "Legacy Energy solar",
+   "url": "https://www.legacyenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-park-power",
+   "retailer": "Park Power solar",
+   "url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-spotpower",
+   "retailer": "SPOTpower solar",
+   "url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
   },
   {
    "key": "solar-vector-energy",
    "retailer": "Vector Energy solar",
    "url": "https://www.vectorenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-gateway-energy",
+   "retailer": "Gateway Energy solar",
+   "url": "https://www.gatewayenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-neon-power",
+   "retailer": "Neon Power solar",
+   "url": "https://www.neonpower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-peyakoskan-energy",
+   "retailer": "Peyakoskan Energy solar",
+   "url": "https://www.peyakoskanenergy.ca/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
   },
@@ -421,11 +373,60 @@
    "plans": 2
   },
   {
-   "key": "solar-zeno-energy",
-   "retailer": "Zeno Energy solar",
-   "url": "https://www.zenoenergy.ca/mysecure/rates/signup/index.html",
+   "key": "solar-bow-valley-power",
+   "retailer": "Bow Valley Power solar",
+   "url": "https://www.bowvalleypowers.net/mysecure/rates/signup/index.html",
    "ok": true,
    "plans": 3
+  },
+  {
+   "key": "solar-ascend-energy",
+   "retailer": "Ascend Energy solar",
+   "url": "https://www.ascendenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-sundance-power",
+   "retailer": "Sundance Power solar",
+   "url": "https://www.sundancepower.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-get-energy",
+   "retailer": "Get Energy solar",
+   "url": "https://secure.getenergy.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-greenamp-utilities",
+   "retailer": "Greenamp Utilities solar",
+   "url": "https://www.greenamputilities.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-headwaters-utility",
+   "retailer": "Headwaters Utility solar",
+   "url": "https://www.headwaters.net/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-azgard-energy",
+   "retailer": "Azgard Energy solar",
+   "url": "https://www.azgardenergy.com/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 3
+  },
+  {
+   "key": "solar-utilities-by-kuby",
+   "retailer": "Utilities By Kuby solar",
+   "url": "https://www.utilitiesbykuby.ca/mysecure/rates/signup/index.html",
+   "ok": true,
+   "plans": 2
   },
   {
    "key": "solar-enmax",
