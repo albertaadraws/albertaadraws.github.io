@@ -1,6 +1,6 @@
 {
   "source_url": "https://www.alberta.ca/aaip-processing-information",
-  "last_refreshed": "2026-10-25T14:15:07+00:00",
+  "last_refreshed": "2026-10-26T15:27:15+00:00",
   "latest": {
     "page_last_updated": "2026-10-21",
     "fetched_at": "2026-10-24T14:14:26+00:00",
@@ -166,7 +166,7 @@
         }
       }
     ],
-    "last_checked": "2026-10-25T14:15:07+00:00"
+    "last_checked": "2026-10-26T15:27:15+00:00"
   },
   "snapshots": [
     {
@@ -501,7 +501,7 @@
           }
         }
       ],
-      "last_checked": "2026-10-25T14:15:07+00:00"
+      "last_checked": "2026-10-26T15:27:15+00:00"
     }
   ]
 }
