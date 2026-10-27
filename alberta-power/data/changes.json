@@ -1,3 +1,112 @@
 {
- "changes": []
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "aus-e-var",
+   "retailer": "Alberta Utility Source",
+   "plan": "Variable (floating)",
+   "fuel": "electricity",
+   "old": 5.65,
+   "new": 5.95,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "aus-g-var-0.30",
+   "retailer": "Alberta Utility Source",
+   "plan": "Variable (discount)",
+   "fuel": "gas",
+   "old": 3.35,
+   "new": 3.5,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "aus-g-var-0.53",
+   "retailer": "Alberta Utility Source",
+   "plan": "Variable (standard)",
+   "fuel": "gas",
+   "old": 3.58,
+   "new": 3.73,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "spot-e-var",
+   "retailer": "SPOTpower",
+   "plan": "Variable (floating)",
+   "fuel": "electricity",
+   "old": 5.66,
+   "new": 5.96,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "spot-g-var-0.40",
+   "retailer": "SPOTpower",
+   "plan": "Variable (discount)",
+   "fuel": "gas",
+   "old": 3.45,
+   "new": 3.6,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "spot-g-var-0.60",
+   "retailer": "SPOTpower",
+   "plan": "Variable (standard)",
+   "fuel": "gas",
+   "old": 3.65,
+   "new": 3.8,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "park-e-var",
+   "retailer": "Park Power",
+   "plan": "Variable (floating)",
+   "fuel": "electricity",
+   "old": 5.89,
+   "new": 6.19,
+   "old_admin": 8.85,
+   "new_admin": 8.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "park-g-var-0.45",
+   "retailer": "Park Power",
+   "plan": "Variable (discount)",
+   "fuel": "gas",
+   "old": 3.5,
+   "new": 3.65,
+   "old_admin": 7.85,
+   "new_admin": 7.85
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "rate",
+   "id": "park-g-var-0.75",
+   "retailer": "Park Power",
+   "plan": "Variable (standard)",
+   "fuel": "gas",
+   "old": 3.8,
+   "new": 3.95,
+   "old_admin": 7.85,
+   "new_admin": 7.85
+  }
+ ]
 }
