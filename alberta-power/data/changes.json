@@ -107,6 +107,54 @@
    "new": 3.95,
    "old_admin": 7.85,
    "new_admin": 7.85
+  },
+  {
+   "date": "2026-10-28",
+   "kind": "rate",
+   "id": "de-e-2y",
+   "retailer": "Direct Energy",
+   "plan": "2-year fixed",
+   "fuel": "electricity",
+   "old": 7.99,
+   "new": 7.79,
+   "old_admin": 12.5,
+   "new_admin": 12.5
+  },
+  {
+   "date": "2026-10-28",
+   "kind": "rate",
+   "id": "de-e-3y",
+   "retailer": "Direct Energy",
+   "plan": "3-year fixed",
+   "fuel": "electricity",
+   "old": 9.49,
+   "new": 9.39,
+   "old_admin": 12.5,
+   "new_admin": 12.5
+  },
+  {
+   "date": "2026-10-28",
+   "kind": "rate",
+   "id": "de-g-2y",
+   "retailer": "Direct Energy",
+   "plan": "2-year fixed",
+   "fuel": "gas",
+   "old": 4.29,
+   "new": 3.89,
+   "old_admin": 12.5,
+   "new_admin": 12.5
+  },
+  {
+   "date": "2026-10-28",
+   "kind": "rate",
+   "id": "de-g-3y",
+   "retailer": "Direct Energy",
+   "plan": "3-year fixed",
+   "fuel": "gas",
+   "old": 4.29,
+   "new": 3.89,
+   "old_admin": 12.5,
+   "new_admin": 12.5
   }
  ]
 }
