@@ -155,6 +155,18 @@
    "new": 3.89,
    "old_admin": 12.5,
    "new_admin": 12.5
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "rate",
+   "id": "encor-e-float",
+   "retailer": "Encor by EPCOR",
+   "plan": "2-year floating",
+   "fuel": "electricity",
+   "old": 6.36,
+   "new": 4.78,
+   "old_admin": 9.73,
+   "new_admin": 9.73
   }
  ]
 }
