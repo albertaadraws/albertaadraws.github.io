@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:42:25-06:00",
+ "updated": "2026-10-30T03:36:36-06:00",
  "plans": [
   {
    "type": "fixed",
@@ -24,7 +24,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -49,7 +49,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -74,7 +74,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -99,7 +99,7 @@
    "source_url": "https://www.8760.ca/home-electricity-rates",
    "source_key": "8760-e",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -124,7 +124,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -149,7 +149,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -174,7 +174,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -199,7 +199,7 @@
    "admin_text": "$0.36/day per site (from ATCO's fixed-plan page)",
    "source_key": "atco-float",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -224,7 +224,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -249,12 +249,12 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 12,
-   "term_label": "1 yr (to December 2027)",
+   "term_label": "1 yr (to April 2028)",
    "areas": [
     "edmonton",
     "calgary"
@@ -268,18 +268,18 @@
    "retailer": "Alberta Utility Source",
    "fuel": "electricity",
    "plan": "1-year fixed (discount)",
-   "rate": 6.85,
+   "rate": 7.83,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 12,
-   "term_label": "1 yr (to December 2027)",
+   "term_label": "1 yr (to April 2028)",
    "areas": [
     "edmonton",
     "calgary"
@@ -293,18 +293,18 @@
    "retailer": "Alberta Utility Source",
    "fuel": "electricity",
    "plan": "1-year fixed (standard)",
-   "rate": 7.05,
+   "rate": 8.03,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -318,18 +318,18 @@
    "retailer": "Alberta Utility Source",
    "fuel": "electricity",
    "plan": "2-year fixed (discount)",
-   "rate": 7.98,
+   "rate": 7.13,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -343,18 +343,18 @@
    "retailer": "Alberta Utility Source",
    "fuel": "electricity",
    "plan": "2-year fixed (standard)",
-   "rate": 8.08,
+   "rate": 7.33,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
+   "term_label": "3 yr (to April 2030)",
    "areas": [
     "edmonton",
     "calgary"
@@ -368,18 +368,18 @@
    "retailer": "Alberta Utility Source",
    "fuel": "electricity",
    "plan": "3-year fixed (discount)",
-   "rate": 8.81,
+   "rate": 8.65,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
+   "term_label": "3 yr (to April 2030)",
    "areas": [
     "edmonton",
     "calgary"
@@ -393,13 +393,63 @@
    "retailer": "Alberta Utility Source",
    "fuel": "electricity",
    "plan": "3-year fixed (standard)",
-   "rate": 8.91,
+   "rate": 8.85,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
+  },
+  {
+   "type": "fixed",
+   "term_months": 60,
+   "term_label": "5 yr (to April 2032)",
+   "areas": [
+    "edmonton",
+    "calgary"
+   ],
+   "conditions": "Requires a refundable prudential deposit (amount depends on usage; see the retailer page).",
+   "cancellation": "No penalty; 10 days' notice (per retailer).",
+   "cancellation_fee": 0,
+   "indicative": false,
+   "rate_note": "",
+   "id": "aus-e-5y-fixed-discount-rate",
+   "retailer": "Alberta Utility Source",
+   "fuel": "electricity",
+   "plan": "5-year fixed (discount)",
+   "rate": 9.71,
+   "admin_monthly": 8.85,
+   "admin_text": "$8.85/month per site",
+   "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
+   "source_key": "aus",
+   "source_name": "Alberta Utility Source",
+   "last_checked": "2026-10-30"
+  },
+  {
+   "type": "fixed",
+   "term_months": 60,
+   "term_label": "5 yr (to April 2032)",
+   "areas": [
+    "edmonton",
+    "calgary"
+   ],
+   "conditions": "",
+   "cancellation": "No penalty; 10 days' notice (per retailer).",
+   "cancellation_fee": 0,
+   "indicative": false,
+   "rate_note": "",
+   "id": "aus-e-5y-fixed-rate",
+   "retailer": "Alberta Utility Source",
+   "fuel": "electricity",
+   "plan": "5-year fixed (standard)",
+   "rate": 9.91,
+   "admin_monthly": 8.85,
+   "admin_text": "$8.85/month per site",
+   "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
+   "source_key": "aus",
+   "source_name": "Alberta Utility Source",
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -424,7 +474,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -449,7 +499,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -474,7 +524,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -499,7 +549,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -524,7 +574,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -549,7 +599,7 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -574,12 +624,12 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 12,
-   "term_label": "1 yr (to December 2027)",
+   "term_label": "1 yr (to April 2028)",
    "areas": [
     "edmonton",
     "calgary"
@@ -593,18 +643,18 @@
    "retailer": "Park Power",
    "fuel": "electricity",
    "plan": "1-year fixed (discount)",
-   "rate": 6.85,
+   "rate": 7.95,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 12,
-   "term_label": "1 yr (to December 2027)",
+   "term_label": "1 yr (to April 2028)",
    "areas": [
     "edmonton",
     "calgary"
@@ -618,18 +668,18 @@
    "retailer": "Park Power",
    "fuel": "electricity",
    "plan": "1-year fixed (standard)",
-   "rate": 7.49,
+   "rate": 8.45,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -643,18 +693,18 @@
    "retailer": "Park Power",
    "fuel": "electricity",
    "plan": "2-year fixed (discount)",
-   "rate": 7.85,
+   "rate": 7.25,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -668,18 +718,18 @@
    "retailer": "Park Power",
    "fuel": "electricity",
    "plan": "2-year fixed (standard)",
-   "rate": 8.35,
+   "rate": 7.75,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
+   "term_label": "3 yr (to April 2030)",
    "areas": [
     "edmonton",
     "calgary"
@@ -699,12 +749,12 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
+   "term_label": "3 yr (to April 2030)",
    "areas": [
     "edmonton",
     "calgary"
@@ -724,7 +774,57 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
+  },
+  {
+   "type": "fixed",
+   "term_months": 60,
+   "term_label": "5 yr (to April 2032)",
+   "areas": [
+    "edmonton",
+    "calgary"
+   ],
+   "conditions": "Requires a refundable prudential deposit (amount depends on usage; see the retailer page).",
+   "cancellation": "No penalty; 10 days' notice (per retailer).",
+   "cancellation_fee": 0,
+   "indicative": false,
+   "rate_note": "",
+   "id": "park-e-5y-discount-advantage-rate",
+   "retailer": "Park Power",
+   "fuel": "electricity",
+   "plan": "5-year fixed (discount)",
+   "rate": 9.95,
+   "admin_monthly": 8.85,
+   "admin_text": "$8.85/month per site",
+   "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
+   "source_key": "park",
+   "source_name": "Park Power",
+   "last_checked": "2026-10-30"
+  },
+  {
+   "type": "fixed",
+   "term_months": 60,
+   "term_label": "5 yr (to April 2032)",
+   "areas": [
+    "edmonton",
+    "calgary"
+   ],
+   "conditions": "",
+   "cancellation": "No penalty; 10 days' notice (per retailer).",
+   "cancellation_fee": 0,
+   "indicative": false,
+   "rate_note": "",
+   "id": "park-e-5y-base-rate",
+   "retailer": "Park Power",
+   "fuel": "electricity",
+   "plan": "5-year fixed (standard)",
+   "rate": 10.45,
+   "admin_monthly": 8.85,
+   "admin_text": "$8.85/month per site",
+   "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
+   "source_key": "park",
+   "source_name": "Park Power",
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -749,7 +849,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -774,7 +874,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -799,7 +899,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -824,7 +924,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -849,12 +949,12 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 12,
-   "term_label": "1 yr (to December 2027)",
+   "term_label": "1 yr (to April 2028)",
    "areas": [
     "edmonton",
     "calgary"
@@ -868,18 +968,18 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "1-year fixed (discount)",
-   "rate": 6.85,
+   "rate": 7.95,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 12,
-   "term_label": "1 yr (to December 2027)",
+   "term_label": "1 yr (to April 2028)",
    "areas": [
     "edmonton",
     "calgary"
@@ -893,18 +993,18 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "1-year fixed (standard)",
-   "rate": 7.27,
+   "rate": 8.45,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -918,18 +1018,18 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "2-year fixed (discount)",
-   "rate": 7.95,
+   "rate": 7.25,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -943,18 +1043,18 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "2-year fixed (seniors, discount)",
-   "rate": 7.82,
+   "rate": 7.2,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 24,
-   "term_label": "2 yr (to December 2028)",
+   "term_label": "2 yr (to April 2029)",
    "areas": [
     "edmonton",
     "calgary"
@@ -968,18 +1068,18 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "2-year fixed (standard)",
-   "rate": 8.62,
+   "rate": 7.75,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
+   "term_label": "3 yr (to April 2030)",
    "areas": [
     "edmonton",
     "calgary"
@@ -993,43 +1093,18 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "3-year fixed (discount)",
-   "rate": 8.9,
+   "rate": 8.95,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
-   "areas": [
-    "edmonton",
-    "calgary"
-   ],
-   "conditions": "Requires a refundable prudential deposit (amount depends on usage; see the retailer page). Seniors age 60+ only. Use over 2950 kWh/month adds $0.002/kWh.",
-   "cancellation": "No penalty; 10 days' notice (per retailer).",
-   "cancellation_fee": 0,
-   "indicative": false,
-   "rate_note": "",
-   "id": "spot-e-3y-senior-discount-advantage-rate",
-   "retailer": "SPOTpower",
-   "fuel": "electricity",
-   "plan": "3-year fixed (seniors, discount)",
-   "rate": 8.85,
-   "admin_monthly": 8.85,
-   "admin_text": "$8.85/month per site",
-   "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
-   "source_key": "spot",
-   "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
-  },
-  {
-   "type": "fixed",
-   "term_months": 36,
-   "term_label": "3 yr (to December 2029)",
+   "term_label": "3 yr (to April 2030)",
    "areas": [
     "edmonton",
     "calgary"
@@ -1043,13 +1118,63 @@
    "retailer": "SPOTpower",
    "fuel": "electricity",
    "plan": "3-year fixed (standard)",
-   "rate": 9.35,
+   "rate": 9.45,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
+  },
+  {
+   "type": "fixed",
+   "term_months": 60,
+   "term_label": "5 yr (to April 2032)",
+   "areas": [
+    "edmonton",
+    "calgary"
+   ],
+   "conditions": "Requires a refundable prudential deposit (amount depends on usage; see the retailer page). Use over 2950 kWh/month adds $0.002/kWh.",
+   "cancellation": "No penalty; 10 days' notice (per retailer).",
+   "cancellation_fee": 0,
+   "indicative": false,
+   "rate_note": "",
+   "id": "spot-e-5y-discount-advantage-rate",
+   "retailer": "SPOTpower",
+   "fuel": "electricity",
+   "plan": "5-year fixed (discount)",
+   "rate": 9.95,
+   "admin_monthly": 8.85,
+   "admin_text": "$8.85/month per site",
+   "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
+   "source_key": "spot",
+   "source_name": "SPOTpower",
+   "last_checked": "2026-10-30"
+  },
+  {
+   "type": "fixed",
+   "term_months": 60,
+   "term_label": "5 yr (to April 2032)",
+   "areas": [
+    "edmonton",
+    "calgary"
+   ],
+   "conditions": "Use over 2950 kWh/month adds $0.002/kWh.",
+   "cancellation": "No penalty; 10 days' notice (per retailer).",
+   "cancellation_fee": 0,
+   "indicative": false,
+   "rate_note": "",
+   "id": "spot-e-5y-base-rate",
+   "retailer": "SPOTpower",
+   "fuel": "electricity",
+   "plan": "5-year fixed (standard)",
+   "rate": 10.45,
+   "admin_monthly": 8.85,
+   "admin_text": "$8.85/month per site",
+   "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
+   "source_key": "spot",
+   "source_name": "SPOTpower",
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1074,7 +1199,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1099,7 +1224,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1124,7 +1249,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1149,7 +1274,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1174,7 +1299,7 @@
    "source_url": "https://www.8760.ca/home-natural-gas-rates",
    "source_key": "8760-g",
    "source_name": "8760",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1199,7 +1324,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1224,7 +1349,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1249,7 +1374,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1274,7 +1399,7 @@
    "admin_text": "$0.36/day per site (from ATCO's fixed-plan page)",
    "source_key": "atco-float",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1299,7 +1424,7 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1324,12 +1449,12 @@
    "source_url": "https://www.atcoenergy.com/home-energy/fixed-rate-plan",
    "source_key": "atco",
    "source_name": "ATCO Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": null,
-   "term_label": "to December 2027",
+   "term_label": "to April 2028",
    "areas": [
     "edmonton",
     "calgary"
@@ -1343,18 +1468,18 @@
    "retailer": "Alberta Utility Source",
    "fuel": "gas",
    "plan": "Fixed (discount)",
-   "rate": 3.75,
+   "rate": 3.65,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": null,
-   "term_label": "to December 2027",
+   "term_label": "to April 2028",
    "areas": [
     "edmonton",
     "calgary"
@@ -1368,13 +1493,13 @@
    "retailer": "Alberta Utility Source",
    "fuel": "gas",
    "plan": "Fixed (standard)",
-   "rate": 3.9,
+   "rate": 3.85,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1399,7 +1524,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1424,7 +1549,7 @@
    "source_url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "source_key": "aus",
    "source_name": "Alberta Utility Source",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1449,7 +1574,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1474,7 +1599,7 @@
    "source_url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
    "source_key": "de",
    "source_name": "Direct Energy",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1499,7 +1624,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1524,7 +1649,7 @@
    "source_url": "https://www.enmax.com/electricity-and-natural-gas",
    "source_key": "enmax",
    "source_name": "ENMAX (Easymax)",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1549,7 +1674,7 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1574,12 +1699,12 @@
    "source_url": "https://www.epcor.com/ca/en/ab/edmonton/start-services/home/compare-electricity-rates/encor-electricity-plans.html",
    "source_key": "encor",
    "source_name": "Encor by EPCOR",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": null,
-   "term_label": "to December 2027",
+   "term_label": "",
    "areas": [
     "edmonton",
     "calgary"
@@ -1593,18 +1718,18 @@
    "retailer": "Park Power",
    "fuel": "gas",
    "plan": "Fixed (discount)",
-   "rate": 3.95,
+   "rate": 3.65,
    "admin_monthly": 7.85,
    "admin_text": "$7.85/month per site",
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": null,
-   "term_label": "to December 2027",
+   "term_label": "",
    "areas": [
     "edmonton",
     "calgary"
@@ -1618,13 +1743,13 @@
    "retailer": "Park Power",
    "fuel": "gas",
    "plan": "Fixed (standard)",
-   "rate": 4.35,
+   "rate": 4.15,
    "admin_monthly": 7.85,
    "admin_text": "$7.85/month per site",
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1649,7 +1774,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1674,7 +1799,7 @@
    "source_url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "source_key": "park",
    "source_name": "Park Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
@@ -1699,7 +1824,7 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1724,12 +1849,12 @@
    "source_url": "https://peacepower.ca/rates/",
    "source_key": "peace",
    "source_name": "Peace Power",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": null,
-   "term_label": "to December 2027",
+   "term_label": "",
    "areas": [
     "edmonton",
     "calgary"
@@ -1743,18 +1868,18 @@
    "retailer": "SPOTpower",
    "fuel": "gas",
    "plan": "Fixed (discount)",
-   "rate": 3.75,
+   "rate": 3.6,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "fixed",
    "term_months": null,
-   "term_label": "to December 2027",
+   "term_label": "",
    "areas": [
     "edmonton",
     "calgary"
@@ -1768,13 +1893,13 @@
    "retailer": "SPOTpower",
    "fuel": "gas",
    "plan": "Fixed (standard)",
-   "rate": 3.9,
+   "rate": 3.99,
    "admin_monthly": 8.85,
    "admin_text": "$8.85/month per site",
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1799,7 +1924,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   },
   {
    "type": "variable",
@@ -1824,7 +1949,7 @@
    "source_url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "source_key": "spot",
    "source_name": "SPOTpower",
-   "last_checked": "2026-10-29"
+   "last_checked": "2026-10-30"
   }
  ]
 }

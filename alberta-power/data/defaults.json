@@ -16,15 +16,15 @@
    {
     "name": "Utilities Consumer Advocate: default rates",
     "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
    },
    {
     "name": "EPCOR: Rate of Last Resort rates and fees (Edmonton)",
     "url": "https://www.epcor.com/ca/en/ab/edmonton/account/rates/current-and-historical-rates/historical-electricity-rates.html",
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
    }
   ],
-  "last_checked": "2026-10-29",
+  "last_checked": "2026-10-30",
   "rate_note": "Includes a 0.1¢/kWh consumer awareness surcharge. Delivery charges extra."
  },
  "rolr_calgary": {
@@ -44,54 +44,48 @@
    {
     "name": "Utilities Consumer Advocate: default rates",
     "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
    },
    {
     "name": "ENMAX Energy: Regulated Rate Tariff schedule, City of Calgary (PDF)",
     "url": "https://assets.enmax.com/api/public/content/516f331f11314de58342afacbb98bc1e?v=52c9f5c0",
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
    }
   ],
-  "last_checked": "2026-10-29",
+  "last_checked": "2026-10-30",
   "rate_note": "Includes a 0.1¢/kWh consumer awareness surcharge. Delivery charges extra."
  },
  "gas_default": {
   "retailer": "Direct Energy Regulated Services",
-  "plan": "Default Rate Tariff (October 2026)",
+  "plan": "Default Rate Tariff (November 2026)",
   "fuel": "gas",
   "type": "default",
   "area": "both",
-  "rate": 1.458,
+  "rate": 1.893,
   "admin_day": 0.385,
   "admin_monthly": 11.71,
   "admin_text": "$0.385/day per site",
   "term_label": "Changes monthly",
   "cancellation": "No contract; switch anytime.",
   "cancellation_fee": 0,
-  "month": "October 2026",
+  "month": "November 2026",
   "sources": [
    {
     "name": "Utilities Consumer Advocate: default rates",
     "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
    },
    {
     "name": "Direct Energy: regulated natural gas rate (Direct Energy Regulated Services)",
     "url": "https://www.directenergy.ca/en/compare-alberta-energy-rates",
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
    }
   ],
-  "last_checked": "2026-10-29",
+  "last_checked": "2026-10-30",
   "rate_note": "Default gas rate in the ATCO Gas area (Edmonton and Calgary). AUC-approved, set monthly. Delivery charges extra.",
-  "avg12": 2.025,
-  "avg12_range": "November 2025 to October 2026",
+  "avg12": 1.968,
+  "avg12_range": "December 2025 to November 2026",
   "history": [
-   {
-    "year": 2025,
-    "month": "November",
-    "ders": 2.579,
-    "apex": 2.492
-   },
    {
     "year": 2025,
     "month": "December",
@@ -157,6 +151,12 @@
     "month": "October",
     "ders": 1.458,
     "apex": 1.602
+   },
+   {
+    "year": 2026,
+    "month": "November",
+    "ders": 1.893,
+    "apex": 1.993
    }
   ]
  },
@@ -164,7 +164,7 @@
   "fortis_epcor": 12.01,
   "ders_atco_electric": 12.02,
   "until": "2026",
-  "apex_gas": 1.602
+  "apex_gas": 1.993
  },
  "_parts": {
   "uca": {
@@ -228,6 +228,12 @@
      "month": "October",
      "ders": 1.458,
      "apex": 1.602
+    },
+    {
+     "year": 2026,
+     "month": "November",
+     "ders": 1.893,
+     "apex": 1.993
     },
     {
      "year": 2025,
@@ -310,27 +316,27 @@
     "ders": 12.02
    },
    "drt": {
-    "month": "October 2026",
-    "ders": 1.458,
-    "apex": 1.602
+    "month": "November 2026",
+    "ders": 1.893,
+    "apex": 1.993
    },
-   "_checked": "2026-10-29"
+   "_checked": "2026-10-30"
   },
   "epcor": {
    "month": "October 2026",
    "rate": 12.01,
    "admin_day": 0.23,
-   "_checked": "2026-10-29"
+   "_checked": "2026-10-30"
   },
   "enmax": {
    "rate": 12.06,
    "admin_day": 0.4134,
    "tariff_year": "2026",
-   "_checked": "2026-10-29"
+   "_checked": "2026-10-30"
   },
   "ders": {
    "admin_day": 0.385,
-   "_checked": "2026-10-29"
+   "_checked": "2026-10-30"
   }
  }
 }

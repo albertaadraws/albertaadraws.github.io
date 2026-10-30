@@ -1,26 +1,26 @@
 {
- "checked_at": "2026-10-29T08:42:25-06:00",
+ "checked_at": "2026-10-30T03:36:36-06:00",
  "sources": [
   {
    "key": "aus",
    "retailer": "Alberta Utility Source",
    "url": "https://www.albertautility.com/mysecure/rates/signup/index.html",
    "ok": true,
-   "plans": 11
+   "plans": 13
   },
   {
    "key": "spot",
    "retailer": "SPOTpower",
    "url": "https://www.spotpower.net/mysecure/rates/signup/index.html",
    "ok": true,
-   "plans": 13
+   "plans": 14
   },
   {
    "key": "park",
    "retailer": "Park Power",
    "url": "https://secure.parkpower.ca/mysecure/rates/signup/index.html",
    "ok": true,
-   "plans": 11
+   "plans": 13
   },
   {
    "key": "8760-e",
