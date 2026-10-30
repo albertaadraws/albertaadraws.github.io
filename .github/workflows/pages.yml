@@ -1,7 +1,8 @@
-# Refresh and deploy three sites to GitHub Pages from this one repository.
+# Refresh and deploy the sites in this repository to GitHub Pages.
 # User site: https://albertaadraws.github.io (AAIP draw tracker, domain root).
 # Power tracker: https://albertaadraws.github.io/alberta-power/ (built from alberta-power/).
 # Home care finder: https://albertaadraws.github.io/home-care/ (built from home-care/, no scrape).
+# Desi Macros: https://albertaadraws.github.io/desi-macros/ (static files in desi-macros/, no build).
 #
 # The default Actions token cannot create a Pages site. Before the first deploy
 # succeeds, set Settings > Pages > Build and deployment > Source to "GitHub Actions".
@@ -12,7 +13,7 @@ name: Refresh and deploy
 
 on:
   schedule:
-    # 14:00 UTC daily (about 7:00 AM MST / 8:00 AM MDT). All three sites build on this run.
+    # 14:00 UTC daily (about 7:00 AM MST / 8:00 AM MDT). Every site is published on this run.
     - cron: "0 14 * * *"
   push:
     branches: [main]
@@ -111,6 +112,14 @@ jobs:
           rm -rf public/home-care
           mkdir -p public/home-care
           cp -a home-care/public/. public/home-care/
+
+      - name: Copy Desi Macros into the Pages site
+        # Static HTML and images. No scrape and no generator. The tracker build above replaces public/.
+        run: |
+          set -euo pipefail
+          rm -rf public/desi-macros
+          mkdir -p public/desi-macros
+          cp -a desi-macros/. public/desi-macros/
 
       - name: Draft power newsletter (Mondays, Edmonton time)
         run: |
