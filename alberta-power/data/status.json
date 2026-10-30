@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-30T03:36:36-06:00",
+ "checked_at": "2026-10-30T08:44:37-06:00",
  "sources": [
   {
    "key": "aus",
@@ -524,7 +524,9 @@
    "key": "nrcan-pv",
    "retailer": "NRCan photovoltaic potential (Edmonton and Calgary)",
    "url": "https://natural-resources.canada.ca/energy-sources/renewable-energy/photovoltaic-potential-solar-resource-maps-canada",
-   "ok": true
+   "ok": false,
+   "error": "NRCan annual PV for Edmonton not unique (0)",
+   "kept": true
   },
   {
    "key": "solar-installed-cost",
