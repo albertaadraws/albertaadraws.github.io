@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Local daily job: refresh the scraped sites, build all three, and (Mondays) draft newsletters.
+# Local daily job: refresh the scraped sites, build them, copy Desi Macros, and (Mondays) draft newsletters.
 # The live site is refreshed by GitHub Actions (.github/workflows/pages.yml) at 14:00 UTC.
 # Example cron (14:00 UTC):  0 14 * * *  /path/to/repo/scripts/daily.sh >> /path/to/refresh.log 2>&1
 set -euo pipefail
@@ -36,3 +36,8 @@ cp -a alberta-power/public/. public/alberta-power/
 rm -rf public/home-care
 mkdir -p public/home-care
 cp -a home-care/public/. public/home-care/
+
+# Desi Macros is static HTML. Copy it after the builds that replace public/.
+rm -rf public/desi-macros
+mkdir -p public/desi-macros
+cp -a desi-macros/. public/desi-macros/
