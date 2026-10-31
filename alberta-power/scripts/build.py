@@ -32,6 +32,9 @@ UCA = {
     "contact": "https://ucahelps.alberta.ca/contact/",
     "decision": "https://ucahelps.alberta.ca/media/a35cdlk5/decision-29204-d02-2025.pdf",
 }
+# Lead forms post here. FormSubmit's default reCAPTCHA stays on (no _captcha=false).
+FORM_TO = "hanzalafar29@gmail.com"
+FORM_ACTION = "https://formsubmit.co/" + FORM_TO
 e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 u = lambda p: BASE + p
 
@@ -96,7 +99,7 @@ def partner_link(p):
 
 # ------------------------------------------------------------------ layout
 NAV = [("/", "Best rates"), ("/electricity/", "Electricity"), ("/natural-gas/", "Natural gas"),
-       ("/solar/rates/", "Solar rates"), ("/solar/", "Solar"), ("/water/", "Water"),
+       ("/solar/rates/", "Solar rates"), ("/solar/", "Solar"), ("/water/", "Water quality"),
        ("/rate-of-last-resort-2027/", "RoLR 2027"), ("/how-switching-works/", "How switching works"), ("/about/", "About")]
 
 
@@ -120,7 +123,7 @@ def page(path, title, desc, body, active=None, extra_head="", scripts=""):
 <main><div class="wrap">{body}</div></main>
 <footer class="site"><div class="wrap">
 <div class="disc"><b>Independent.</b> Not affiliated with any retailer, utility or government body. Rankings are by estimated cost only. Not financial advice. Always confirm the price and terms with the retailer before you sign. Official comparison: <a href="{UCA['tool']}">UCA Cost Comparison Tool</a> (310-4822).</div>
-<nav><a href="{u('/about/')}">About &amp; disclaimer</a><a href="{u('/sources/')}">Sources &amp; data status</a><a href="{u('/water/')}">Water</a><a href="{u('/solar/')}">Solar</a><a href="{u('/solar/rates/')}">Solar rates</a><a href="{u('/newsletter/')}">Weekly email</a><a href="{u('/feed.xml')}">RSS</a><a href="{u('/data/plans.json')}">Data (JSON)</a></nav>
+<nav><a href="{u('/about/')}">About &amp; disclaimer</a><a href="{u('/sources/')}">Sources &amp; data status</a><a href="{u('/water/')}">Water quality</a><a href="{u('/solar/')}">Solar</a><a href="{u('/solar/rates/')}">Solar rates</a><a href="{u('/newsletter/')}">Weekly email</a><a href="{u('/feed.xml')}">RSS</a><a href="{u('/data/plans.json')}">Data (JSON)</a></nav>
 <p class="small">© {dt.date.today().year} {e(SITE)}. No ads, no trackers, no cookies.</p>
 <p class="small">Also by us: <a href="{SITE_URL}/">Alberta PR Draw Tracker</a> · <a href="{SITE_URL}/home-care/">Edmonton Home Care Finder</a></p></div></footer>{scripts}</body></html>"""
 
@@ -525,6 +528,132 @@ def water_tips():
     return f'<ul>{lis}</ul><p class="src"><a href="{e(src)}">EPCOR: conservation inside your home</a>, checked {when}</p>'
 
 
+def form_hiddens(subject, next_path):
+    nxt = SITE_URL + BASE + next_path
+    return (
+        f'<input type="hidden" name="_subject" value="{subject}">\n'
+        f'<input type="hidden" name="_next" value="{nxt}">\n'
+        '<input type="hidden" name="_template" value="table">\n'
+        '<input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">'
+    )
+
+
+def solar_quote_form():
+    phone = r"[0-9+()\-. ]{7,}"
+    return f'''<h2 id="quote">Get a free solar quote</h2>
+<div class="card leadform">
+<p>Tell us about your home and we'll connect you with information and a solar quote. It's free and there's no obligation. We're not a solar installer or an electricity retailer, and this has nothing to do with switching your power plan. The rate tables on this site stay ranked by cost only.</p>
+<form action="{FORM_ACTION}" method="POST" id="solar-quote-form">
+{form_hiddens("New solar quote request (Alberta Power & Gas Rate Tracker)", "/solar/thanks/")}
+<input type="hidden" name="form" value="solar-quote">
+<div class="fgrid">
+<div><label for="sq-name">Full name <span class="req">*</span></label><input id="sq-name" type="text" name="name" autocomplete="name" required></div>
+<div><label for="sq-email">Email <span class="req">*</span></label><input id="sq-email" type="email" name="email" autocomplete="email" required></div>
+<div><label for="sq-phone">Phone <span class="req">*</span></label><input id="sq-phone" type="tel" name="phone" autocomplete="tel" required pattern="{phone}"></div>
+<div><label for="sq-city">City or town <span class="req">*</span></label><input id="sq-city" type="text" name="city" autocomplete="address-level2" required placeholder="e.g. Edmonton"></div>
+<div><label for="sq-home">Home type <span class="req">*</span></label><select id="sq-home" name="home_type" required><option value="">Choose one</option><option>Detached</option><option>Semi-detached / duplex</option><option>Townhouse</option><option>Other</option></select></div>
+<div><label for="sq-own">Own or rent? <span class="req">*</span></label><select id="sq-own" name="own_or_rent" required><option value="">Choose one</option><option>Own</option><option>Rent</option></select></div>
+<div><label for="sq-bill">Rough monthly power bill <span class="req">*</span></label><select id="sq-bill" name="monthly_power_bill" required><option value="">Choose one</option><option>Under $100</option><option>$100–$150</option><option>$150–$250</option><option>$250–$400</option><option>Over $400</option><option>Not sure</option></select></div>
+<div><label for="sq-roof">Main roof direction (optional)</label><select id="sq-roof" name="roof_direction"><option value="">Not sure</option><option>South</option><option>South-east / south-west</option><option>East / west</option><option>North</option><option>Flat roof</option></select></div>
+<div class="full"><fieldset><legend>Timeline <span class="req">*</span></legend><div class="opt">
+<label><input type="radio" name="timeline" value="ASAP" required> As soon as possible</label>
+<label><input type="radio" name="timeline" value="3-6 months"> In 3–6 months</label>
+<label><input type="radio" name="timeline" value="Just researching"> Just researching</label></div></fieldset></div>
+<div class="full"><label class="chk"><input type="checkbox" name="financing_interest" value="Yes"> I'd like info on rebates and financing. Edmonton's CEIP is on a waitlist right now and the Canada Greener Homes Loan has closed, so we'll tell you what's actually open.</label></div>
+<div class="full"><label for="sq-comments">Anything else? (optional)</label><textarea id="sq-comments" name="comments" placeholder="Roof age, shading, an EV or heat pump you're planning, questions…"></textarea></div>
+<div class="full"><label class="chk"><input type="checkbox" name="consent" value="I agree to be contacted by Hanzala Farooqi about solar options and quotes. I can opt out anytime." required> <span>I agree to be contacted by Hanzala Farooqi about solar options and quotes. I can opt out anytime. <span class="req">*</span></span></label></div>
+<div class="full privacy"><b>Privacy:</b> we collect only what's in this form. It's used only to follow up on your solar request and get you a quote, and it's never sold. We'll ask you before sharing your details with any solar installer. To see, fix or delete your info, or to stop hearing from us, email <a href="mailto:{FORM_TO}">{FORM_TO}</a> and we'll do it. The form is delivered by email through FormSubmit. See our <a href="{u('/about/')}">About page</a>.</div>
+<div class="full"><button class="btn" type="submit">Send my quote request</button></div>
+</div>
+</form>
+</div>'''
+
+
+def water_test_form():
+    phone = r"[0-9+()\-. ]{7,}"
+    return f'''<h2 id="book-test">Book a water test</h2>
+<div class="card leadform">
+<p>Send a request and we'll get back to you to set up a test and explain your options. This is a request, not a booking confirmation. We're not an accredited lab, and an in-home test isn't a lab-certified result. If you're on a <b>private well</b>, you can also get free or low-cost bacteria and chemistry testing through <a href="https://myhealth.alberta.ca/Alberta/Pages/Testing-Your-Drinking-Water-in-Alberta.aspx">Alberta Health Services</a>, done by the provincial labs.</p>
+<form action="{FORM_ACTION}" method="POST" id="water-test-form">
+{form_hiddens("New water test request (Alberta Power & Gas Rate Tracker)", "/water/thanks/")}
+<input type="hidden" name="form" value="water-test">
+<div class="fgrid">
+<div><label for="wt-name">Full name <span class="req">*</span></label><input id="wt-name" type="text" name="name" autocomplete="name" required></div>
+<div><label for="wt-email">Email <span class="req">*</span></label><input id="wt-email" type="email" name="email" autocomplete="email" required></div>
+<div><label for="wt-phone">Phone <span class="req">*</span></label><input id="wt-phone" type="tel" name="phone" autocomplete="tel" required pattern="{phone}"></div>
+<div><label for="wt-where">Address, neighbourhood or town <span class="req">*</span></label><input id="wt-where" type="text" name="location" required placeholder="e.g. Ritchie, Edmonton"></div>
+<div><label for="wt-source">Water source <span class="req">*</span></label><select id="wt-source" name="water_source" required><option value="">Choose one</option><option>City / municipal water</option><option>Private well</option><option>Other (cistern, dugout, not sure)</option></select></div>
+<div><label for="wt-time">Preferred time</label><select id="wt-time" name="preferred_time"><option value="">Any time</option><option>Weekday morning</option><option>Weekday afternoon</option><option>Weekday evening</option><option>Weekend</option></select></div>
+<div class="full"><fieldset><legend>What are you concerned about?</legend><div class="opt">
+<label><input type="checkbox" name="concerns" value="Hardness / scale"> Hardness / scale</label>
+<label><input type="checkbox" name="concerns" value="Taste or smell"> Taste or smell</label>
+<label><input type="checkbox" name="concerns" value="Lead"> Lead</label>
+<label><input type="checkbox" name="concerns" value="Bacteria"> Bacteria</label>
+<label><input type="checkbox" name="concerns" value="Other"> Other</label></div></fieldset></div>
+<div class="full"><label for="wt-comments">Comments (optional)</label><textarea id="wt-comments" name="comments" placeholder="Age of the home, a filter or softener you already have, a baby on the way…"></textarea></div>
+<div class="full"><label class="chk"><input type="checkbox" name="consent" value="I agree to be contacted by Hanzala Farooqi about my water test request." required> <span>I agree to be contacted by Hanzala Farooqi about my water test request. <span class="req">*</span></span></label></div>
+<div class="full privacy"><b>Privacy:</b> we collect only what's in this form. It's used only to follow up on your water test request, and it's never sold. To see, fix or delete your info, or to stop hearing from us, email <a href="mailto:{FORM_TO}">{FORM_TO}</a>. The form is delivered by email through FormSubmit.</div>
+<div class="full"><button class="btn" type="submit">Send my test request</button></div>
+</div>
+</form>
+</div>'''
+
+
+def water_quality_html():
+    q = WATER.get("quality") or {}
+    sections = q.get("sections") or []
+    if not sections:
+        return ('<h1>Water quality in Edmonton and Alberta</h1>'
+                '<p class="lead">Water-quality notes could not be read, and there is no earlier copy to show. Nothing is invented. The rate tables below are unchanged.</p>')
+    blocks = []
+    for sec in sections:
+        intro = f'<p>{e(sec.get("intro"))}</p>\n' if sec.get("intro") else ""
+        cards = []
+        for c in sec.get("cards") or []:
+            links = ", ".join(
+                f'<a href="{e(s.get("source_url"))}">{e(s.get("label"))}</a>'
+                for s in (c.get("sources") or [])
+            )
+            cards.append(
+                f'<div class="card"><h3>{e(c.get("title"))}</h3>{c.get("html") or ""}'
+                f'<p class="src">{links}, checked {checked(c.get("last_checked"))}</p></div>'
+            )
+        blocks.append(
+            f'<h2 id="{e(sec.get("id"))}">{e(sec.get("heading"))}</h2>\n'
+            f'{intro}<div class="grid g2">\n' + "\n".join(cards) + "\n</div>"
+        )
+    lead = e(q.get("lead") or "")
+    link = e(q.get("lead_link") or "Book a water test")
+    href = e(q.get("lead_href") or "#book-test")
+    cta_href = e(q.get("cta_href") or "#book-test")
+    return (
+        f'<h1>{e(q.get("h1") or "Water quality in Edmonton and Alberta")}</h1>\n'
+        f'<p class="lead">{lead} <a href="{href}">{link}</a>.</p>\n'
+        '<div class="card feature cta-band"><div>'
+        f'<h2 style="margin:0">{e(q.get("cta_title"))}</h2>'
+        f'<p style="margin:.3em 0 0">{e(q.get("cta_text"))}</p></div>'
+        f'<a class="btn" href="{cta_href}">{e(q.get("cta_label") or "Book a water test")}</a></div>\n\n'
+        + "\n\n".join(blocks)
+    )
+
+
+def lead_ctas():
+    return (
+        '<div class="grid g2" id="lead-ctas">'
+        '<div class="card feature"><h2>Thinking about solar?</h2>'
+        "<p>Get a free, no-obligation solar quote. Tell us about your home and we'll connect you with info and a quote.</p>"
+        f'<p><a class="btn" href="{u("/solar/#quote")}">Get a free solar quote</a></p></div>'
+        '<div class="card feature"><h2>What\'s in your water?</h2>'
+        '<p>Edmonton hardness, lead lines and well testing explained, plus a quick form to request a water test.</p>'
+        f'<p><a class="btn" href="{u("/water/#book-test")}">Book a water test</a></p></div></div>'
+    )
+
+
+def thanks_body(title, text, back):
+    return (f'<h1>{e(title)}</h1><div class="card"><p class="lead">{e(text)}</p>'
+            f'<p><a class="btn" href="{u(back)}">Back</a></p></div>')
+
+
 def home_water_solar():
     clubs = [p for p in SOLAR_PLANS if p.get("plan_kind") == "solar_club" and p.get("export_rate") is not None]
     solar_bit = "Published solar-club and micro-generation rates, with a payback estimate."
@@ -567,7 +696,8 @@ def _build():
 <p><a href="{u('/natural-gas/')}">See all {n_g} natural gas plans →</a></p>
 {method_note("electricity")}
 <h2>Recent rate changes</h2>{recent_changes()}
-<div class="grid g2" style="margin-top:20px">{newsletter_cta()}<div class="card"><h3>Is switching a hassle?</h3><p class="small">Leaving the default rate has no penalty. You sign up with the new retailer and it handles the switch; your power and gas never go off. Every competitive contract has a 10-day cooling-off period.</p><a class="btn ghost" href="{u('/how-switching-works/')}">How switching works</a></div></div>"""
+<div class="grid g2" style="margin-top:20px">{newsletter_cta()}<div class="card"><h3>Is switching a hassle?</h3><p class="small">Leaving the default rate has no penalty. You sign up with the new retailer and it handles the switch; your power and gas never go off. Every competitive contract has a 10-day cooling-off period.</p><a class="btn ghost" href="{u('/how-switching-works/')}">How switching works</a></div></div>
+{lead_ctas()}"""
     write("/", page("/", "Cheapest Electricity & Gas Rates in Alberta (Edmonton, Calgary) | Updated Daily",
                     f"Compare {len(PLANS)} Alberta electricity and natural gas plans from {len(retailers)} retailers with fees included, against the Rate of Last Resort. Calculator, daily updates, no ads.",
                     home, "/", scripts=calc_js))
@@ -639,6 +769,7 @@ def _build():
 <div class="card"><h3>Independent</h3><p>{e(SITE)} is an independent website run from Edmonton. It is <b>not affiliated with any energy retailer, utility, the Utilities Consumer Advocate, the Alberta Utilities Commission or the Government of Alberta</b>.</p></div>
 <div class="card" style="margin-top:12px" id="disclaimer"><h3>Disclaimer</h3><ul>
 <li><b>Rankings are by estimated cost only.</b> No retailer can pay to rank higher. If we ever add partner links, they'll be clearly labelled, and they'll never change the order. The solar table is sorted by the published export rate, then the admin fee. Water rates are not a ranking: you cannot switch municipal water providers.</li>
+<li><b>Solar quotes and water tests are requests we follow up on.</b> This site is not a solar installer, an electricity retailer or marketer, or an accredited lab. An in-home water test is not a lab-certified result. Those forms do not change the rankings.</li>
 <li><b>Not financial advice.</b> Estimates use typical usage and exclude delivery charges, local access fees, riders and GST. Your bill will differ.</li>
 <li><b>Prices can change at any time.</b> We copy each price from the retailer's own public page (or official regulator and provider pages for default rates) and show the date we last checked it. Always confirm the price and contract terms with the retailer before signing.</li>
 <li>If a retailer's page can't be read on a given day, we keep showing the last price we confirmed, with its check date, rather than guessing. If a retailer doesn't publish a specific price, we leave it out.</li>
@@ -646,6 +777,7 @@ def _build():
 <h2>Retailers we track</h2><p>{", ".join(e(r) for r in retailers)}, plus the default providers (EPCOR, ENMAX, Direct Energy Regulated Services).</p>
 <h2>Retailers we checked but can't list yet</h2><ul>{np_}</ul>
 <h2>Privacy</h2><p>No ads, no analytics, no cookies, no trackers. The calculator runs entirely in your browser.</p>
+<p>The solar quote form and the water test form collect only the fields on those forms. We use that information only to follow up on the request, and we never sell it. We'll ask before sharing a solar request with any installer. The form is delivered by email through FormSubmit. To see, fix or delete your info, or to stop hearing from us, email <a href="mailto:{FORM_TO}">{FORM_TO}</a>.</p>
 <h2>Corrections</h2><p>See a wrong price? Each row links to the page we copied it from. Spot an error and we'll fix it on the next daily update.</p>"""
     write("/about/", page("/about/", f"About & Disclaimer | {SITE}", "Independent Alberta energy rate tracker. Not affiliated with any retailer or government. Rankings by cost only. Not financial advice.", body, "/about/"))
     write("/disclaimer/", f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url={u("/about/#disclaimer")}"><link rel="canonical" href="{SITE_URL}{BASE}/about/"><a href="{u("/about/#disclaimer")}">Disclaimer</a>')
@@ -656,6 +788,7 @@ def _build():
 
     micro = f'''<h1>Solar in Alberta</h1>
 <p class="lead">Micro-generation, the rebates and loans that are actually open, and a payback estimate. The rate comparison is the part to use first: <a href="{u("/solar/rates/")}">Alberta solar club rates</a>.</p>
+<div class="card feature cta-band" id="quote-cta"><div><h2 style="margin:0">Thinking about solar?</h2><p style="margin:.3em 0 0">Tell us about your home and we'll connect you with info and a free, no-obligation solar quote.</p></div><a class="btn" href="#quote">Get a free solar quote</a></div>
 <div class="card feature"><h2>Compare every published solar plan</h2>
 <p>Retailers that print an export (buyback) rate and an import rate for homes with solar, including Solar Club high/low rates and ENMAX Seasonal Solar. Sorted by the export rate. No referral links.</p>
 <p><a class="btn" href="{u("/solar/rates/")}">Alberta solar club rates</a></p></div>
@@ -672,7 +805,8 @@ def _build():
 {program_section()}
 <h2 id="payback-heading">Solar panels Edmonton cost</h2>
 <p>The title is the search phrase. The figure below is an estimate for Edmonton or Calgary, using NRCan's production number for the city you pick and a cost per watt you can edit. It is not an installer quote.</p>
-{solar_calculator()}'''
+{solar_calculator()}
+{solar_quote_form()}'''
     write("/solar/", page("/solar/", "Solar panels Edmonton cost: payback calculator, rebates and micro-generation",
                           "Solar panels Edmonton cost estimate, how Alberta micro-generation credits work, and which solar rebates and loans are open or ended.",
                           micro, "/solar/", scripts=solar_js))
@@ -691,7 +825,8 @@ def _build():
                                 rates_body, "/solar/rates/", scripts=solar_js))
 
     tips = water_tips()
-    water_body = f'''<h1>Edmonton water rates and Calgary water, wastewater and drainage</h1>
+    water_body = f'''{water_quality_html()}
+<h2 id="rates" style="margin-top:2em">What water costs: Edmonton and Calgary rates</h2>
 <div class="callout"><b>You cannot switch water providers.</b> Water and wastewater in Edmonton and Calgary are municipal utilities, not a market like electricity. EPCOR provides Edmonton's water, wastewater and drainage. The City of Calgary provides Calgary's water, wastewater and stormwater. This page explains the published rates. It is not a comparison of companies you can choose.</div>
 <p class="lead">Fixed charges and per-cubic-metre rates for a residence, plus a calculator. Every number is copied from the utility page linked under the table, with the date we read it.</p>
 <h2>Edmonton: EPCOR water, wastewater and drainage</h2>
@@ -704,10 +839,25 @@ def _build():
 <h2>A few ways to use less water</h2>
 <p>These are EPCOR's own indoor tips for Edmonton. They are not a complete list, and they are not a City of Calgary program.</p>
 {tips}
-<p class="small muted">Delivery of the service does not change if you use less. The per-m³ charges do.</p>'''
-    write("/water/", page("/water/", "Edmonton water rates: EPCOR water, wastewater, drainage and waste (Calgary too)",
-                          "Edmonton water rates from EPCOR and Calgary water, wastewater and stormwater rates, with a cubic-metre calculator. You cannot switch water providers.",
+<p class="small muted">Delivery of the service does not change if you use less. The per-m³ charges do.</p>
+{water_test_form()}'''
+    write("/water/", page("/water/", "Edmonton water quality: hardness, lead, chloramine, well testing and water rates",
+                          "Edmonton tap water quality from EPCOR (hardness, chloramine, fluoride, lead service lines) and Alberta private-well testing, plus Edmonton and Calgary water rates. You cannot switch water providers.",
                           water_body, "/water/", scripts=water_js))
+    write("/solar/thanks/", page(
+        "/solar/thanks/", "Thanks, your solar quote request is in",
+        "Your solar quote request was received. This page is not indexed.",
+        thanks_body("Thanks, your solar quote request is in",
+                    f"We'll be in touch within 1–2 business days with more info and next steps for your quote. To change or cancel your request, email {FORM_TO}.",
+                    "/solar/"),
+        "/solar/", extra_head='<meta name="robots" content="noindex">'))
+    write("/water/thanks/", page(
+        "/water/thanks/", "Thanks, your water test request is in",
+        "Your water test request was received. This page is not indexed.",
+        thanks_body("Thanks, your water test request is in",
+                    "We'll get back to you within 1–2 business days to set up a time. On a private well? You can also book free AHS testing through your local public health centre.",
+                    "/water/"),
+        "/water/", extra_head='<meta name="robots" content="noindex">'))
 
     body = f"""<h1>The weekly "best rates" email</h1><p class="lead">Every week: the cheapest electricity and gas plans in Edmonton and Calgary, what changed, and an early heads-up when the default rate resets on January 1, 2027.</p>
 <div class="card" id="signup"><h3>Sign up</h3><p class="muted">Signup opens soon. We're setting up the email form now.</p>

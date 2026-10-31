@@ -40,6 +40,21 @@ if os.path.exists(water_path):
     cal = water.get("calgary") or {}
     if cal and not (0 < cal.get("water_per_m3", 0) < 20):
         bad.append("calgary water rate out of range")
+    quality = water.get("quality") or {}
+    sections = quality.get("sections") or []
+    if not sections:
+        bad.append("water quality sections missing from data/water.json")
+    for sec in sections:
+        for card in sec.get("cards") or []:
+            label = "water quality " + str(sec.get("id")) + " " + str(card.get("title"))
+            if not card.get("last_checked"):
+                bad.append(label + " missing checked date")
+            sources = card.get("sources") or []
+            if not sources:
+                bad.append(label + " missing sources")
+            for src in sources:
+                if not src.get("source_url"):
+                    bad.append(label + " source missing source_url")
 
 solar_path = os.path.join(ROOT, "data", "solar.json")
 if os.path.exists(solar_path):
@@ -65,7 +80,7 @@ if os.path.exists(solar_path):
 
 # SEO titles the owner asked for, after a build.
 wanted = {
-    "water/index.html": "Edmonton water rates",
+    "water/index.html": "Edmonton water quality",
     "solar/index.html": "Solar panels Edmonton cost",
     "solar/rates/index.html": "Alberta solar club rates",
 }
@@ -77,5 +92,59 @@ for rel, phrase in wanted.items():
     html = open(p).read()
     if phrase not in html.split("</title>", 1)[0]:
         bad.append(f"{rel} title missing {phrase!r}")
+
+def check_form(rel, form_id, next_path, consent):
+    p = os.path.join(OUT, rel)
+    if not os.path.exists(p):
+        bad.append(f"missing form page {rel}")
+        return
+    html = open(p).read()
+    if f'id="{form_id}"' not in html or 'method="POST"' not in html:
+        bad.append(f"{rel} missing POST form {form_id}")
+    if 'action="https://formsubmit.co/hanzalafar29@gmail.com"' not in html:
+        bad.append(f"{rel} form action is not FormSubmit")
+    nxt = SITE + BASE + next_path
+    if f'name="_next" value="{nxt}"' not in html:
+        bad.append(f"{rel} _next must be {nxt}")
+    if 'name="_template" value="table"' not in html:
+        bad.append(f"{rel} missing _template=table")
+    if 'name="_honey"' not in html:
+        bad.append(f"{rel} missing honeypot")
+    if 'name="_captcha" value="false"' in html:
+        bad.append(f"{rel} must keep FormSubmit reCAPTCHA")
+    if not re.search(r'<input type="checkbox" name="consent" value="[^"]*" required', html):
+        bad.append(f"{rel} consent checkbox must be required")
+    if consent not in html:
+        bad.append(f"{rel} consent wording missing")
+
+check_form("solar/index.html", "solar-quote-form", "/solar/thanks/",
+           "I agree to be contacted by Hanzala Farooqi about solar options and quotes.")
+check_form("water/index.html", "water-test-form", "/water/thanks/",
+           "I agree to be contacted by Hanzala Farooqi about my water test request.")
+
+home = os.path.join(OUT, "index.html")
+if os.path.exists(home):
+    home_html = open(home).read()
+    if 'id="lead-ctas"' not in home_html:
+        bad.append("homepage missing #lead-ctas")
+    if f'href="{BASE}/solar/#quote"' not in home_html:
+        bad.append("homepage solar quote link missing")
+    if f'href="{BASE}/water/#book-test"' not in home_html:
+        bad.append("homepage water test link missing")
+    if ">Water quality</a>" not in home_html:
+        bad.append("nav label should be Water quality")
+
+for rel in ("solar/thanks/index.html", "water/thanks/index.html"):
+    p = os.path.join(OUT, rel)
+    if not os.path.exists(p):
+        bad.append(f"missing {rel}")
+    elif 'name="robots" content="noindex"' not in open(p).read():
+        bad.append(f"{rel} missing noindex")
+sitemap_path = os.path.join(OUT, "sitemap.xml")
+if os.path.exists(sitemap_path):
+    sitemap = open(sitemap_path).read()
+    if "/solar/thanks" in sitemap or "/water/thanks" in sitemap:
+        bad.append("thank-you pages must not be in the sitemap")
+
 print("\n".join(bad) or "check_site: OK")
 sys.exit(1 if bad else 0)
