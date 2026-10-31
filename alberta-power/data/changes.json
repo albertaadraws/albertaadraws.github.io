@@ -516,6 +516,42 @@
    "fuel": "gas",
    "old": 1.458,
    "new": 1.893
+  },
+  {
+   "date": "2026-10-31",
+   "kind": "rate",
+   "id": "8760-e-2y",
+   "retailer": "8760",
+   "plan": "2-year fixed",
+   "fuel": "electricity",
+   "old": 7.28,
+   "new": 7.38,
+   "old_admin": 15.59,
+   "new_admin": 15.59
+  },
+  {
+   "date": "2026-10-31",
+   "kind": "rate",
+   "id": "8760-e-3y",
+   "retailer": "8760",
+   "plan": "3-year fixed",
+   "fuel": "electricity",
+   "old": 8.28,
+   "new": 8.48,
+   "old_admin": 15.59,
+   "new_admin": 15.59
+  },
+  {
+   "date": "2026-10-31",
+   "kind": "rate",
+   "id": "8760-g-1y",
+   "retailer": "8760",
+   "plan": "1-year fixed",
+   "fuel": "gas",
+   "old": 3.28,
+   "new": 3.18,
+   "old_admin": 15.59,
+   "new_admin": 15.59
   }
  ]
 }
