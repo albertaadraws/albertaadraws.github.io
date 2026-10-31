@@ -474,14 +474,18 @@ def refresh_water(today, status):
         except Exception as ex:
             status["sources"].append(dict(key=key, retailer=name, url=url, ok=False, error=str(ex)[:200], kept=bool(parts.get(key))))
             print(f"FAIL {key} {ex}")
-    jsave("water.json", {
+    saved = {
         "updated": now().isoformat(timespec="seconds"),
         "edmonton": parts.get("water-epcor"),
         "calgary": parts.get("water-calgary"),
         "edmonton_waste": parts.get("water-yeg-waste"),
         "tips": parts.get("water-tips"),
         "_parts": parts,
-    })
+    }
+    # Quality notes are editorial rows (source_url + last_checked), not a daily parse.
+    if old.get("quality"):
+        saved["quality"] = old["quality"]
+    jsave("water.json", saved)
 
 
 if __name__ == "__main__":
