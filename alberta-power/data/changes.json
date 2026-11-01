@@ -552,6 +552,30 @@
    "new": 3.18,
    "old_admin": 15.59,
    "new_admin": 15.59
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "rate",
+   "id": "encor-e-2y",
+   "retailer": "Encor by EPCOR",
+   "plan": "2-year fixed",
+   "fuel": "electricity",
+   "old": 7.79,
+   "new": 6.99,
+   "old_admin": 9.73,
+   "new_admin": 9.73
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "rate",
+   "id": "encor-g-2y",
+   "retailer": "Encor by EPCOR",
+   "plan": "2-year fixed",
+   "fuel": "gas",
+   "old": 3.99,
+   "new": 3.49,
+   "old_admin": 9.73,
+   "new_admin": 9.73
   }
  ]
 }
