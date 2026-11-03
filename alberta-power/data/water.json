@@ -168,6 +168,155 @@
   "source_name": "EPCOR: conservation inside your home",
   "source_key": "water-tips"
  },
+ "quality": {
+  "h1": "Water quality in Edmonton and Alberta",
+  "lead": "What's in Edmonton's tap water, what to watch for on a private well, and how to get your water tested. Every number comes from the official page linked under it. Want your own water checked?",
+  "lead_link": "Book a water test",
+  "lead_href": "#book-test",
+  "cta_title": "Curious what's in your water?",
+  "cta_text": "Hard-water scale, a funny taste, an older home with possible lead pipes, or a well? Send a request and we'll follow up.",
+  "cta_label": "Book a water test",
+  "cta_href": "#book-test",
+  "sections": [
+   {
+    "id": "edmonton",
+    "heading": "Edmonton tap water (EPCOR)",
+    "intro": "EPCOR treats water from the North Saskatchewan River at two plants, E.L. Smith and Rossdale, and supplies Edmonton and much of the region. EPCOR publishes daily and monthly test results.",
+    "cards": [
+     {
+      "title": "Hardness: hard, about 165–180 mg/L",
+      "html": "<p>EPCOR says the river water is moderately hard, about 165 mg/L as calcium carbonate on average, from minerals picked up flowing over limestone. Its June 2026 summary averaged 168 mg/L at the treatment plants, ranging 153–186. On Alberta Health's scale, 120–180 mg/L counts as \"hard\" (about 10 grains per gallon). Hardness has no health guideline. It causes scale on kettles, fixtures and water heaters, and you'll need more soap.</p>",
+      "sources": [
+       {
+        "label": "EPCOR daily water quality",
+        "source_url": "https://www.epcor.com/ca/en/ab/edmonton/safety/water-quality/daily-water-quality.html"
+       },
+       {
+        "label": "EPCOR June 2026 summary (PDF)",
+        "source_url": "https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2026-06-edmonton-water-quality-monthly-summary.pdf"
+       },
+       {
+        "label": "MyHealth Alberta hardness levels",
+        "source_url": "https://myhealth.alberta.ca/alberta/pages/Chemical-Test-Results.aspx"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "Disinfectant: chloramine, about 2 mg/L",
+      "html": "<p>The chlorine in Edmonton's pipes is all chloramine, which is chlorine combined with ammonia. It's weaker than free chlorine but lasts longer in the pipes. EPCOR's approval allows 0.5–2.5 mg/L, and June 2026 averaged 2.07 mg/L. If you keep fish, chloramine has to be removed from aquarium water.</p>",
+      "sources": [
+       {
+        "label": "EPCOR daily water quality",
+        "source_url": "https://www.epcor.com/ca/en/ab/edmonton/safety/water-quality/daily-water-quality.html"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "Fluoride: about 0.7 mg/L",
+      "html": "<p>EPCOR targets 0.60–0.80 mg/L of fluoride. June 2026 averaged 0.67 mg/L, under Health Canada's 1.5 mg/L limit.</p>",
+      "sources": [
+       {
+        "label": "EPCOR June 2026 summary (PDF)",
+        "source_url": "https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2026-06-edmonton-water-quality-monthly-summary.pdf"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "Lead service lines in older homes",
+      "html": "<p>Some older homes are still connected by a lead service line. EPCOR has been replacing them since 2008 and adds orthophosphate to the water to reduce lead release. EPCOR owns the pipe from the main to the property line, and the owner is responsible from the property line to the meter. If you have or suspect a lead line, EPCOR offers <b>free annual lead testing and a free NSF-53 certified filter</b> on request: 780-412-6858 or leadmanagement@epcor.com. Health Canada's limit for lead is 5 µg/L. Drink and cook only with cold tap water.</p>",
+      "sources": [
+       {
+        "label": "EPCOR: Lead and your drinking water",
+        "source_url": "https://www.epcor.com/ca/en/ab/edmonton/safety/water-quality/lead-drinking-water.html"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "Spring runoff taste and smell",
+      "html": "<p>Each spring, snowmelt carries soil and plant material into the river, so tap water can taste or smell earthy, musty or more like chlorine for a few weeks. EPCOR says it stays safe to drink and adjusts treatment, for example with powdered activated carbon. Running the cold tap, chilling the water or using a carbon filter helps.</p>",
+      "sources": [
+       {
+        "label": "EPCOR: Spring runoff",
+        "source_url": "https://www.epcor.com/ca/en/ab/edmonton/safety/water-quality/spring-runoff.html"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "Other results",
+      "html": "<p>EPCOR's June 2026 summary shows nitrate around 0.1 mg/L (limit 10), arsenic at 0.0002 mg/L or less (limit 0.01), iron under 0.005 mg/L, and sodium around 12–14 mg/L. Anyone on a sodium-restricted diet should know that a water softener adds sodium.</p>",
+      "sources": [
+       {
+        "label": "EPCOR June 2026 summary (PDF)",
+        "source_url": "https://www.epcor.com/content/dam/epcor/documents/water-quality-reports/2026-06-edmonton-water-quality-monthly-summary.pdf"
+       },
+       {
+        "label": "EPCOR daily report",
+        "source_url": "https://apps.epcor.ca/DailyWaterQuality/"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     }
+    ]
+   },
+   {
+    "id": "wells",
+    "heading": "Private wells in Alberta",
+    "intro": "If your water comes from a well, cistern or dugout, nobody tests it for you. The owner is responsible for keeping it safe.",
+    "cards": [
+     {
+      "title": "Free testing through Alberta Health Services",
+      "html": "<p>AHS Environmental Public Health tests private drinking water supplies for <b>bacteria</b> (total coliform and E. coli) and for <b>chemicals and trace metals</b>. Pick up approved bottles at your local public health centre. AHS says to test for bacteria twice a year and for chemistry every 3 years. Some centres charge a small shipping fee. AHS won't test for real estate, farm or business purposes, and it doesn't test city water.</p>",
+      "sources": [
+       {
+        "label": "MyHealth Alberta: Testing your drinking water",
+        "source_url": "https://myhealth.alberta.ca/Alberta/Pages/Testing-Your-Drinking-Water-in-Alberta.aspx"
+       },
+       {
+        "label": "AHS: free testing for private drinking water",
+        "source_url": "https://www.albertahealthservices.ca/news/Page13228.aspx"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "When to test",
+      "html": "<p>Test in spring after the snow melts, after a dry spell, heavy rain or flooding, after pump repairs, if the taste, colour or smell changes, when you move in, and before a baby arrives.</p>",
+      "sources": [
+       {
+        "label": "Alberta Working Well: Taking water samples (PDF)",
+        "source_url": "https://open.alberta.ca/dataset/ba5012ec-e513-4ea8-a54e-b76ae054c1bb/resource/626623d8-0eda-4666-bd25-6bab37650e06/download/epa-working-well-clean-water-well-protected-2023-issue-12.pdf"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     },
+     {
+      "title": "Common well-water issues",
+      "html": "<ul><li><b>Hardness:</b> scale and extra soap use. 180 mg/L or more counts as very hard. Softeners add sodium or potassium.</li><li><b>Iron:</b> over 0.3 mg/L causes reddish-brown stains and a metal taste, and can feed iron bacteria.</li><li><b>Nitrate:</b> the limit is 10 mg/L as nitrate-N. High levels are a risk for babies. Boiling makes it worse. Use reverse osmosis or distillation.</li><li><b>Arsenic:</b> occurs naturally from rock in some areas. The limit is 0.01 mg/L.</li></ul>",
+      "sources": [
+       {
+        "label": "MyHealth Alberta: chemical test results",
+        "source_url": "https://myhealth.alberta.ca/alberta/pages/Chemical-Test-Results.aspx"
+       },
+       {
+        "label": "nitrate",
+        "source_url": "https://myhealth.alberta.ca/Alberta/Pages/Is-there-Nitrate-in-my-drinking-water.aspx"
+       },
+       {
+        "label": "trace metals",
+        "source_url": "https://myhealth.alberta.ca/Alberta/Pages/Drinking-Water-Trace-Metals-Analysis.aspx"
+       }
+      ],
+      "last_checked": "2026-10-30"
+     }
+    ]
+   }
+  ]
+ },
  "_parts": {
   "water-epcor": {
    "city": "edmonton",

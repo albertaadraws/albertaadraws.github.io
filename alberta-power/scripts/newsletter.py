@@ -65,6 +65,15 @@ def main():
         L.append(f"- NRCan annual PV potential, south-facing at latitude tilt: Edmonton {prod['edmonton']['kwh_per_kw']:g} kWh/kW, Calgary {prod['calgary']['kwh_per_kw']:g} kWh/kW. [Payback estimate]({url}/solar/#payback)")
     L += ["", f"**[Run your own numbers in the calculator]({url}/#calculator)**", "", "---",
           "Independent and not affiliated with any retailer or government. Rankings are by cost only. Not financial advice. Confirm prices with the retailer before signing.",
+          "---", "",
+          "### Thinking about solar?",
+          "Tell us about your home and we'll connect you with info and a free, no-obligation solar quote. Takes 2 minutes.",
+          f"**[Get a free solar quote →]({url}/solar/#quote)**", "",
+          "### What's in your water?",
+          "Edmonton water is hard (about 165–180 mg/L), some older homes still have lead service lines, and wells need regular testing. Read the quick guide or ask for a test.",
+          f"**[Book a water test →]({url}/water/#book-test)**", "",
+          "*We're not a solar installer, an electricity retailer or an accredited lab. These are requests we follow up on personally. Rate rankings above are by cost only.*",
+          "",
           "You're getting this because you signed up at the Alberta Power & Gas Rate Tracker. Unsubscribe anytime."]
     os.makedirs(os.path.join(B.ROOT, "newsletter"), exist_ok=True)
     path = os.path.join(B.ROOT, "newsletter", f"{today.isoformat()}.md")

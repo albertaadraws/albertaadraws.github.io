@@ -78,3 +78,22 @@ tr.bench td:first-child{box-shadow:inset 3px 0 0 #f59e0b}
 .src{font-size:12px;color:var(--muted)}.src a{color:var(--muted)}
 .kpi{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
 details summary{cursor:pointer;font-weight:600}
+/* lead forms */
+.leadform{border:2px solid #0f5132;position:relative;overflow-x:clip}
+.leadform .fgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px}
+.leadform .full{grid-column:1/-1}
+.leadform label{display:block;font-weight:600;margin-bottom:4px}
+.leadform input[type=text],.leadform input[type=email],.leadform input[type=tel],.leadform select,.leadform textarea{width:100%;box-sizing:border-box;font:inherit;padding:9px 10px;border:1px solid #bbb;border-radius:8px}
+.leadform textarea{min-height:90px}
+.leadform fieldset{border:0;margin:0;padding:0}
+.leadform legend{font-weight:600;margin-bottom:4px}
+.leadform .opt{display:flex;flex-wrap:wrap;gap:6px 16px}
+.leadform .opt label,.leadform .chk{font-weight:400;display:flex;gap:8px;align-items:flex-start}
+.leadform .chk input{margin-top:4px}
+.leadform .req{color:#b02a37}
+.leadform .privacy{background:#f4f7f5;border-radius:8px;padding:10px 12px;font-size:.9em}
+.leadform .hp{position:absolute;left:-9999px}
+.leadform button{font-size:1.05em}
+.cta-band{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+#lead-ctas{margin-top:18px}
+@media(max-width:600px){.leadform .fgrid{grid-template-columns:1fr}}
