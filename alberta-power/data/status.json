@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-03T08:42:03-06:00",
+ "checked_at": "2026-11-04T08:47:28-06:00",
  "sources": [
   {
    "key": "aus",
@@ -506,7 +506,9 @@
    "key": "prog-gh-grant",
    "retailer": "Canada Greener Homes Grant",
    "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-initiative",
-   "ok": true
+   "ok": false,
+   "error": "could not find grant closure",
+   "kept": true
   },
   {
    "key": "prog-uca",
