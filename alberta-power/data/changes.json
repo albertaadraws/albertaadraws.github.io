@@ -684,6 +684,18 @@
    "new": 3.86,
    "old_admin": 7.85,
    "new_admin": 7.85
+  },
+  {
+   "date": "2026-11-05",
+   "kind": "rate",
+   "id": "encor-g-float",
+   "retailer": "Encor by EPCOR",
+   "plan": "2-year floating",
+   "fuel": "gas",
+   "old": 2.58,
+   "new": 2.83,
+   "old_admin": 9.73,
+   "new_admin": 9.73
   }
  ]
 }
