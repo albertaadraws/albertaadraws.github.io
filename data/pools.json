@@ -1,66 +1,66 @@
 {
   "source_url": "https://www.alberta.ca/aaip-processing-information",
-  "last_refreshed": "2026-11-06T14:43:32+00:00",
+  "last_refreshed": "2026-11-07T14:30:36+00:00",
   "latest": {
-    "page_last_updated": "2026-10-21",
-    "fetched_at": "2026-10-24T14:14:26+00:00",
-    "total": 33291,
+    "page_last_updated": "2026-11-04",
+    "fetched_at": "2026-11-07T14:30:36+00:00",
+    "total": 32211,
     "pools": [
       {
         "name": "Alberta Opportunity Stream",
         "group": null,
         "full_name": "Alberta Opportunity Stream",
         "stream": "alberta-opportunity-stream",
-        "count": 21150,
-        "count_text": "21,150"
+        "count": 20603,
+        "count_text": "20,603"
       },
       {
         "name": "Dedicated Health Care Pathways (Express Entry and Non-Express Entry)",
         "group": null,
         "full_name": "Dedicated Health Care Pathways (Express Entry and Non-Express Entry)",
         "stream": "dedicated-health-care-pathway",
-        "count": 1069,
-        "count_text": "1,069"
+        "count": 976,
+        "count_text": "976"
       },
       {
         "name": "Rural Renewal Stream",
         "group": null,
         "full_name": "Rural Renewal Stream",
         "stream": "rural-renewal-stream",
-        "count": 1527,
-        "count_text": "1,527"
+        "count": 1283,
+        "count_text": "1,283"
       },
       {
         "name": "Tourism and Hospitality Stream",
         "group": null,
         "full_name": "Tourism and Hospitality Stream",
         "stream": "tourism-and-hospitality-stream",
-        "count": 2991,
-        "count_text": "2,991"
+        "count": 2846,
+        "count_text": "2,846"
       },
       {
         "name": "Accelerated Tech Pathway",
         "group": "Alberta Express Entry Stream",
         "full_name": "Alberta Express Entry Stream – Accelerated Tech Pathway",
         "stream": "alberta-express-entry-stream",
-        "count": 1945,
-        "count_text": "1,945"
+        "count": 1883,
+        "count_text": "1,883"
       },
       {
         "name": "Law Enforcement Pathway",
         "group": "Alberta Express Entry Stream",
         "full_name": "Alberta Express Entry Stream – Law Enforcement Pathway",
         "stream": "alberta-express-entry-stream",
-        "count": 43,
-        "count_text": "43"
+        "count": 39,
+        "count_text": "39"
       },
       {
         "name": "Priority sector draws and other initiatives",
         "group": "Alberta Express Entry Stream",
         "full_name": "Alberta Express Entry Stream – Priority sector draws and other initiatives",
         "stream": "alberta-express-entry-stream",
-        "count": 4566,
-        "count_text": "4,566"
+        "count": 4581,
+        "count_text": "4,581"
       }
     ],
     "nominations": [
@@ -69,9 +69,9 @@
         "section": "All streams (2026 summary)",
         "values": {
           "2026 nomination allocation": "6,603",
-          "2026 nominations issued": "5,831",
-          "2026 nomination spaces remaining": "772",
-          "Applications to be processed": "856"
+          "2026 nominations issued": "6,108",
+          "2026 nomination spaces remaining": "495",
+          "Applications to be processed": "756"
         }
       },
       {
@@ -79,10 +79,10 @@
         "section": "Alberta Opportunity Stream",
         "values": {
           "2026 nomination allocation": "3,562",
-          "2026 nominations issued": "3,273",
-          "2026 nomination spaces remaining": "289",
-          "Applications to be processed": "218",
-          "Currently assessing applications received on or before:": "July 16, 2026"
+          "2026 nominations issued": "3,386",
+          "2026 nomination spaces remaining": "176",
+          "Applications to be processed": "113",
+          "Currently assessing applications received on or before:": "August 2, 2026"
         }
       },
       {
@@ -90,10 +90,10 @@
         "section": "Rural Renewal Stream",
         "values": {
           "2026 nomination allocation": "1,057",
-          "2026 nominations issued": "813",
-          "2026 nomination spaces remaining": "244",
-          "Applications to be processed": "39",
-          "Currently assessing applications received on or before:": "September 4, 2026"
+          "2026 nominations issued": "866",
+          "2026 nomination spaces remaining": "191",
+          "Applications to be processed": "20",
+          "Currently assessing applications received on or before:": "October 9, 2026"
         }
       },
       {
@@ -101,10 +101,10 @@
         "section": "Tourism and Hospitality Stream",
         "values": {
           "2026 nomination allocation": "156",
-          "2026 nominations issued": "141",
-          "2026 nomination spaces remaining": "15",
+          "2026 nominations issued": "146",
+          "2026 nomination spaces remaining": "10",
           "Applications to be processed": "Less than 10",
-          "Currently assessing applications received on or before:": "October 21, 2026"
+          "Currently assessing applications received on or before:": "November 2, 2026"
         }
       },
       {
@@ -112,10 +112,10 @@
         "section": "Dedicated Health Care Pathways",
         "values": {
           "2026 nomination allocation": "518",
-          "2026 nominations issued": "351",
-          "2026 nomination spaces remaining": "167",
-          "Applications to be processed": "29",
-          "Currently assessing applications received on or before:": "August 29, 2026"
+          "2026 nominations issued": "365",
+          "2026 nomination spaces remaining": "153",
+          "Applications to be processed": "33",
+          "Currently assessing applications received on or before:": "September 25, 2026"
         }
       },
       {
@@ -124,10 +124,10 @@
         "values": {
           "Pathway or initiative": "Accelerated Tech Pathway (eligible list of occupations includes jobs that support data centre needs in Alberta)",
           "2026 nomination allocation": "619",
-          "2026 nominations issued": "558",
-          "2026 nomination spaces remaining": "61",
-          "Applications to be processed": "129",
-          "Currently assessing applications received on or before:": "July 1, 2026"
+          "2026 nominations issued": "596",
+          "2026 nomination spaces remaining": "23",
+          "Applications to be processed": "83",
+          "Currently assessing applications received on or before:": "July 8, 2026"
         }
       },
       {
@@ -148,10 +148,10 @@
         "values": {
           "Pathway or initiative": "Priority sector draws and other initiatives (construction, manufacturing, agriculture, aviation, and including skilled trades linked to each sector, etc.)",
           "2026 nomination allocation": "619",
-          "2026 nominations issued": "651",
-          "2026 nomination spaces remaining": "Less than 10",
-          "Applications to be processed": "213",
-          "Currently assessing applications received on or before:": "July 6, 2026"
+          "2026 nominations issued": "703",
+          "2026 nomination spaces remaining": "See overage note",
+          "Applications to be processed": "292",
+          "Currently assessing applications received on or before:": "July 24, 2026"
         }
       },
       {
@@ -159,14 +159,14 @@
         "section": "Entrepreneur Streams",
         "values": {
           "2026 nomination allocation": "60",
-          "2026 nominations issued": "37",
-          "2026 nomination spaces remaining": "23",
-          "Applications in process (varying stages of processing)": "213",
+          "2026 nominations issued": "39",
+          "2026 nomination spaces remaining": "21",
+          "Applications in process (varying stages of processing)": "211",
           "Currently assessing applications received on or before:": "Business applications are evaluated upon receipt"
         }
       }
     ],
-    "last_checked": "2026-11-06T14:43:32+00:00"
+    "last_checked": "2026-11-07T14:30:36+00:00"
   },
   "snapshots": [
     {
@@ -502,6 +502,173 @@
         }
       ],
       "last_checked": "2026-11-06T14:43:32+00:00"
+    },
+    {
+      "page_last_updated": "2026-11-04",
+      "fetched_at": "2026-11-07T14:30:36+00:00",
+      "total": 32211,
+      "pools": [
+        {
+          "name": "Alberta Opportunity Stream",
+          "group": null,
+          "full_name": "Alberta Opportunity Stream",
+          "stream": "alberta-opportunity-stream",
+          "count": 20603,
+          "count_text": "20,603"
+        },
+        {
+          "name": "Dedicated Health Care Pathways (Express Entry and Non-Express Entry)",
+          "group": null,
+          "full_name": "Dedicated Health Care Pathways (Express Entry and Non-Express Entry)",
+          "stream": "dedicated-health-care-pathway",
+          "count": 976,
+          "count_text": "976"
+        },
+        {
+          "name": "Rural Renewal Stream",
+          "group": null,
+          "full_name": "Rural Renewal Stream",
+          "stream": "rural-renewal-stream",
+          "count": 1283,
+          "count_text": "1,283"
+        },
+        {
+          "name": "Tourism and Hospitality Stream",
+          "group": null,
+          "full_name": "Tourism and Hospitality Stream",
+          "stream": "tourism-and-hospitality-stream",
+          "count": 2846,
+          "count_text": "2,846"
+        },
+        {
+          "name": "Accelerated Tech Pathway",
+          "group": "Alberta Express Entry Stream",
+          "full_name": "Alberta Express Entry Stream – Accelerated Tech Pathway",
+          "stream": "alberta-express-entry-stream",
+          "count": 1883,
+          "count_text": "1,883"
+        },
+        {
+          "name": "Law Enforcement Pathway",
+          "group": "Alberta Express Entry Stream",
+          "full_name": "Alberta Express Entry Stream – Law Enforcement Pathway",
+          "stream": "alberta-express-entry-stream",
+          "count": 39,
+          "count_text": "39"
+        },
+        {
+          "name": "Priority sector draws and other initiatives",
+          "group": "Alberta Express Entry Stream",
+          "full_name": "Alberta Express Entry Stream – Priority sector draws and other initiatives",
+          "stream": "alberta-express-entry-stream",
+          "count": 4581,
+          "count_text": "4,581"
+        }
+      ],
+      "nominations": [
+        {
+          "name": "All streams (2026 summary)",
+          "section": "All streams (2026 summary)",
+          "values": {
+            "2026 nomination allocation": "6,603",
+            "2026 nominations issued": "6,108",
+            "2026 nomination spaces remaining": "495",
+            "Applications to be processed": "756"
+          }
+        },
+        {
+          "name": "Alberta Opportunity Stream",
+          "section": "Alberta Opportunity Stream",
+          "values": {
+            "2026 nomination allocation": "3,562",
+            "2026 nominations issued": "3,386",
+            "2026 nomination spaces remaining": "176",
+            "Applications to be processed": "113",
+            "Currently assessing applications received on or before:": "August 2, 2026"
+          }
+        },
+        {
+          "name": "Rural Renewal Stream",
+          "section": "Rural Renewal Stream",
+          "values": {
+            "2026 nomination allocation": "1,057",
+            "2026 nominations issued": "866",
+            "2026 nomination spaces remaining": "191",
+            "Applications to be processed": "20",
+            "Currently assessing applications received on or before:": "October 9, 2026"
+          }
+        },
+        {
+          "name": "Tourism and Hospitality Stream",
+          "section": "Tourism and Hospitality Stream",
+          "values": {
+            "2026 nomination allocation": "156",
+            "2026 nominations issued": "146",
+            "2026 nomination spaces remaining": "10",
+            "Applications to be processed": "Less than 10",
+            "Currently assessing applications received on or before:": "November 2, 2026"
+          }
+        },
+        {
+          "name": "Dedicated Health Care Pathways",
+          "section": "Dedicated Health Care Pathways",
+          "values": {
+            "2026 nomination allocation": "518",
+            "2026 nominations issued": "365",
+            "2026 nomination spaces remaining": "153",
+            "Applications to be processed": "33",
+            "Currently assessing applications received on or before:": "September 25, 2026"
+          }
+        },
+        {
+          "name": "Alberta Express Entry Stream – Accelerated Tech Pathway (eligible list of occupations includes jobs that support data centre needs in Alberta)",
+          "section": "Alberta Express Entry Stream",
+          "values": {
+            "Pathway or initiative": "Accelerated Tech Pathway (eligible list of occupations includes jobs that support data centre needs in Alberta)",
+            "2026 nomination allocation": "619",
+            "2026 nominations issued": "596",
+            "2026 nomination spaces remaining": "23",
+            "Applications to be processed": "83",
+            "Currently assessing applications received on or before:": "July 8, 2026"
+          }
+        },
+        {
+          "name": "Alberta Express Entry Stream – Law Enforcement Pathway",
+          "section": "Alberta Express Entry Stream",
+          "values": {
+            "Pathway or initiative": "Law Enforcement Pathway",
+            "2026 nomination allocation": "12",
+            "2026 nominations issued": "Less than 10",
+            "2026 nomination spaces remaining": "Not applicable",
+            "Applications to be processed": "Less than 10",
+            "Currently assessing applications received on or before:": "September 24, 2026"
+          }
+        },
+        {
+          "name": "Alberta Express Entry Stream – Priority sector draws and other initiatives (construction, manufacturing, agriculture, aviation, and including skilled trades linked to each sector, etc.)",
+          "section": "Alberta Express Entry Stream",
+          "values": {
+            "Pathway or initiative": "Priority sector draws and other initiatives (construction, manufacturing, agriculture, aviation, and including skilled trades linked to each sector, etc.)",
+            "2026 nomination allocation": "619",
+            "2026 nominations issued": "703",
+            "2026 nomination spaces remaining": "See overage note",
+            "Applications to be processed": "292",
+            "Currently assessing applications received on or before:": "July 24, 2026"
+          }
+        },
+        {
+          "name": "Entrepreneur Streams",
+          "section": "Entrepreneur Streams",
+          "values": {
+            "2026 nomination allocation": "60",
+            "2026 nominations issued": "39",
+            "2026 nomination spaces remaining": "21",
+            "Applications in process (varying stages of processing)": "211",
+            "Currently assessing applications received on or before:": "Business applications are evaluated upon receipt"
+          }
+        }
+      ],
+      "last_checked": "2026-11-07T14:30:36+00:00"
     }
   ]
 }
