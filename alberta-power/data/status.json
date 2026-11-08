@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-07T08:30:36-06:00",
+ "checked_at": "2026-11-08T08:28:59-06:00",
  "sources": [
   {
    "key": "aus",
@@ -82,9 +82,7 @@
    "key": "default-uca",
    "retailer": "Utilities Consumer Advocate: default rates",
    "url": "https://ucahelps.alberta.ca/utility-choices/current-rates-and-pricing/default-rates/",
-   "ok": false,
-   "error": "HTTP Error 503: Service Unavailable",
-   "kept": true
+   "ok": true
   },
   {
    "key": "default-epcor",
@@ -516,17 +514,13 @@
    "key": "prog-uca",
    "retailer": "UCA renewable energy grants",
    "url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-grants-and-programs/",
-   "ok": false,
-   "error": "HTTP Error 503: Service Unavailable",
-   "kept": true
+   "ok": true
   },
   {
    "key": "prog-uca-provincial",
    "retailer": "UCA: no Alberta provincial solar program",
    "url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-faqs/",
-   "ok": false,
-   "error": "HTTP Error 503: Service Unavailable",
-   "kept": true
+   "ok": true
   },
   {
    "key": "nrcan-pv",
@@ -538,9 +532,7 @@
    "key": "solar-installed-cost",
    "retailer": "UCA residential solar installed cost",
    "url": "https://ucahelps.alberta.ca/residential/renewable-energy/renewable-energy-faqs/",
-   "ok": false,
-   "error": "HTTP Error 503: Service Unavailable",
-   "kept": true
+   "ok": true
   }
  ],
  "not_published": [
