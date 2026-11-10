@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-09T08:44:36-06:00",
+ "checked_at": "2026-11-10T08:40:38-06:00",
  "sources": [
   {
    "key": "aus",
@@ -201,7 +201,7 @@
    "retailer": "Brighter Futures Energy solar",
    "url": "https://www.brighterfutureenergy.com/mysecure/rates/signup/index.html",
    "ok": true,
-   "plans": 3
+   "plans": 2
   },
   {
    "key": "solar-camrose-energy",
