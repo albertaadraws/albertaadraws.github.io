@@ -804,6 +804,30 @@
    "new": 3.73,
    "old_admin": 7.85,
    "new_admin": 7.85
+  },
+  {
+   "date": "2026-11-12",
+   "kind": "rate",
+   "id": "enmax-e-float",
+   "retailer": "ENMAX (Easymax)",
+   "plan": "Floating",
+   "fuel": "electricity",
+   "old": 4.63,
+   "new": 4.59,
+   "old_admin": 10.95,
+   "new_admin": 10.95
+  },
+  {
+   "date": "2026-11-12",
+   "kind": "rate",
+   "id": "enmax-g-float",
+   "retailer": "ENMAX (Easymax)",
+   "plan": "Floating",
+   "fuel": "gas",
+   "old": 1.59,
+   "new": 1.63,
+   "old_admin": 10.95,
+   "new_admin": 10.95
   }
  ]
 }
