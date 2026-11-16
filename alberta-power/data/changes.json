@@ -828,6 +828,30 @@
    "new": 1.63,
    "old_admin": 10.95,
    "new_admin": 10.95
+  },
+  {
+   "date": "2026-11-16",
+   "kind": "rate",
+   "id": "atco-e-float",
+   "retailer": "ATCO Energy",
+   "plan": "2-year floating",
+   "fuel": "electricity",
+   "old": 4.69,
+   "new": 7.11,
+   "old_admin": 10.95,
+   "new_admin": 10.95
+  },
+  {
+   "date": "2026-11-16",
+   "kind": "rate",
+   "id": "atco-g-float",
+   "retailer": "ATCO Energy",
+   "plan": "2-year floating",
+   "fuel": "gas",
+   "old": 2.84,
+   "new": 3.02,
+   "old_admin": 10.95,
+   "new_admin": 10.95
   }
  ]
 }
