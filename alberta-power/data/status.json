@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-23T19:25:10-06:00",
+ "checked_at": "2026-11-24T17:20:10-06:00",
  "sources": [
   {
    "key": "aus",
@@ -500,7 +500,9 @@
    "key": "prog-gh-loan",
    "retailer": "Canada Greener Homes Loan",
    "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-loan",
-   "ok": true
+   "ok": false,
+   "error": "Greener Homes Loan does not say it is closed",
+   "kept": true
   },
   {
    "key": "prog-gh-grant",
