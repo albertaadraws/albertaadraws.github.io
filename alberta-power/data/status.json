@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-26T16:41:49-06:00",
+ "checked_at": "2026-11-27T16:26:14-06:00",
  "sources": [
   {
    "key": "aus",
@@ -112,9 +112,7 @@
    "key": "water-yeg-waste",
    "retailer": "City of Edmonton waste utility rates",
    "url": "https://www.edmonton.ca/programs_services/garbage_waste/rates-fees",
-   "ok": false,
-   "error": "HTTP Error 502: Bad Gateway",
-   "kept": true
+   "ok": true
   },
   {
    "key": "water-calgary",
@@ -483,7 +481,7 @@
    "retailer": "City of Edmonton CEIP",
    "url": "https://www.edmonton.ca/city_government/environmental_stewardship/clean-energy-improvement-program",
    "ok": false,
-   "error": "HTTP Error 502: Bad Gateway",
+   "error": "Edmonton CEIP status word not found",
    "kept": true
   },
   {
